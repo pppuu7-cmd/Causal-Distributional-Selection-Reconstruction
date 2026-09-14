@@ -1,0 +1,159 @@
+{
+  "control_count": 12,
+  "control_results": {
+    "all_five_four_vertex_parenthesizations": {
+      "kind": "exact polynomial identity, sixteen independent entries",
+      "passed": true
+    },
+    "diagonal_pullback_transversality_warning": {
+      "classification": "STANDARD_WAVEFRONT_PRODUCT_CRITERION_NOT_SATISFIED",
+      "conormals": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "passed": true,
+      "scope": "no attempted delta squared; failure of sufficient criterion is NOT an all-prescriptions impossibility theorem"
+    },
+    "different_vertex_count_relation_has_content": {
+      "defect": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "lambda**2/3 - lambda/3"
+        ]
+      ],
+      "passed": true,
+      "scope": "C B C = C is extra generator dynamics, not reassociation; not a proposed law"
+    },
+    "fixed_pairing_distinct_output_countermodel": {
+      "fixed_probe": "row 1 / column 2 open-boundary component",
+      "generator": [
+        [
+          "1",
+          "lambda"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "outputs_at_0_and_1": [
+        "0",
+        "19"
+      ],
+      "pairing": [
+        [
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "3"
+        ]
+      ],
+      "passed": true,
+      "scope": "finite tensor countermodel, NOT the physical K5 tensor",
+      "three_vertex_output": [
+        [
+          "4",
+          "19*lambda"
+        ],
+        [
+          "0",
+          "9"
+        ]
+      ]
+    },
+    "fixed_structural_unit": {
+      "passed": true,
+      "unit": [
+        [
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "1/3"
+        ]
+      ]
+    },
+    "generic_three_vertex_reassociation": {
+      "kind": "exact polynomial identity, twelve independent entries",
+      "passed": true
+    },
+    "illegal_vertex_swap_is_not_identity": {
+      "kind": "negative control: noncommuting vertex order is preserved",
+      "passed": true
+    },
+    "local_coordinate_pushforward_can_mix_jet_orders": {
+      "distribution_expression": "delta_second - 2*a*delta_first",
+      "dual_value": "2*a*h1 + h2",
+      "passed": true,
+      "scope": "Phi(t)=t+a*t^2 near zero only; NOT a source-derived refinement map"
+    },
+    "mixed_normal_derivative": {
+      "passed": true,
+      "value": "-2"
+    },
+    "normal_jet_dual_signs_and_order_eight": {
+      "passed": true,
+      "scope": "polynomial jets of a smooth compact test with cutoff equal to one near N",
+      "values": {
+        "0": "h0",
+        "1": "-h1",
+        "2": "h2",
+        "8": "h8"
+      }
+    },
+    "orientation_reversal_control": {
+      "passed": true,
+      "scope": "transpose duality for this fixed symmetric pairing only"
+    },
+    "zeroth_trace_does_not_detect_first_normal_jet": {
+      "delta_prime_on_flat_test": "0",
+      "delta_prime_on_linear_test": "-1",
+      "passed": true
+    }
+  },
+  "execution_valid": true,
+  "gate": "CD003_STRUCTURAL_GLUING_VS_EXTENSION_SELECTION",
+  "physical_k5_amplitude_computed": false,
+  "physical_selector_established": false,
+  "prereg_commit": "c3f898a975b56f3f707c00d3e01cf5388934d9f7",
+  "runtime": {
+    "python": "3.13.5",
+    "sympy": "1.14.0"
+  },
+  "scientific_authority": "analytic derivation, NOT this finite suite",
+  "script_sha256": "08a1e9e09c8a00f97c59c1aec174967e33eb0471ad889b9553671774d0fb7d49",
+  "verdict": "PASS_EXACT_CONTROLS"
+}
