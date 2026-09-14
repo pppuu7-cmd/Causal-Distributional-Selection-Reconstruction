@@ -1,32 +1,46 @@
 {
   "repository": "pppuu7-cmd/Causal-Distributional-Selection-Reconstruction",
   "state_date": "2026-09-14",
-  "programme_status": "PRO_READY_STATE_PREPARATION_COMPLETE",
-  "state_read_head_before_preparation": "17d14afca62a91daef4a9ad66739f03956374f40",
-  "current_terminal_iteration": "CD002-A",
-  "current_terminal_status": "PASS_EXACT_CONDITIONAL_SCOPED",
-  "current_frontier": "SOURCE_FAITHFUL_CAUSAL_COMPOSITION_TO_EXTENSION_COHERENCE_LAW",
+  "programme_status": "CD003_TERMINAL_MATHEMATICS_PHYSICAL_BRIDGE_BLOCKED",
+  "recovery_baseline_commit": "1f6a30f813ff712d2935c66b712d3399bf229a03",
+  "current_terminal_iteration": "CD003",
+  "current_terminal_status": "PASS_MATHEMATICS_BLOCKED_PHYSICAL_BRIDGE",
+  "current_terminal_classification": "CD003_STRUCTURAL_GLUING_COHERENCE_IS_SELECTOR_BLIND_PHYSICAL_EXTENSION_TRANSPORT_UNESTABLISHED_SCOPED",
+  "current_terminal_result": "results/CD003_STRUCTURAL_GLUING_RESULT.md",
+  "current_terminal_result_commit": "f49040aac1a7be0dcd9ccf30484620c5cc028003",
+  "current_frontier": "SOURCE_FIXED_EXTENSION_SENSITIVE_RELATION_OR_GLUING_DOMAIN",
+  "programme_question": "SOURCE_FAITHFUL_CAUSAL_COMPOSITION_TO_EXTENSION_COHERENCE_LAW",
   "established_theorem_ids": [
     "T1_UPSTREAM_ITER077Q_INFINITE_DIMENSIONAL_AMBIGUITY_WITNESS",
     "T2_CD001_FINITE_LINEAR_SELECTOR_IMPOSSIBILITY",
-    "T3_CD002A_NORMALIZED_MULTIPLICATIVE_CHARACTER_TRIVIALITY_CONDITIONAL"
+    "T3_CD002A_NORMALIZED_MULTIPLICATIVE_CHARACTER_TRIVIALITY_CONDITIONAL",
+    "T4_CD003_STRUCTURAL_GLUING_NONSELECTION_COMMON_DOMAIN",
+    "T5_CD003_REGULAR_CONTEXT_JET_DUALITY_AND_ANNIHILATOR"
   ],
   "open_blockers": [
     "O1_PHYSICAL_COMPOSITION_LAW_NOT_DERIVED",
-    "O2_OVERALL_SUPPORTED_SCALAR_NOT_FIXED_BY_CD002A",
-    "O3_NORMAL_DERIVATIVE_SECTORS_UNTOUCHED_BY_CD002A",
-    "O4_COCYCLE_PROJECTIVE_WEIGHTED_AFFINE_ESCAPE_CLASSES_UNCLASSIFIED",
-    "O5_PHYSICAL_EQUIVALENCE_QUOTIENT_NOT_DEFINED_ENOUGH_FOR_UNIQUENESS",
+    "O2_OVERALL_SUPPORTED_SCALAR_NOT_FIXED",
+    "O3_PHYSICAL_NORMAL_JET_TRANSPORT_AND_KERNEL_UNDETERMINED",
+    "O4_PHYSICAL_COCYCLE_MODULE_ACTION_AND_CLASSIFICATION_UNDEFINED",
+    "O5_PHYSICAL_EQUIVALENCE_QUOTIENT_INCOMPLETE",
     "O6_SOURCE_FAITHFUL_CAUSAL_MULTIVERTEX_BRIDGE_INCOMPLETE"
   ],
+  "exact_missing_objects": [
+    "I_v: local supported extension to complete physical boundary functional",
+    "G_Gamma: causal composition with legitimate common domain, measures and quotient",
+    "R: non-structural extension-sensitive source relation or source-defined domain restriction",
+    "physical context test-jet image and all-context equivalence"
+  ],
   "source_locks": {
-    "physical_selector_law_allowed_statuses": ["SOURCE_DERIVED", "NEW_PHYSICAL_PRINCIPLE"],
-    "mathematical_power_only_status": "CONDITIONAL_SELECTOR_POWER_ONLY",
-    "implicit_reasonable_assumption_allowed": false,
+    "upstream_snapshot": "9b2f9e5f31e294470c630ebff196f67a2de5ad18",
+    "new_upstream_scoped_corollaries": ["Iter081H", "Iter081I", "Iter081K", "Iter081L"],
+    "primary_versions": ["2601.23162v1", "2604.24945v1", "2603.22661v2", "0909.0939v5"],
     "iter080k_new_primary_authority_valid": false,
-    "iter081f_terminal_result_available": false,
-    "one_wedge_i_epsilon_is_joint_k5_selector": false,
-    "parent_eprl_kkl_inheritance_into_causal_many_vertex_is_established": false
+    "iter081f_terminal_atlas_imported": false,
+    "parent_causal_inheritance_established": false,
+    "physical_gluing_domain_established": false,
+    "all_mathematical_tests_are_physical_probes": false,
+    "physical_law_status": null
   },
   "prohibited_claims": {
     "UNIQUE_K5_EXTENSION": false,
@@ -41,49 +55,51 @@
   "established_scoped_claims": {
     "INFINITE_DIMENSIONAL_AMBIGUITY_WITNESS": true,
     "FINITE_LINEAR_SELECTOR_IMPOSSIBILITY_SCOPED": true,
-    "MULTIPLICATIVE_SELECTOR_POWER_CONDITIONAL_SCOPED": true
+    "MULTIPLICATIVE_SELECTOR_POWER_CONDITIONAL_SCOPED": true,
+    "STRUCTURAL_GLUING_NONSELECTION_COMMON_DOMAIN_SCOPED": true,
+    "REGULAR_CONTEXT_NORMAL_JET_DUALITY_SCOPED": true
   },
   "recommended_pro_target": {
-    "question": "Does the actual source-faithful causal many-vertex/refinement structure induce a functional coherence law on the K5 supported extension data with enough mathematical power to reduce Ext_B(t0) to one physical equivalence class, without introducing arbitrary selector data equivalent to choosing the extension by hand?",
-    "residual_question": "If not, what exact residual functional/cohomological/normal-jet freedom survives?",
-    "ordering_is_flexible": true,
-    "candidate_directions": [
-      "CD003-A_SOURCE_FAITHFUL_TRANSPORT_COHERENCE_EXTRACTION",
-      "CD003-B_COCYCLE_PROJECTIVE_WEIGHTED_AFFINE_ESCAPE_CLASSIFICATION_AFTER_DOMAIN_IS_FIXED",
-      "CD003-C_FULL_NORMAL_JET_ACTION"
-    ]
+    "question": "Which independently source-fixed non-structural relation or genuine gluing-domain restriction acts on full supported K5 extension data, and what residual test-jet annihilator remains modulo a source-defined physical equivalence?",
+    "no_successor_preregistration_yet": true,
+    "do_not_repeat": ["finite scalar moment gates", "same-graph structural reassociation", "finite causal orientation sums as a cure", "unchanged primary source census"]
   },
   "dependency_graph": [
-    {"from": "off_collision_t0", "to": "Ext_B", "status": "ESTABLISHED_SCOPE"},
-    {"from": "Ext_B", "to": "infinite_dimensional_ambiguity_witness", "status": "ESTABLISHED_ITER077Q"},
-    {"from": "infinite_dimensional_ambiguity_witness", "to": "finite_selector_impossibility", "status": "ESTABLISHED_CD001"},
-    {"from": "finite_selector_impossibility", "to": "functional_coherence_has_conditional_power", "status": "ESTABLISHED_CD002A_CONDITIONAL"},
-    {"from": "functional_coherence_has_conditional_power", "to": "physical_source_derived_coherence_law", "status": "OPEN"},
-    {"from": "physical_source_derived_coherence_law", "to": "residual_cocycle_projective_freedom", "status": "OPEN"},
-    {"from": "physical_source_derived_coherence_law", "to": "overall_scalar_fixed", "status": "OPEN"},
-    {"from": "physical_source_derived_coherence_law", "to": "normal_jets_fixed", "status": "OPEN"},
-    {"from": "residual_sectors_controlled", "to": "physical_equivalence_quotient_complete", "status": "OPEN"},
-    {"from": "physical_equivalence_quotient_complete", "to": "unique_physical_extension", "status": "OPEN"},
-    {"from": "unique_physical_extension", "to": "regulator_independence", "status": "OPEN"},
-    {"from": "regulator_independence", "to": "candidate_model_reintegration", "status": "OPEN"}
+    {"from":"Iter077Q_W","to":"finite_linear_selector","status":"NO_UNIQUENESS_CD001"},
+    {"from":"normalized_multiplicativity","to":"f_equals_1","status":"CONDITIONAL_CD002A"},
+    {"from":"same_graph_structural_coherence","to":"E_intersect_D","status":"NO_ADDITIONAL_REDUCTION_CD003"},
+    {"from":"physical_I_v_G_Gamma_D","to":"extension_sensitive_R","status":"OPEN"},
+    {"from":"regular_context_family","to":"normal_jet_annihilator","status":"EXACT_CONDITIONAL_DIAGNOSTIC_CD003"},
+    {"from":"physical_R_and_context_image","to":"residual_scalar_jets_quotient","status":"OPEN"},
+    {"from":"all_mandatory_sectors_and_equivalence","to":"unique_physical_extension","status":"OPEN"},
+    {"from":"unique_physical_extension","to":"regulator_independence_and_reintegration","status":"OPEN"}
   ],
   "readiness": {
-    "meaning": "repository recovery/infrastructure readiness, not probability of scientific correctness",
-    "status": "READY",
-    "score": 10,
+    "meaning": "historical preparation readiness, not scientific correctness",
+    "historical_score": 10,
     "out_of": 10,
-    "criteria": {
-      "upstream_authority_pinned": true,
-      "ambiguity_space_defined": true,
-      "terminal_results_reconstructed": true,
-      "theorem_registry_complete": true,
-      "open_blockers_explicit": true,
-      "no_smuggling_protocol_explicit": true,
-      "physical_equivalence_issue_explicit": true,
-      "pro_frontier_exact": true,
-      "recovery_machine_state_durable": true,
-      "claim_locks_clean_room_continuation_valid": true
-    },
-    "qualification": "10/10 refers only to recovery and deep-run preparation. It does not imply a unique extension, a physical selector, regulator independence, or scientific completion."
-  }
+    "historical_audit_commit": "1f6a30f813ff712d2935c66b712d3399bf229a03",
+    "current_run_rescored": false
+  },
+  "execution": {
+    "type": "local_container_exact_controls",
+    "count": 12,
+    "verdict": "PASS_EXACT_CONTROLS",
+    "code_commit": "e4034bffb90964232d68025468a8dbffc4dbc36d",
+    "script_sha256": "08a1e9e09c8a00f97c59c1aec174967e33eb0471ad889b9553671774d0fb7d49",
+    "output_sha256": "7296c0790b56dc2afad6054afd6d2ad0c3bcae5940fe0e07fe1e88bd63583cdf",
+    "github_actions_run": null,
+    "independent_external_review": false
+  },
+  "current_artifacts": [
+    "prereg/CD003_STRUCTURAL_GLUING_VS_EXTENSION_SELECTION.md",
+    "sources/CD003_SOURCE_MANIFEST.md",
+    "sources/CD003_SOURCE_MANIFEST.json",
+    "derivations/CD003_STRUCTURAL_COHERENCE_AND_JET_DUALITY.md",
+    "analysis/cd003_exact_controls.py",
+    "analysis/requirements-cd003.txt",
+    "results/CD003_EXACT_CONTROLS.json",
+    "results/CD003_ADVERSARIAL_REVIEW.md",
+    "results/CD003_STRUCTURAL_GLUING_RESULT.md"
+  ]
 }

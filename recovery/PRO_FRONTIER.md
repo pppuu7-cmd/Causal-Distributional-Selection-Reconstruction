@@ -1,172 +1,39 @@
-# Pro Frontier
+# Pro frontier after CD003
 
-**Status:** authoritative handoff for the next deep CDSR run.  
-**Current terminal CDSR iteration:** `CD002-A`.  
-**Current frontier:**
+Current terminal result: `results/CD003_STRUCTURAL_GLUING_RESULT.md` at `f49040aac1a7be0dcd9ccf30484620c5cc028003`.
+Programme frontier: `SOURCE_FAITHFUL_CAUSAL_COMPOSITION_TO_EXTENSION_COHERENCE_LAW`.
+Operational target: `SOURCE_FIXED_EXTENSION_SENSITIVE_RELATION_OR_GLUING_DOMAIN`.
 
-```text
-SOURCE_FAITHFUL_CAUSAL_COMPOSITION_TO_EXTENSION_COHERENCE_LAW
-```
+## Central programme question
 
-This file identifies the question, not its answer. It does not preregister a substantive CD003 hypothesis.
+Does the actual source-faithful causal many-vertex/refinement structure induce a functional coherence law on supported K5 extension data strong enough to select one physical equivalence class without arbitrary selector data?
 
-## Central Pro question
+## Exact successor question
 
-> Does the actual source-faithful causal many-vertex/refinement structure induce a functional coherence law on the K5 supported extension data with enough mathematical power to reduce `Ext_B(t0)` to one physical equivalence class, without introducing arbitrary selector data equivalent to choosing the extension by hand?
+Which independently source-fixed, non-structural relation or genuine gluing-domain restriction acts on the full supported K5 extension data, and what residual normal-test-jet annihilator remains modulo a source-defined physical equivalence?
 
-And independently:
+First require the map I_v from the local extension to the physical boundary functional, and the legitimate causal composition domain of G_Gamma. Then identify a source-fixed comparison R, context equations/values, or an actual restriction on that domain. Determine which normal jets of the physical contexts are realized. Do not choose the kernel or its targets from a desired extension.
 
-> If not, what exact residual functional/cohomological/normal-jet freedom survives?
+## What CD003 closed
 
-## Starting facts Pro may treat as recovered authority
+Same-graph structural reassociation is non-selective on its common domain. More diagrams or deeper repeated contractions do not change this. The fixed-pairing countermodel already settles that logical route; it is not to be repeated.
 
-1. Upstream Iter077Q proves at least a countably infinite-dimensional smooth tangential ambiguity witness on `N=SU(2)^4`.
-2. Upstream Iter077L leaves normal-derivative freedom through order 8 in its scaling-degree scope.
-3. CD001 proves any fixed finite family of affine-linear scalar conditions is insufficient for unique selection when the selected set is nonempty.
-4. CD002-A proves a **conditional selector-power theorem**: normalized multiplicativity on smooth `SU(2)^4` multipliers collapses the multiplier to `1`.
-5. CD002-A does **not** establish that physical causal composition induces that law, does not fix an overall supported scalar, and does not act on normal jets.
-6. Upstream Iter080B leaves the complete physical causal E3/E4/E6 many-vertex bridge source-blocked in the frozen corpus.
-7. repaired Iter080E leaves the correlated joint-K5 source selector absent from the frozen BCG/Beltran corpus.
-8. Iter080K is provenance-invalid as a “new authority” gate; do not reopen that false route.
-9. Iter081F has no terminal outcome at the current state read.
+The regular-context jet formula and annihilator criterion are available as mathematical tools. They do not identify actual physical contexts or their quotient. Full smooth tests separate distributions, but are not automatically physical boundary states.
 
-## Candidate high-information directions
+## Routes still open
 
-These labels are organizational possibilities, not a mandatory sequence.
+A source-derived equality between different complexes, an equation for an unknown multiplication, a spectral/analytic restriction, or a nontrivial domain/closure condition can be extension-sensitive. CD003 does not exclude these. Source-defined joint analyticity or refinement comparison remain alternatives; their domains and data must be frozen before outcomes.
 
-### CD003-A — source-faithful transport/coherence extraction
+Do not compute physical cocycles until the actual group/groupoid/category, coefficient module, action, regularity and physical equivalence are sourced. Do not assume normal jets decouple; the regular-context formula shows where their mixing or invisibility must be tested.
 
-Goal: derive, or establish that the current source does not derive, the **weakest exact transport/coherence equation** on supported K5 extension data from an actual two-/three-vertex causal composition or refinement object.
+## No-repeat and authority rules
 
-Before mathematics, pin:
+CD001, CD002-A, CD003 and the finite causal-sum obstructions are closed in their scopes. The old frozen-corpus source blocker is not a new gate. A new source derivation must identify an exact additional argument/object, or a material version change; publication metadata is not a version-delta proof. Any new physical postulate must be explicitly NEW_PHYSICAL_PRINCIPLE and independently motivated before testing.
 
-- exact source object and version;
-- boundary spaces;
-- 2-complex/refinement;
-- integration/sum variables;
-- measures and normalization;
-- causal/orientation labels;
-- gluing/contraction order;
-- gauge quotient/fixing;
-- insertion and transport of supported extension terms;
-- action on tangential and normal-jet data.
+A nonzero test-jet annihilator is a mathematically exact residual for a DECLARED context family. It is not automatically a physical quotient. Probe separation without source-fixed equations is not a selector.
 
-Do not assume multiplicativity because CD002-A makes it attractive.
+## Entry files
 
-### CD003-B — nearest deformation / escape classes
+Read CURRENT_FRONT, the CD003 result, derivation, source manifest and self-review; then THEOREM_AND_OBSTRUCTION_REGISTRY, SELECTOR_POWER_MATRIX, NO_SMUGGLING_TEST, PHYSICAL_EQUIVALENCE and state.json. The historical upstream import manifest remains a baseline; its current supplement is sources/CD003_SOURCE_MANIFEST.md.
 
-Only after the physical domain and source relation are defined, classify the nearest mathematical alternatives actually induced or allowed, such as:
-
-- scalar cocycles;
-- projective multipliers;
-- weighted multiplicativity;
-- affine/cochain deformations;
-- functorial/naturality coherence;
-- operator/kernel/jet-valued transport if source-required.
-
-Do not preselect coefficient groups, regularity classes, or cohomology solely for convenience.
-
-### CD003-C — full normal-jet action
-
-Determine how the actual transport/coherence object acts on the normal-derivative tower allowed by Iter077L, rather than stopping at the order-zero tangential multiplier.
-
-This direction may be moved earlier if source inspection shows that normal-jet mixing is the first decisive issue.
-
-## Ordering freedom
-
-Pro is explicitly authorized to change the A/B/C ordering by expected information gain after recovering the state. For example:
-
-- if no source-defined composed object exists, stop with a precise bridge obstruction rather than classifying irrelevant cocycles;
-- if the source immediately defines a jet-valued map, analyze the full jet action before scalar reductions;
-- if a new/revised primary source materially changes the bridge, pin the version delta first.
-
-## Do not constrain the physical law to multiplicativity
-
-The eventual source-derived law, if any, may be:
-
-```text
-multiplicative
-projective
-cocyclic
-weighted
-functorial
-natural
-operator-valued
-affine
-jet-valued
-or another source-derived form.
-```
-
-CD002-A is a power control, not a target answer.
-
-## Required decision tree
-
-A high-value Pro gate should distinguish at least:
-
-```text
-actual composed/refined causal object source-defined?
-  NO  -> exact SOURCE_BRIDGE_BLOCKED result; do not invent transport.
-  YES -> extension data explicitly enter/transport?
-          NO  -> exact EXTENSION_TRANSPORT_UNDEFINED blocker.
-          YES -> derive law from object before solving it.
-                 |
-                 +-> law has sufficient power and passes no-smuggling?
-                 |     -> test existence + residual scalar/jets/equivalence.
-                 |
-                 +-> law leaves residual freedom?
-                       -> characterize exact residual freedom without post-hoc rescue.
-```
-
-## Required firewalls
-
-Every future physical selector law must satisfy `authority/SOURCE_DERIVATION_REQUIRED.md`.
-
-Every future candidate must be run through `protocol/NO_SMUGGLING_TEST.md`.
-
-Every “unique” claim must state the quotient from `docs/PHYSICAL_EQUIVALENCE.md` or explicitly prove no nontrivial quotient is needed.
-
-Every result must distinguish:
-
-```text
-TANGENTIAL_SHAPE
-OVERALL_SCALAR
-NORMAL_JETS
-OTHER_UNCLASSIFIED_SUPPORTED_SECTORS
-PHYSICAL_EQUIVALENCE
-```
-
-## Explicitly prohibited assumptions at entry
-
-Pro must not assume:
-
-- physical causal composition is componentwise group multiplication on `SU(2)^4`;
-- the CD002-A law is source-derived;
-- cocycles/projective classes are trivial or nontrivial;
-- the coefficient group or regularity class for a future cocycle;
-- the overall scalar is a harmless normalization;
-- normal jets vanish or decouple;
-- parent EPRL/KKL E3/E4/E6 data are physically inherited unchanged by the causal theory;
-- one-wedge `i epsilon` is a joint-K5 regulator;
-- Iter080K is valid new-primary authority;
-- Iter081F has a result;
-- physical equivalence has already been defined;
-- unique K5 extension, CRQN v0.3, regulator independence, RG closure, new physics, or complete QG.
-
-## Exact entry instruction
-
-Start by reading, in order:
-
-1. `recovery/CURRENT_FRONT.md`
-2. `authority/UPSTREAM_IMPORT_MANIFEST.md`
-3. `authority/THEOREM_AND_OBSTRUCTION_REGISTRY.md`
-4. `authority/SOURCE_COMPOSITION_INVENTORY.md`
-5. `docs/AMBIGUITY_SPACE.md`
-6. `docs/NORMAL_JET_FRONTIER.md`
-7. `docs/SELECTOR_POWER_MATRIX.md`
-8. `protocol/NO_SMUGGLING_TEST.md`
-9. `docs/PHYSICAL_EQUIVALENCE.md`
-10. `authority/SOURCE_DERIVATION_REQUIRED.md`
-11. `docs/COHERENCE_DEFORMATION_CLASSES.md`
-12. `recovery/state.json`
-
-Then select the smallest prospective gate that maximizes information about the central Pro question. Use `prereg/PRO_GATE_TEMPLATE.md` only after that selection.
+Select one prospective successor only after identifying the actual new information. Physical I_v, G_Gamma, R and the quotient remain open. All major physical claim locks remain false. No mandatory ordering of transport, equivalence, domain and jet investigations is imposed.

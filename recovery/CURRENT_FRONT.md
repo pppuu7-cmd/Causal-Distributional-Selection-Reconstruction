@@ -1,154 +1,49 @@
-# CURRENT FRONT — CDSR
+# CURRENT FRONT - CDSR
 
-**State date:** 2026-09-14  
-**State-read CDSR head:** `17d14afca62a91daef4a9ad66739f03956374f40`  
-**Authoritative CDSR terminal front:** `CD002-A` (`PASS_EXACT_CONDITIONAL_SCOPED`)  
-**Preparation purpose:** recovery/provenance/readiness only. This document does not preregister or solve CD003.
+State date: 2026-09-14.
+Authoritative CDSR terminal front: **CD003**.
+Result commit: `f49040aac1a7be0dcd9ccf30484620c5cc028003`.
+Status: `PASS_MATHEMATICS_BLOCKED_PHYSICAL_BRIDGE`.
+Classification: `CD003_STRUCTURAL_GLUING_COHERENCE_IS_SELECTOR_BLIND_PHYSICAL_EXTENSION_TRANSPORT_UNESTABLISHED_SCOPED`.
 
-## Established upstream
+Start with `results/CD003_STRUCTURAL_GLUING_RESULT.md`, then the proof in `derivations/CD003_STRUCTURAL_COHERENCE_AND_JET_DUALITY.md` and `sources/CD003_SOURCE_MANIFEST.md`. The prior preparation snapshot at `1f6a30f813ff712d2935c66b712d3399bf229a03` is historical, not the current scientific front.
 
-Let `t0` denote the already-defined source-ordered off-collision K5 distribution on `X \ N`, and let `B` denote the frozen CRQN v0.2 admissibility conditions imported only in their established scope. The CDSR working notation is
+## Established baseline retained
 
-```text
-Ext_B(t0) = { T in D'(X) : T|_(X\N) = t0 and B[T] = 0 }.
-```
+On the established local common-collision/minimal-spin domain, use the frozen affine notation `Ext_B(t0)=T_*+A_B`. No global all-strata extension theorem is assumed. Iter077Q gives only `W=span_C{Q^n F delta_N:n>=0} subset A_tan subset A_B`, with W countably infinite-dimensional. Iter077L gives N=SU(2)^4, codimension12, transverse scaling degree20 and normal-order ceiling8, not physical admissibility of every formal jet.
 
-When nonempty, choose a reference extension `T_*` and write the affine space schematically as
+CD001: a nonempty affine extension family with infinite-dimensional ambiguity cannot be selected uniquely by a fixed finite scalar affine-linear list. CD002-A: normalized multiplicativity for smooth f on SU(2)^4 implies f=1, conditionally; its physical hypothesis was not derived. Their original preregistrations and results are unchanged.
 
-```text
-Ext_B(t0) = T_* + A_B.
-```
+## CD003 additions
 
-This notation does not claim a complete classification of `A_B`.
+T4: legal reassociation of the same decorated graph with fixed contraction maps is an identity for every local assignment in the common well-defined domain D. The structural solution set is E intersect D. If E lies in D, structural coherence removes no W directions. Physical D is unknown and may itself impose nontrivial constraints.
 
-### Iter077L scaling-degree authority
+T5: regular contexts evaluate a local supported finite-normal-order term through the normal derivatives of the test kernel. For a declared context family, the residual space is its test-jet annihilator. Separating probes distinguish choices but do not select one unless values or relations are independently source-fixed.
 
-Upstream Iter077L establishes the common-collision manifold
+A fixed-pairing exact countermodel gives boundary outputs 0 and 19 with all structural associativity/unit identities preserved. Twelve exact symbolic controls passed locally. This is not a physical K5 amplitude computation, GitHub Actions result, or independent external review.
 
-```text
-N = SU(2)^4 subset SL(2,C)^4,
-```
+## Updated upstream context
 
-with real codimension `12`, transverse scaling degree `20`, existence but nonuniqueness of same-scaling-degree local extensions, and normal-derivative freedom through order `8`. It explicitly does not assert that every allowed order-8 local term is physically admissible.
+Snapshot `9b2f9e5f31e294470c630ebff196f67a2de5ad18` includes Critic corollaries Iter081H/I/K/L: proper causal orientation sums retain the local obstruction/ambiguity in their stated scope. They do not supply an extension transport law. Their exact paths/commits/blobs are in the CD003 manifest.
 
-### Iter077Q ambiguity theorem
+Iter080B and repaired Iter080E source blockers remain controlling. Iter080K remains INVALID_PROVENANCE as a new-authority route. Iter081F has no terminal atlas in the pinned snapshot. Do not repeat finite moments, structural reassociation or finite causal sums as a cure.
 
-Upstream Iter077Q proves that `A_B` contains at least a countably infinite-dimensional smooth tangential subspace. In particular, for an authorized nonzero tangential boundary coefficient `F` and nonconstant invariant `Q`, the family
+## Physical bridge still missing
 
-```text
-{ Q(y)^n F(y) delta_N(x) : n = 0,1,2,... }
-```
+`T --I_v--> complete local physical boundary functional --G_Gamma--> causal composed object --R--> source-fixed extension-sensitive condition`.
 
-is linearly independent and source-compatible in the frozen scope.
+Open separately: I_v and compatible global completion; legitimate causal gluing domain; measures and quotient normalization; a non-structural relation or domain restriction; actual physical context normal-jet image; physical equivalence; overall scalar; normal jets; other supported sectors; physical cocycle/module/action.
 
-Therefore CDSR may use only the inclusions
+Same-graph structural coherence is not associativity of an unknown multiplication and does not exclude genuine refinement/Pachner equations, spectral/analytic conditions or composition-domain restrictions.
 
-```text
-A_B ⊇ A_tan,
-A_tan ⊇ span_C{Q^n F delta_N : n>=0}.
-```
+## Next front
 
-No equality, direct-sum decomposition, or complete description of `A_B` is imported.
+Programme question: `SOURCE_FAITHFUL_CAUSAL_COMPOSITION_TO_EXTENSION_COHERENCE_LAW`.
+Operational target: `SOURCE_FIXED_EXTENSION_SENSITIVE_RELATION_OR_GLUING_DOMAIN`.
+Read `recovery/PRO_FRONTIER.md`. No new substantive successor gate is preregistered by this handoff.
 
-## Relevant upstream obstructions
+## Claim locks
 
-- Iter079C: local one-vertex data plus a bare combinatorial two-vertex gluing skeleton do not uniquely fix the composed functional; pairing normalization and internal weight freedom survive. This is a scoped underdetermination result, not a no-go theorem for causal multivertex theory.
-- Iter080B: parent EPRL/KKL E3/E4/E6 structures and causal local/generalized vertices exist separately, but the complete physical causal many-vertex E3/E4/E6 inheritance bridge is not source-explicit in the frozen corpus. Verdict `BLOCKED_SOURCE_BRIDGE`.
-- repaired Iter080E: the frozen Bianchi–Chen–Gamonal / Beltran corpus contains no explicit P1–P5-complete correlated joint-K5 selector acting on the full Iter077Q function-space ambiguity. Verdict `BLOCKED_OBJECT_DEFINITION` in that corpus.
-- Iter080J: support plus ordinary conormal/wavefront admissibility alone preserves the Iter077Q smooth tangential witness family and does not uniquely select the extension.
-- Iter080K: historical gate is `INVALID_PROVENANCE` because it falsely treated arXiv:2604.24945 as new primary authority although it was already frozen in Iter080E. Its independently rechecked source observations may be used only as corroboration, not as a new-authority terminal result.
-- Iter081B: direct transport of Han's standard face/stack conclusions to a single Toller branch is not source-proven.
-- Iter081E: exact minimal-spin pure-boost counterexamples show that the unchanged Han projected contraction / `d_j^2` face bound cannot simply be transplanted to the frozen selected-Toller objects. This is not a theorem that every causal face functional diverges.
-- Iter081F: as of the state read, only the prospective branch-subset boundedness pre-gate exists (`01b4ad5369798a4548576bb282afdd89375e4a59`); there is no terminal Iter081F result to import.
-
-## CD001 — exact CDSR theorem
-
-Authority:
-- prereg `124374857f3bfaedc9dea8aefc88801eb2a9976c`;
-- result `d5e296eff8cf76a97b32ac623ba7ffd59935350e`.
-
-If an admissible ambiguity space contains an infinite-dimensional subspace and the selected set is nonempty, any **fixed finite family of affine-linear scalar conditions** cannot select a unique extension.
-
-Classification:
-
-`CD001_FINITE_LINEAR_SCALAR_SELECTOR_CANNOT_UNIQUELY_SELECT_INFINITE_DIMENSIONAL_K5_AMBIGUITY_EXACT_SCOPED`.
-
-This does not rule out nonlinear, infinite, analytic, coherence, naturality, positivity, spectral, or source-derived conditions with greater functional power.
-
-## CD002-A — conditional selector-power theorem
-
-Authority:
-- prereg `473bf95e258cf2ac0e43cb9452fb04f39e9f88cc`;
-- result `17d14afca62a91daef4a9ad66739f03956374f40`.
-
-For smooth
-
-```text
-f : SU(2)^4 -> C
-```
-
-with
-
-```text
-f(gh)=f(g)f(h),
-f(e)=1,
-```
-
-one has
-
-```text
-f=1.
-```
-
-Classification:
-
-`CD002A_SU2_4_MULTIPLICATIVE_COHERENCE_COLLAPSES_SMOOTH_TANGENTIAL_MULTIPLIER_TO_CONSTANT_EXACT_CONDITIONAL_SCOPED`.
-
-**Critical ceiling:** this proves selector power only. It does **not** prove that actual source-faithful causal composition induces componentwise multiplication on `SU(2)^4`, does not fix an overall supported scalar coefficient, and does not act on the higher normal-jet sectors.
-
-## Four authority levels
-
-Every statement entering future CDSR reasoning must have exactly one `FACT_LEVEL` defined in `authority/FACT_LEVEL.md`:
-
-1. `UPSTREAM_ESTABLISHED`
-2. `CDSR_EXACT_THEOREM`
-3. `CONDITIONAL_SELECTOR_POWER`
-4. `OPEN_PHYSICAL_BRIDGE`
-
-Never promote
-
-```text
-IF P THEN UNIQUE
-```
-
-to
-
-```text
-SOURCE IMPLIES P.
-```
-
-## Current open blockers
-
-1. `O1_PHYSICAL_COMPOSITION_LAW_NOT_DERIVED`.
-2. `O2_OVERALL_SUPPORTED_SCALAR_NOT_FIXED_BY_CD002A`.
-3. `O3_NORMAL_DERIVATIVE_SECTORS_UNTOUCHED_BY_CD002A`.
-4. `O4_COCYCLE_PROJECTIVE_WEIGHTED_AFFINE_ESCAPE_CLASSES_UNCLASSIFIED`.
-5. `O5_PHYSICAL_EQUIVALENCE_QUOTIENT_NOT_DEFINED_ENOUGH_FOR_UNIQUENESS`.
-6. `O6_SOURCE_FAITHFUL_CAUSAL_MULTIVERTEX_BRIDGE_INCOMPLETE`.
-
-## Current fundamental frontier
-
-```text
-SOURCE_FAITHFUL_CAUSAL_COMPOSITION_TO_EXTENSION_COHERENCE_LAW
-```
-
-The next deep run may choose the highest-information exact gate only after recovering the authority above. This preparation does not preregister the substantive hypothesis and does not select a physical law.
-
-## Claim ceiling
-
-At this front:
-
-```text
 UNIQUE_K5_EXTENSION = false
 PHYSICAL_SELECTOR_DERIVED = false
 CRQN_V0_3_AUTHORIZED = false
@@ -157,4 +52,5 @@ RG_CLOSURE = false
 CAUSAL_MULTIVERTEX_CLOSURE = false
 NEW_PHYSICS_FOUND = false
 QUANTUM_GRAVITY_SOLVED = false
-```
+
+T4/T5 are CDSR_EXACT_THEOREM with stated mathematical domains. No new physical selection law is SOURCE_DERIVED. The physical no-smuggling audit remains BLOCKED_NO_PHYSICAL_SELECTOR_OBJECT. Do not identify mathematical test separation with physical observability.

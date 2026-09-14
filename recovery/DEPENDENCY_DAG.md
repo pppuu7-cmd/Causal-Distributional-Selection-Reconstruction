@@ -1,106 +1,39 @@
-# CDSR Dependency DAG
+# CDSR dependency graph after CD003
 
-Legend:
-- `✓` established in the stated scope;
-- `?` mandatory open arrow/question;
-- `X` currently blocked by authority, not impossible in principle.
+ESTABLISHED is always scope-qualified. Every physical '?' remains a mandatory unresolved dependency, not an impossibility theorem.
 
 ```text
-off-collision source-ordered K5 object t0
-  ✓
-  v
-source-compatible extension problem Ext_B(t0)
-  ✓
-  v
-infinite-dimensional supported tangential ambiguity witness
-  ✓  Iter077Q
-  v
-fixed finite affine-linear scalar selector cannot be unique
-  ✓  CD001
-  v
-functional coherence can have sufficient mathematical power conditionally
-  ✓  CD002-A control: normalized multiplicativity => f=1
-  v
-actual source-faithful causal composition/refinement object complete?
-  ?  upstream E3/E4/E6 bridge currently X / BLOCKED_SOURCE_BRIDGE
-  v
-physical source-derived coherence/transport law on supported extension data?
-  ?
-  v
-cocycle/projective/weighted/affine/functorial escape or residual freedom?
-  ?
-  v
-tangential overall scalar normalization fixed?
-  ?
-  v
-normal-jet tower through order 8 fixed/quotiented?
-  ?
-  v
-other supported sectors exhaustively controlled?
-  ?
-  v
-physical equivalence quotient defined sufficiently for uniqueness?
-  ?
-  v
-one physical equivalence class of K5 extensions?
-  ?
-  v
-regulator prescription + regulator independence?
-  ?
-  v
-candidate-model reintegration / CRQN successor authorization?
-  ?
+source-ordered local off-collision t0
+  -> frozen affine extension family E = T_* + A_B
+  -> W subset A_B, infinite tangential witness [Iter077Q]
+       |-> finite scalar affine-linear lists: insufficient [CD001]
+       |-> normalized multiplicativity: f=1, conditional only [CD002-A]
+       |-> same-graph structural coherence: E intersect D, no extra reduction [CD003 T4]
+       |-> proper causal orientation sums: ambiguity persists [Iter081I/K]
+
+actual source-defined insertion I_v ?
+  + causal composition G_Gamma with legitimate domain D ?
+  + internal measures/orientation/quotient normalization ?
+        -> extension-sensitive NON-STRUCTURAL relation R, or domain restriction ?
+        -> existence for actual supported extension data ?
+        -> residual tangential / scalar / jet / other sectors ?
+        -> physical context family and physical equivalence ?
+        -> one physical equivalence class ?
+        -> regulator treatment and independence ?
+        -> causal/RG closure and CRQN reintegration ?
 ```
 
-## Side dependencies that cannot be skipped
+## Available mathematical diagnostic, not a shortcut
 
 ```text
-source-derived law ?
-  |
-  +--> no-smuggling PASS ?
-  |
-  +--> existence on frozen off-collision object ?
-  |
-  +--> source fidelity / gauge / causal-label compatibility ?
-  |
-  +--> distributional admissibility ?
-  |
-  +--> out-of-sample / alternative-decomposition coherence ?
+declared regular context family K
+  -> test-jet map J_K [CD003 T5]
+  -> invisible variations = ker J_K = admissible jet annihilator
+  + independently source-fixed equations/values ?
+  + all-context physical nullity/closure ?
+  -> uniqueness modulo physical equivalence ?
 ```
 
-## Upstream source bridge branch
+The domain D is NOT proved to contain all physical K5 extensions. Its determination could itself constrain them. Graph reassociation cannot claim credit for a restriction already built into D.
 
-```text
-parent EPRL/KKL E3/E4/E6 structures ✓
-causal Toller local/generalized vertices ✓
-        |
-        +--> complete physical causal E3/E4/E6 inheritance ?  [Iter080B: BLOCKED_SOURCE_BRIDGE]
-                    |
-                    +--> E7/E8 supported extension transport ?
-```
-
-Neither child arrow may be treated as established merely because both parent ingredients exist.
-
-## Local ambiguity sectors
-
-```text
-A_B
- |
- +--> proven smooth tangential witness W  ✓ Iter077Q
- |       |
- |       +--> finite scalar selectors insufficient ✓ CD001
- |       +--> multiplicative shape control conditional ✓ CD002-A
- |       +--> physical law ?
- |       +--> overall scalar ?
- |
- +--> normal-jet frontier through order 8 ✓ existence/ceiling from Iter077L
- |       +--> physical transport/action ?
- |
- +--> potentially other supported sectors ?
-```
-
-No displayed branch is a direct-sum theorem.
-
-## Gate discipline
-
-An open `?` may be bypassed only by a theorem showing it is not a mandatory dependency (for example, proving a sector is physically null under a defined equivalence). Otherwise every open mandatory arrow remains open and blocks downstream promotion.
+No displayed branch defines a direct sum of A_B. Parent EPRL/KKL contraction plus causal local vertex does not by itself close the causal E3/E4/E6 arrow. No physical cocycle module or jet mixing map has been defined.

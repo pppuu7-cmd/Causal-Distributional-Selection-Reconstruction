@@ -1,176 +1,33 @@
 # Causal Distributional Selection Reconstruction (CDSR)
 
-Independent research program on **selection principles for source-compatible distributional extensions** in causal Lorentzian spin-foam amplitudes.
+Independent research on physically justified selection of distributional extensions of causal spin-foam amplitudes. CDSR does not rewrite CRQN v0.2 or select counterterms by convenience.
 
-## Current authoritative state
+## Current science
 
-- CDSR terminal scientific iteration: **CD002-A** (`PASS_EXACT_CONDITIONAL_SCOPED`).
-- Current fundamental frontier: `SOURCE_FAITHFUL_CAUSAL_COMPOSITION_TO_EXTENSION_COHERENCE_LAW`.
-- No physical K5 selector is derived; no unique K5 extension is established.
-- The authoritative recovery entrypoint is `recovery/CURRENT_FRONT.md`.
-- The next deep-run handoff is `recovery/PRO_FRONTIER.md`.
-- Machine-readable state is `recovery/state.json`.
-- Claim firewalls are `authority/CLAIM_LOCKS.md` and `authority/SOURCE_DERIVATION_REQUIRED.md`.
+**CD003 is terminal:** `PASS_MATHEMATICS_BLOCKED_PHYSICAL_BRIDGE`.
+Result commit: `f49040aac1a7be0dcd9ccf30484620c5cc028003`.
 
-A new session should recover the repository from those files rather than from chat history.
+The new theorem excludes same-graph structural reassociation as a standalone selector on a common well-defined gluing domain. A separate exact formula describes how regular contexts see supported normal jets. No physical causal K5 selector or unique extension was obtained.
 
-## Central question
+Start with [current state](recovery/CURRENT_FRONT.md), [CD003 result](results/CD003_STRUCTURAL_GLUING_RESULT.md), [derivation](derivations/CD003_STRUCTURAL_COHERENCE_AND_JET_DUALITY.md), and [source versions/equation anchors](sources/CD003_SOURCE_MANIFEST.md). The next question is in [PRO_FRONTIER](recovery/PRO_FRONTIER.md).
 
-The upstream CRQN/MSQGR analysis has reached a scoped but strong obstruction: after the off-collision K5 object and the already-frozen source constraints are fixed, the admissible local extension freedom still contains an infinite-dimensional tangential subspace. CDSR asks:
+## Baseline
 
-> **Is there an independently motivated physical or structural principle that uniquely selects the joint K5 distributional extension?**
+The local extension problem is `E = Ext_B(t0) = T_* + A_B` in its established affine scope. Upstream Iter077Q proves only a lower-bound inclusion: `span_C{Q^n F delta_N:n>=0} subset A_B`, on N=SU(2)^4. Iter077L gives the local codim12/sd20 normal-order ceiling8; it does not classify all physically admissible jets or all collision strata.
 
-CDSR is deliberately separate from MSQGR/CRQN. It does not retroactively promote a new axiom into CRQN v0.2. A positive selector discovered here would be new model content unless an independent derivation establishes that it was already source-forced.
+CD001 excludes fixed finite affine-linear scalar lists as unique selectors. CD002-A proves normalized multiplicativity forces a smooth multiplier f=1, but its physical hypothesis is not derived. Their original preregistrations/results are unchanged.
 
-## Frozen upstream baseline
+CD003 distinguishes canonical reassociation from genuine equations between different complexes or for unknown multiplication tensors. Those stronger equations, as well as source-derived domain restrictions and joint analyticity, remain open possibilities.
 
-Primary upstream anchor:
+## Reproduction and limits
 
-- `Mechanism-Synthesis-QG-Reconstruction/results/ITER077Q_SM_INVARIANT_TANGENTIAL_AMBIGUITY_RESULT.md`
-- result blob SHA `26aa90965ccfe495f55df2f4c190f7bbe09093f4`.
-
-The exact construction gives a source-compatible linearly independent family
-
-```text
-{ Q(y)^n F(y) delta_N(x) : n = 0,1,2,... }
+```sh
+python -m pip install -r analysis/requirements-cd003.txt
+python analysis/cd003_exact_controls.py --output /tmp/cd003-controls.json
 ```
 
-on the common-collision manifold `N = SU(2)^4`, before additional allowed normal-derivative sectors are exhausted. This proves at least a countably infinite-dimensional tangential subspace; it does **not** provide a complete characterization of the full ambiguity space.
+Twelve exact controls were executed locally, not on GitHub Actions. The proof, not the finite controls, establishes the general mathematical result. Mathematical probes are not automatically physical boundary states; no full physical quotient or jet transport is defined.
 
-Important upstream controls already exist and must not be rediscovered as new:
+Read [claim locks](authority/CLAIM_LOCKS.md), [theorem registry](authority/THEOREM_AND_OBSTRUCTION_REGISTRY.md), [source-authority firewall](authority/SOURCE_DERIVATION_REQUIRED.md), and [no-smuggling audit](protocol/NO_SMUGGLING_TEST.md). Current machine state is [state.json](recovery/state.json); [research history](research_log/CDSR_LEDGER.md) is append-only.
 
-1. **Finite K5 permutation covariance alone is insufficient.** Upstream Iter080A leaves an infinite-dimensional invariant tangential ambiguity.
-2. **Wavefront/conormal admissibility alone is insufficient.** Upstream Iter080J shows the smooth tangential witness family survives the tested WF condition.
-3. **Bare combinatorial gluing is insufficient.** Upstream Iter079C exhibits exact pairing-normalization/internal-weight nonuniqueness in a frozen minimal two-vertex control.
-4. **The frozen primary source corpus has no explicit complete joint-K5 selector.** Repaired Iter080E is the controlling source-census authority.
-5. **Historical Iter080K is not a new-authority result.** Its Critic review is `INVALID_PROVENANCE` because arXiv:2604.24945 was already represented in Iter080E. Its one-wedge source observations are corroborative only.
-6. **Selected Toller branches cannot inherit the standard Han bound unchanged on the frozen Iter081E control.** Iter081E gives exact scoped counterexamples.
-7. **Iter081F currently has no terminal result.** At the state read, only the prospective branch-subset boundedness gate commit `01b4ad5369798a4548576bb282afdd89375e4a59` exists.
-
-Exact imported authority and ceilings are in `authority/UPSTREAM_IMPORT_MANIFEST.md`.
-
-## Mathematical object
-
-Let `t0` denote the already-defined off-singular K5 distribution on `X \ N`, and let `B` denote the frozen CRQN v0.2 admissibility constraints. Define
-
-```text
-Ext_B(t0) = { T in D'(X) : T|_(X\N) = t0 and B[T] = 0 }.
-```
-
-When nonempty, choose a reference extension and write affine notation
-
-```text
-Ext_B(t0) = T_* + A_B.
-```
-
-The safe established inclusions are only
-
-```text
-A_B ⊇ A_tan,
-A_tan ⊇ span_C{Q^n F delta_N : n>=0}.
-```
-
-See `docs/AMBIGUITY_SPACE.md` for the no-overclaim notation and `docs/NORMAL_JET_FRONTIER.md` for the upstream order-8 normal-jet ceiling.
-
-A candidate principle `P` defines schematically
-
-```text
-Sol(P) = { T in Ext_B(t0) : P[T] = 0 }.
-```
-
-A physical CDSR selector succeeds only if the selected set is one **defined physical equivalence class** and the specification of `P` does not hide arbitrary data equivalent to choosing the extension by hand.
-
-## Established CDSR science
-
-### CD001 — finite-linear selector impossibility
-
-Preregistration `124374857f3bfaedc9dea8aefc88801eb2a9976c`; result `d5e296eff8cf76a97b32ac623ba7ffd59935350e`.
-
-Classification:
-
-`CD001_FINITE_LINEAR_SCALAR_SELECTOR_CANNOT_UNIQUELY_SELECT_INFINITE_DIMENSIONAL_K5_AMBIGUITY_EXACT_SCOPED`.
-
-A fixed finite family of affine-linear scalar conditions cannot select a singleton from a nonempty affine extension space whose ambiguity contains an infinite-dimensional subspace.
-
-### CD002-A — multiplicative selector-power control
-
-Preregistration `473bf95e258cf2ac0e43cb9452fb04f39e9f88cc`; result `17d14afca62a91daef4a9ad66739f03956374f40`.
-
-Classification:
-
-`CD002A_SU2_4_MULTIPLICATIVE_COHERENCE_COLLAPSES_SMOOTH_TANGENTIAL_MULTIPLIER_TO_CONSTANT_EXACT_CONDITIONAL_SCOPED`.
-
-For smooth `f:SU(2)^4->C`, the conditional equations
-
-```text
-f(gh)=f(g)f(h),
-f(e)=1
-```
-
-imply `f=1`.
-
-This proves **selector power**, not physical source derivation. The actual causal many-vertex/refinement object has not been shown to induce this law; the overall supported scalar and normal jets remain open. The repository therefore strictly separates
-
-```text
-IF P THEN reduction/uniqueness
-```
-
-from
-
-```text
-SOURCE IMPLIES P.
-```
-
-See `authority/FACT_LEVEL.md`.
-
-## No-smuggling and source-authority discipline
-
-A physical selector law must be one of:
-
-- `SOURCE_DERIVED`, or
-- `NEW_PHYSICAL_PRINCIPLE`.
-
-A mathematical control is `CONDITIONAL_SELECTOR_POWER_ONLY`. There is no implicit “reasonable assumption” category.
-
-The operational selector audit is `protocol/NO_SMUGGLING_TEST.md`. Physical-equivalence status is `docs/PHYSICAL_EQUIVALENCE.md`. Current selector classes and unknowns are `docs/SELECTOR_POWER_MATRIX.md`.
-
-## Research fronts
-
-### F01 — source-faithful composition/coherence
-
-Determine what transport/coherence law, if any, follows from an actual causal many-vertex/refinement construction and how it acts on supported extension data. Do not assume the CD002-A law.
-
-### F02 — joint causal analyticity
-
-Test only a genuinely joint K5 boundary-value/analytic object if independently source-defined or prospectively introduced as new principle. One-wedge Toller uniqueness is not itself a joint collision-extension theorem.
-
-### F03 — refinement/RG naturality
-
-Test compatible families of extensions only after the physical coarse/fine maps and extension transport are defined. Do not confuse a chosen RG scheme with unique selection.
-
-### F04 — boundary/source naturality
-
-Ask whether a genuinely universal source/boundary naturality law constrains the ambiguity without replacing it by an arbitrary complete probe family.
-
-## Next deep-run frontier
-
-The exact handoff is `recovery/PRO_FRONTIER.md`. The central question is whether actual source-faithful causal many-vertex/refinement structure induces a functional coherence law on **full supported K5 extension data** with enough power to reduce `Ext_B(t0)` to one physical equivalence class without selector-data smuggling, and if not, what residual functional/cohomological/normal-jet freedom survives.
-
-Possible organizational directions CD003-A/B/C are deliberately **not** preregistered as a mandatory sequence. The next deep run is free to reorder them by information gain after source recovery.
-
-## Interpretation ceiling
-
-Current claim locks remain:
-
-```text
-UNIQUE_K5_EXTENSION = false
-PHYSICAL_SELECTOR_DERIVED = false
-CRQN_V0_3_AUTHORIZED = false
-REGULATOR_INDEPENDENCE = false
-RG_CLOSURE = false
-CAUSAL_MULTIVERTEX_CLOSURE = false
-NEW_PHYSICS_FOUND = false
-QUANTUM_GRAVITY_SOLVED = false
-```
-
-Read `authority/CLAIM_LOCKS.md` before any downstream promotion.
+No unique K5 extension, physical selector, CRQN v0.3, regulator independence, causal multivertex closure, RG closure, new physics or complete quantum gravity is claimed. The prior 10/10 score is historical preparation readiness, not a scientific success probability.

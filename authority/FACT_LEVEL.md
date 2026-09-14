@@ -1,37 +1,30 @@
-# FACT LEVEL LEDGER
+# FACT_LEVEL ledger after CD003
 
-Every scientific statement used by CDSR must be assigned **exactly one** level below. The levels encode authority, not confidence percentages.
+Each claim has exactly one level. Levels describe authority and scope, not confidence percentages. Pins are in the original upstream import manifest and the current sources/CD003_SOURCE_MANIFEST.md supplement.
 
-| ID | Statement | FACT_LEVEL | Authority / note |
+| ID | Statement | FACT_LEVEL | Authority |
 |---|---|---|---|
-| F01 | The frozen source-ordered K5 object is defined off the common collision set and motivates the extension problem `Ext_B(t0)`. | `UPSTREAM_ESTABLISHED` | MSQGR/CRQN source-order chain; see upstream manifest. |
-| F02 | The common-collision manifold is `N=SU(2)^4`, codimension 12, transverse scaling degree 20, with same-scaling-degree extension freedom through normal derivative order 8. | `UPSTREAM_ESTABLISHED` | Iter077L. |
-| F03 | The source-compatible supported ambiguity contains the linearly independent family `{Q^n F delta_N}_{n>=0}` and therefore at least a countably infinite-dimensional tangential subspace. | `UPSTREAM_ESTABLISHED` | Iter077Q. |
-| F04 | Bare minimal two-vertex combinatorial gluing plus local vertices does not uniquely fix pairing normalization/internal weight. | `UPSTREAM_ESTABLISHED` | Iter079C. |
-| F05 | The frozen BCG/Beltran corpus does not explicitly supply a complete correlated joint-K5 function-space selector. | `UPSTREAM_ESTABLISHED` | repaired Iter080E. |
-| F06 | Ordinary support + conormal/WF admissibility alone does not remove the Iter077Q infinite smooth tangential family. | `UPSTREAM_ESTABLISHED` | Iter080J. |
-| F07 | Complete physical causal E3/E4/E6 multivertex inheritance is not source-explicit in the frozen corpus. | `UPSTREAM_ESTABLISHED` | Iter080B. |
-| F08 | Selected Toller objects fail the unchanged Han-type bound on the exact frozen Iter081E control. | `UPSTREAM_ESTABLISHED` | Iter081E, exact scoped result. |
-| F09 | Iter081F currently has only a prospective pre-gate and no terminal scientific result. | `UPSTREAM_ESTABLISHED` | Current upstream commit history. |
-| T01 | A fixed finite family of affine-linear scalar conditions cannot select a singleton from a nonempty affine extension space whose ambiguity contains an infinite-dimensional subspace. | `CDSR_EXACT_THEOREM` | CD001. |
-| T02 | Therefore a K5 selector acting on the Iter077Q witness only through finitely many scalar linear moments/projections/normalizations cannot uniquely select the extension. | `CDSR_EXACT_THEOREM` | CD001 K5 corollary. |
-| C01 | If a smooth tangential multiplier on `SU(2)^4` obeys normalized multiplicativity `f(gh)=f(g)f(h)`, `f(e)=1`, then `f=1`. | `CONDITIONAL_SELECTOR_POWER` | CD002-A. |
-| C02 | A compact functional coherence law can in principle have enough mathematical power to collapse infinite-dimensional tangential shape freedom. | `CONDITIONAL_SELECTOR_POWER` | Consequence of CD002-A; not physical-source authority. |
-| O01 | Actual source-faithful causal many-vertex/refinement composition induces the CD002-A multiplicative law. | `OPEN_PHYSICAL_BRIDGE` | **Not established.** |
-| O02 | Actual source-faithful composition induces some other projective/cocyclic/weighted/functorial/affine law with sufficient uniqueness power. | `OPEN_PHYSICAL_BRIDGE` | **Not established.** |
-| O03 | A physical principle fixes the overall scalar supported coefficient left outside CD002-A's tangential-shape theorem. | `OPEN_PHYSICAL_BRIDGE` | **Not established.** |
-| O04 | A physical principle fixes the full normal-jet freedom through the upstream order-8 ceiling. | `OPEN_PHYSICAL_BRIDGE` | **Not established.** |
-| O05 | The physical equivalence quotient needed to interpret “unique extension” has been defined and shown compatible with all sources. | `OPEN_PHYSICAL_BRIDGE` | **Not established.** |
-| O06 | The source-faithful causal multivertex bridge is complete. | `OPEN_PHYSICAL_BRIDGE` | **Not established; upstream Iter080B is blocked.** |
+| F01 | The source-ordered local off-collision K5 expression defines the frozen extension problem in its local scope. | UPSTREAM_ESTABLISHED | Iter077I/L/Q chain |
+| F02 | N=SU(2)^4, codim12, local sd20, normal-order ceiling8; not all formal jets physically admissible. | UPSTREAM_ESTABLISHED | Iter077L |
+| F03 | W=span_C{Q^n F delta_N} is a countably infinite-dimensional source-compatible witness, not all A_B. | UPSTREAM_ESTABLISHED | Iter077Q |
+| F04 | Bare gluing plus local data leaves pairing/weight normalization freedom. | UPSTREAM_ESTABLISHED | Iter079C |
+| F05 | The frozen BCG/Beltran source corpus has no explicit complete correlated joint-K5 selector. | UPSTREAM_ESTABLISHED | repaired Iter080E, scoped census only |
+| F06 | Ordinary WF/conormal admissibility alone preserves W. | UPSTREAM_ESTABLISHED | Iter080J |
+| F07 | Complete causal E3/E4/E6 inheritance is not source-explicit in the frozen corpus. | UPSTREAM_ESTABLISHED | Iter080B |
+| F08 | The frozen selected-Toller minimal controls fail unchanged Han bounds. | UPSTREAM_ESTABLISHED | Iter081E |
+| F09 | No terminal Iter081F atlas is imported at the pinned upstream snapshot. | UPSTREAM_ESTABLISHED | snapshot 9b2f9e5f31e294470c630ebff196f67a2de5ad18 |
+| F10 | Proper causal sums retain the local minimal-sector obstruction and supported ambiguity. | UPSTREAM_ESTABLISHED | Critic corollaries Iter081H/I/K/L, not a full divergence theorem |
+| T01 | Fixed finite affine-linear scalar conditions cannot select a singleton in the nonempty infinite-ambiguity affine family. | CDSR_EXACT_THEOREM | CD001 |
+| T02 | Its K5 corollary excludes finite moment/projection lists as standalone complete selectors. | CDSR_EXACT_THEOREM | CD001 |
+| C01 | Smooth normalized multiplicativity on SU(2)^4 forces f=1. | CONDITIONAL_SELECTOR_POWER | CD002-A |
+| C02 | That functional law has strong shape-selection power if its hypothesis holds. | CONDITIONAL_SELECTOR_POWER | CD002-A; no physical antecedent established |
+| T03 | Fixed-map same-graph structural coherence selects E intersect D and no smaller subset. | CDSR_EXACT_THEOREM | CD003 T4; physical D remains undefined |
+| T04 | Regular contexts act through signed normal test jets, with invisible space equal to their annihilator. | CDSR_EXACT_THEOREM | CD003 T5; not a physical context/quotient derivation |
+| O01 | Physical composition implies the CD002-A multiplicative law. | OPEN_PHYSICAL_BRIDGE | NOT established |
+| O02 | A physical alternative coherence law uniquely selects full supported data. | OPEN_PHYSICAL_BRIDGE | NOT established |
+| O03 | The physical supported scalar is fixed or redundant. | OPEN_PHYSICAL_BRIDGE | NOT established |
+| O04 | The full physical normal-jet freedom is fixed or quotient-null. | OPEN_PHYSICAL_BRIDGE | NOT established |
+| O05 | A sufficient physical equivalence relation has been derived. | OPEN_PHYSICAL_BRIDGE | NOT established |
+| O06 | Complete causal multivertex composition and its extension insertion are defined. | OPEN_PHYSICAL_BRIDGE | NOT established |
 
-## Firewall
-
-The following inference is forbidden without a separate authority transition:
-
-```text
-CONDITIONAL_SELECTOR_POWER: IF P THEN uniqueness/reduction
-                 !=
-OPEN_PHYSICAL_BRIDGE: SOURCE IMPLIES P.
-```
-
-A future physical selector law must be explicitly classified under `authority/SOURCE_DERIVATION_REQUIRED.md` before any uniqueness claim can use it.
+The source-obstruction statements F05/F07 and the unproved positive closure statements O02/O06 are separate claims. No single claim is assigned two levels. A mathematical test kernel is not promoted to physical authority; any physical law still requires SOURCE_DERIVED or explicit NEW_PHYSICAL_PRINCIPLE status.

@@ -1,8 +1,6 @@
-# Claim Locks
+# Claim locks after CD003
 
-These booleans are the authoritative CDSR preparation locks at the CD002-A terminal front. `false` means the claim is not currently authorized; it does not mean an impossibility theorem has been proved.
-
-## Prohibited / not established
+False means not established/authorized, not a universal impossibility theorem.
 
 ```text
 UNIQUE_K5_EXTENSION = false
@@ -13,11 +11,6 @@ RG_CLOSURE = false
 CAUSAL_MULTIVERTEX_CLOSURE = false
 NEW_PHYSICS_FOUND = false
 QUANTUM_GRAVITY_SOLVED = false
-```
-
-Additional locks:
-
-```text
 PHYSICAL_EQUIVALENCE_QUOTIENT_COMPLETE = false
 NORMAL_JET_SELECTOR_COMPLETE = false
 OVERALL_SUPPORTED_SCALAR_FIXED = false
@@ -26,27 +19,18 @@ ITER081F_TERMINAL_RESULT_IMPORTED = false
 ITER080K_NEW_PRIMARY_AUTHORITY_VALID = false
 ```
 
-## Established scoped facts
+Established scoped facts:
 
 ```text
 INFINITE_DIMENSIONAL_AMBIGUITY_WITNESS = true
 FINITE_LINEAR_SELECTOR_IMPOSSIBILITY_SCOPED = true
 MULTIPLICATIVE_SELECTOR_POWER_CONDITIONAL_SCOPED = true
+STRUCTURAL_GLUING_NONSELECTION_COMMON_DOMAIN_SCOPED = true
+REGULAR_CONTEXT_NORMAL_JET_DUALITY_SCOPED = true
+CURRENT_CDSR_TERMINAL_ITERATION = CD003
+CURRENT_FRONTIER = SOURCE_FIXED_EXTENSION_SENSITIVE_RELATION_OR_GLUING_DOMAIN
 ```
 
-Supporting statuses:
+T4/T5 authority is `results/CD003_STRUCTURAL_GLUING_RESULT.md`, commit `f49040aac1a7be0dcd9ccf30484620c5cc028003`. Their true flags are mathematical claims only. Physical gluing-domain membership, jet transport and probe equivalence are not inferred from them. The prior CD001/CD002-A results remain unchanged.
 
-```text
-CURRENT_CDSR_TERMINAL_ITERATION = CD002-A
-CURRENT_FRONTIER = SOURCE_FAITHFUL_CAUSAL_COMPOSITION_TO_EXTENSION_COHERENCE_LAW
-```
-
-## Interpretation
-
-- `INFINITE_DIMENSIONAL_AMBIGUITY_WITNESS=true` means an infinite-dimensional subspace is proved to exist; it does not mean all of `A_B` is classified.
-- `FINITE_LINEAR_SELECTOR_IMPOSSIBILITY_SCOPED=true` is CD001's exact scoped theorem.
-- `MULTIPLICATIVE_SELECTOR_POWER_CONDITIONAL_SCOPED=true` is CD002-A's conditional theorem and **does not** imply `PHYSICAL_SELECTOR_DERIVED=true`.
-
-## Mutation rule
-
-A future commit may change a `false` lock to `true` only when a cited terminal prospective result establishes that exact claim and all mandatory dependencies are closed. Administrative readiness, a passing validator, or a successful conditional theorem cannot flip a scientific claim lock.
+Physical law status must be SOURCE_DERIVED or NEW_PHYSICAL_PRINCIPLE. Conditional controls do not authorize either implicitly. The CD003 physical no-smuggling status is BLOCKED_NO_PHYSICAL_SELECTOR_OBJECT. No claim can be promoted using a readiness score or a successful script.
