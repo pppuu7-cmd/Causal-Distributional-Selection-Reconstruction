@@ -1,7 +1,7 @@
 {
   "repository": "pppuu7-cmd/Causal-Distributional-Selection-Reconstruction",
   "state_date": "2026-09-14",
-  "programme_status": "ACTIVE_PREPARED_FOR_NEXT_DEEP_GATE",
+  "programme_status": "PRO_READY_STATE_PREPARATION_COMPLETE",
   "state_read_head_before_preparation": "17d14afca62a91daef4a9ad66739f03956374f40",
   "current_terminal_iteration": "CD002-A",
   "current_terminal_status": "PASS_EXACT_CONDITIONAL_SCOPED",
@@ -69,8 +69,9 @@
   ],
   "readiness": {
     "meaning": "repository recovery/infrastructure readiness, not probability of scientific correctness",
-    "status": "PENDING_FINAL_CLEAN_ROOM_AUDIT",
-    "score": null,
+    "status": "READY",
+    "score": 10,
+    "out_of": 10,
     "criteria": {
       "upstream_authority_pinned": true,
       "ambiguity_space_defined": true,
@@ -81,7 +82,8 @@
       "physical_equivalence_issue_explicit": true,
       "pro_frontier_exact": true,
       "recovery_machine_state_durable": true,
-      "claim_locks_clean_room_continuation_valid": false
-    }
+      "claim_locks_clean_room_continuation_valid": true
+    },
+    "qualification": "10/10 refers only to recovery and deep-run preparation. It does not imply a unique extension, a physical selector, regulator independence, or scientific completion."
   }
 }
