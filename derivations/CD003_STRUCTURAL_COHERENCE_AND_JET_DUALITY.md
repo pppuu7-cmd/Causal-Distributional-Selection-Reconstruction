@@ -1,231 +1,101 @@
-# Structural gluing and extension-sensitive coherence
+# CD003 - structural coherence and test-jet duality, source-corrected
 
-## 1. Objects and the question actually decided
+Controlling erratum: `results/CD003_SOURCE_LOCK_ERRATUM.md`, commit `05f678e1e8e087a1a85b3bbb75ac1a58b5317317`.
+Original preregistration: `c3f898a975b56f3f707c00d3e01cf5388934d9f7`.
+The frozen mathematical hypotheses and 12 controls are unchanged. The exact original derivation is preserved at `derivations/archive/CD003_PRE_CORRECTION_SNAPSHOT.md`; its PHYSICAL W-subspace premise is withdrawn, not silently repaired. This document restates the surviving proofs and their corrected application.
 
-CD003 distinguishes an identity of a prescribed contraction calculus from a condition on its local amplitudes. The former can hold for every choice of amplitude; the latter must exclude at least one choice. Confusing them would promote the conditional power theorem CD002-A into a physical selection principle without deriving its hypothesis.
+## 1. Correct domain, not a preferred extension
 
-The authoritative local extension problem is denoted by
+Let E_corr = Ext_{B_corr}(t0) on the established local common-collision domain, with node-wise right SU(2) covariance included in B_corr. In the affine setting write E_corr=T_*+A_corr; the notation does not choose T_*. Do not assume a global all-strata extension or that adding positivity preserves an affine domain.
 
-\[
- E=\operatorname{Ext}_{B}(t_0)=T_*+A_B,
- \qquad W=\operatorname{span}_{\mathbb C}\{Q^n F\delta_N:n\geq0\}\subseteq A_B.
-\]
+Historical W=span{Q^n F delta_N} is mathematically independent but is NOT an established physical subspace of A_corr. Upstream Iter081R/S instead demonstrate a scalar invariant normal-jet subspace J_inv subset A_corr of dimension28, grades (1,0,1,0,3,0,7,0,16) through order8. This is a lower bound, not the total dimension. These are imported results, not new calculations in CD003. Exact pins are in sources/CD003_SOURCE_CORRECTION_MANIFEST.json.
 
-These are the established affine domain and ambiguity witness, not a complete classification. The translation notation is used only where the frozen conditions are affine and preserve the indicated ambiguity directions. In particular, an additional positivity cone or an analytic gluing-domain restriction need not be affine. The local minimal-spin common-collision setting has codimension 12 and transverse scaling degree 20; the allowed normal-order ceiling from Iter077L is 8. The word local is essential: this does not extend the result to all partial-collision strata or to the global noncompact group integral. [U077L, U077Q]
+## 2. Theorem T4/S - structural reassociation does not constrain generators
 
-The prospective contract is `prereg/CD003_STRUCTURAL_GLUING_VS_EXTENSION_SELECTION.md`, commit `c3f898a975b56f3f707c00d3e01cf5388934d9f7`. Source identifiers below resolve in `sources/CD003_SOURCE_MANIFEST.md` and `.json`.
+Fix a finite decorated graph Gamma with prescribed local tensor spaces, port wiring, edge pairings/weights and boundary operations. Define
 
-## 2. Two meanings of coherence
+`Z_Gamma(v_1,...,v_n) = C_Gamma(v_1 tensor ... tensor v_n)`.
 
-**Structural coherence** compares two evaluation orders of the same decorated graph. The vertices, their ports, their assignments, the edge contractions, the causal labels and the boundary remain fixed. Canonical associators and legal wire permutations change notation or evaluation order, not the graph or its generators.
+All structural equalities considered here compare canonical reparenthesizations or legal contraction orders of that SAME decorated graph. Let D be the common domain on which the prescribed operations are well-defined.
 
-**Extension-sensitive coherence** compares objects not already identified by those structural identities. Examples include a refined complex versus a coarse one, a generator versus a composite, a specified identity amplitude versus a dynamical local amplitude, or a source-derived equation for an unknown multiplication. Such relations can constrain the generator and are not excluded by this gate.
+**Theorem.** Every such identity holds for every assignment in D. Their joint solution set on an extension family E is exactly E intersect D, even for an infinite collection of these structural identities.
 
-An especially important distinction is associativity of an unknown multiplication tensor \(\mu\). The equation \(\mu(\mu\otimes1)=\mu(1\otimes\mu)\) usually compares different port-wiring graphs. It can impose genuine polynomial equations on \(\mu\). It is not the canonical associativity of tensor products and is not covered by the non-selection theorem below.
+**Proof.** In finite-dimensional bases each output is a finite sum over identical internal indices of the identical product of tensor entries and fixed edge factors. Reparenthesization changes neither indices nor factors nor their connections. Canonical permutations relabel paired indices; they do not reverse noncommuting operations along a wire. Thus both expressions are the same polynomial in the arbitrary generator entries. Every permitted structural identity has the whole common domain as its solution set, and so does their intersection. For prescribed adjoint slots, prove the identity with independent slots before substituting the adjoints. QED.
 
-## 3. Theorem S: same-graph structural coherence does not select generators
+For distributions, a concrete legitimate common domain is external tensor products on independent vertex variables paired with K_Gamma in C_c^infinity(product X_v):
 
-Fix a finite decorated graph \(\Gamma\). Each vertex has a prescribed tensor space \(V_v\); edge tensors, pairings, boundary dualities and numerical weights are fixed independently of the variable generators. Define the graph evaluation
+`Z_Gamma(T_1,...,T_n)=<T_1 tensor ... tensor T_n,K_Gamma>`.
 
-\[
- Z_\Gamma((v_v)_v)=C_\Gamma\left(\bigotimes_{v\in V(\Gamma)}v_v\right).
-\]
+Iterated test pairing represents the same external tensor product. This is not a definition of singular diagonal gluing or the noncompact causal integral.
 
-For this theorem, the permitted equalities are precisely those obtained by canonical reparenthesization or by legally reordering the contractions of this same decorated graph. Contraction maps must be defined on a common domain. In finite dimensions this is automatic. In a distributional implementation it is a substantive additional assumption, addressed below.
+**Correct physical application:** E_struct=E_corr intersect D. If J_inv directions lie in the actual D, structural reassociation does not remove them. Membership in the physical D is NOT established. Source-derived continuity, wavefront, convergence or closure restrictions may constrain D and remain possible selectors. No physical infinite-W corollary survives.
 
-**Statement.** Every permitted structural equality holds for every generator assignment in that common domain. Consequently, imposing any collection of these equalities, even infinitely many, removes no generator assignment from the domain.
+The theorem is not CD001: arbitrarily many high-degree polynomial identities may all be identities rather than restrictions. It is not a no-go for all associativity: associativity of an UNKNOWN multiplication tensor mu, `mu(mu tensor 1)=mu(1 tensor mu)`, compares different wiring graphs and can constrain mu. Refinement/Pachner equalities, dynamical units, idempotency and spectral laws are likewise outside the tested structural class.
 
-**Proof.** In bases, each output component of the graph is a finite sum over internal indices of the same product of tensor components and fixed edge factors. Reparenthesization changes neither that set of indices nor any factor nor its port assignment. Summing one internal index before another gives the same finite sum. Canonical wire permutations simply relabel matching indices and do not interchange the order of noncommuting operations on a wire. Thus the component expressions are identical polynomials in the entries of all variable generators. This proves equality for arbitrary assignments, not just sampled assignments.
+## 3. Fixed-pairing countermodel
 
-Equivalently, the canonical tensor associators and permutations make the two expressions representations of the same multilinear map \(C_\Gamma\). Its equality to itself supplies no equation restricting the inputs. Taking any intersection of such identity solution sets still leaves the whole domain. Fixed structural identity maps obey their unit equations for arbitrary inputs as well. This does not identify a variable physical vertex with the structural unit. If a prescribed dual slot contains an adjoint, prove the identity with independently named slots and then substitute the adjoint; the identity still holds. No new physical duality convention is chosen. QED.
+Use B=diag(2,3), X star Y=X B Y and the fixed unit B^{-1}. For A_lambda=[[1,lambda],[0,1]], either parenthesization of the three-vertex chain is
 
-The proof is not the finite-rank argument of CD001. The residuals here can be polynomials of arbitrarily high degree when one generator is reused at many vertices; they nevertheless vanish identically. Counting diagrams or writing a formally infinite coherence family does not make those identities selective.
+`[[4,19 lambda],[0,9]]`.
 
-### Corollary for an extension domain
+The SAME upper-right boundary probe yields 0 and19 for lambda=0 and1. Pairing, unit, weights and probe never vary. All structural associativity/unit equations hold. This refutes the implication from those equations to generator selection, not a claim about the actual K5 amplitude or physical equivalence.
 
-Let \(D\) be the common domain on which the prescribed structural graph calculus is defined. For an extension family \(E\) mapped into that calculus, its structural solution set is exactly
+Negative control: C_lambda=diag(1/2,lambda/3) obeys
 
-\[
- E_{\rm struct}=E\cap D.
-\]
+`C_lambda B C_lambda-C_lambda=diag(0,(lambda^2-lambda)/3)`.
 
-If the entire affine extension family is in \(D\), every admissible supported variation survives the structural equations, including \(W\). If not, the theorem asserts nothing about which variations lie in \(D\). Requiring existence, continuity, a wavefront-compatible pullback or closure under gluing may itself restrict the domain and could supply selection information. **This is not a theorem that every physical K5 extension admits composition.**
+The extra equation C star C=C constrains lambda; it is a different-graph relation, not structural reassociation. It is not proposed as physics.
 
-A restriction imposed by the domain must be identified and sourced separately; it cannot be credited to reassociation after the domain has been assumed.
+## 4. Supported insertion and sensitivity
 
-## 4. Exact fixed-pairing countermodel
+On the regular context domain, varying all slots by u gives exactly a sum over nonempty subsets of vertices in which u replaces T; this is the multilinear expansion of `(T+u) tensor ... tensor (T+u)`. Structural identities hold for each assignment even when boundary outputs differ. A one-slot variation is linear in u.
 
-Use two-dimensional boundary vector spaces and the fixed nondegenerate pairing
+A nonzero scalar term a(y) delta_N is separated mathematically by a compact test whose restriction is conjugate(a) chi, chi nonnegative supported where a is nonzero. This proves detectability as a distribution, NOT availability of that test as a physical boundary context. The restored source symmetry restricts which a are admissible; it cannot be ignored.
 
-\[
- B=\begin{pmatrix}2&0\\0&3\end{pmatrix},
- \qquad X\star Y=XBY,\qquad U=B^{-1}.
-\]
+Singular gluing needs a separate pullback/product/pushforward theorem. Opposite nonzero conormal directions make the standard sufficient wavefront criterion fail for a delta self-product; no delta squared is used here. Failure of a sufficient criterion is not nonexistence of all renormalized prescriptions.
 
-Then \((X\star Y)\star Z=X\star(Y\star Z)\) and \(U\star X=X=X\star U\) for every matrix. For this symmetric pairing, transpose implements the reversal control \((X\star Y)^t=Y^t\star X^t\). None of these statements changes the pairing or normalization with the local assignment.
+## 5. Theorem T5/J - exact normal test-jet pairing
 
-Set
+In a fixed local tubular chart/density, consider an admissible finite-normal-order term represented as
 
-\[
- A_\lambda=\begin{pmatrix}1&\lambda\\0&1\end{pmatrix}.
-\]
+`u=sum_{|alpha|<=m} a_alpha(y) partial_x^alpha delta(x)`, m<=8.
 
-The same open three-vertex graph evaluates exactly to
+This is a class of terms, not a canonical global decomposition or proof that every formal coefficient is physically allowed. After the source correction coefficient data must meet node covariance and other source constraints.
 
-\[
- (A_\lambda\star A_\lambda)\star A_\lambda
- =A_\lambda\star(A_\lambda\star A_\lambda)
- =\begin{pmatrix}4&19\lambda\\0&9\end{pmatrix}.
-\]
+For every smooth compact regular context K,
 
-A fixed boundary probe taking the upper-right entry distinguishes \(\lambda=0\) from \(\lambda=1\): the outputs are 0 and 19. Every structural identity holds in both cases. Thus structural consistency and dependence of a boundary amplitude on local data coexist.
+`<u,K>=sum_{|alpha|<=m} (-1)^|alpha| <a_alpha,partial_x^alpha K(y,0)>`.
 
-This is a tensor-calculus countermodel, not an actual causal K5 vertex or a demonstration of physical inequivalence in CRQN. Unlike Iter079C, it does not exploit freedom to change the pairing or internal weights. [U079C]
+**Proof.** By definition of distributional derivative, moving partial_x^alpha onto a test contributes (-1)^|alpha|. Delta evaluates its normal argument at zero; the tangential coefficient pairs with the restricted derivative. Sum the finitely many terms. QED.
 
-A negative control guards the theorem's boundary. For \(C_\lambda=\operatorname{diag}(1/2,\lambda/3)\),
+Intrinsic content: u acts on the test-function quotient by tests with vanishing normal jets through orderm along N. Individual coefficient coordinates depend on chart/density; no intrinsic direct-sum splitting is inferred.
 
-\[
- C_\lambda B C_\lambda-C_\lambda
- =\operatorname{diag}\left(0,\frac{\lambda^2-\lambda}{3}\right).
-\]
+For a DECLARED context family Kset and admissible linear variation sector A_adm^(m), define J_Kset u=(<u,K>)_K. Then
 
-The additional equation \(C_\lambda\star C_\lambda=C_\lambda\) restricts \(\lambda\) to 0 or 1. It compares different vertex counts and is not a structural identity. This example is not a proposed physical selector, and it does not select uniquely even in this small family.
+`N_Kset=ker J_Kset=A_adm^(m) intersect (span j_N^m Kset)^perp`.
 
-## 5. A legitimate distributional realization
+The perpendicular denotes annihilation in the signed dual pairing above. If independently fixed equations `<T,K>=b_K` have a solution T0, their solution family is T0+N_Kset. Probe separation alone is not selection: targets or relations must also be source-fixed.
 
-For local distributions on independent copies of the vertex variables, choose a smooth compactly supported context kernel
+All local compact smooth jets can be prescribed using `sum x^alpha h_alpha(y)/alpha!` times a cutoff equal to one near zero. They separate the displayed distributions mathematically. The physical state space need not realize this test-jet image.
 
-\[
- K_\Gamma\in C_c^\infty(X_1\times\cdots\times X_n).
-\]
+For context kernels independent of normal coordinates near N, positive normal derivatives are invisible. Delta-prime evaluates a flat-normal test as0 and a linear-normal test as-1. On the corrected physical sector, only admissible invariant combinations are relevant; no physical order-one invariant direction is asserted (Iter081R has d1=0).
 
-Define
+A local pushforward diagnostic gives `Phi_*delta''=delta''-2a delta'` for Phi(t)=t+a t^2, using `<Phi_*u,phi>=<u,phi composed Phi>`. This follows from the chain rule and illustrates possible order mixing. It is NOT physical jet transport, and need not preserve the corrected invariant sector.
 
-\[
- Z_\Gamma(T_1,\ldots,T_n)
- =\langle T_1\otimes\cdots\otimes T_n,K_\Gamma\rangle.
-\]
+## 6. Corrected invariant-jet application and physical equivalence
 
-The external tensor product is well-defined because the variables are independent. Iterated distributional pairing with this test kernel represents that same tensor product and gives the structural equalities on the whole stated domain. The construction can be made componentwise for a finite boundary-intertwiner sector. It does not justify multiplying distributions at a shared singular point or replacing a noncompact physical integration by a smooth compact kernel.
+Restrict T5 to J_inv or another explicitly source-admissible sector. For a chosen basis u_A of J_inv, actual source contexts would define `M_iA=<u_A,K_i>`; their invisible coefficient directions are ker M. CD003 does not supply the actual physical K_i or M or its rank. The bound m<28 and possible injectivity at m>=28 are imported from Iter081S, not a new gate. Rank on this subspace alone would not prove complete physical uniqueness.
 
-In this regular-context domain, the exact change when the same extension is varied at several vertices is
+For a compositional equivalence, a difference must be null in ALL allowed one-slot contexts, including further gluings and admissible other vertices. In a regular multilinear calculus, telescoping one slot at a time shows this condition suffices to replace such differences in larger graphs. No actual physical all-context quotient has been derived. The node-wise gauge orbit is now correctly identified; that does not settle all observational or redefinition equivalences.
 
-\[
- Z_\Gamma(T+u,\ldots,T+u)-Z_\Gamma(T,\ldots,T)
- =\sum_{\varnothing\ne S\subseteq V(\Gamma)}
- C_\Gamma\left(\bigotimes_v T_v^{(S)}\right),
- \quad T_v^{(S)}=\begin{cases}u&v\in S,\\T&v\notin S.\end{cases}
-\]
+The scalar c F delta_N remains a nonzero admissible direction and cannot simply be called normalization of t0, which it does not change off N. Its physical effect requires the actual insertion map and contexts.
 
-For slots carrying a prescribed adjoint, replace the inserted variation by its adjoint as well. This is a dependence formula, not a vanishing identity. Structural coherence holds on each side separately regardless of whether this difference vanishes. With one slot varied, the expression is linear in \(u\); with several slots varied it need not be linear.
+## 7. Missing source maps and surviving alternatives
 
-For the order-zero witness \(u=a(y)\delta_N\ne0\), a compact chart test with restriction \(\overline{a(y)}\chi(y)\), \(\chi\geq0\) supported where \(a\ne0\), gives a nonzero integral of \(|a|^2\chi\). A normal cutoff equal to one near zero extends it to a legitimate smooth test. Therefore the witness is detectable as a distribution. This separating test is mathematical, not a declaration that the source supplies it as a physical boundary state.
+The missing chain is `T --I_v--> full local physical boundary functional --G_Gamma--> causal composed amplitude --R--> source-fixed extension-sensitive relation`.
 
-### Singular gluing is not included by fiat
+I_v must incorporate admissible supported terms into the actual vertex, G_Gamma must supply measures, orientations, quotient and legitimate composition domain, and R must constrain the extension rather than re-evaluate one graph. Alternatively a genuine source-derived restriction on the gluing domain might carry that constraint.
 
-A physical edge identification may require a diagonal pullback, a singular kernel or a noncompact pushforward. Those operations need domain, wavefront, support and convergence justification. For example, the opposite nonzero conormal directions of \(\delta_N\) fail the standard sufficient wavefront test for its self-product. No \(\delta_N^2\) is formed here. Failure of that sufficient test is not a theorem against every renormalized definition; choosing such a definition would require additional authority. [U080J]
+No physical groupoid/coefficient module/action/regularity or coboundary equivalence was derived, so no physical cohomology is computed. No source-derived physical selector is claimed.
 
-## 6. Theorem J: regular contexts see a supported term through normal jets
-
-Fix a tubular coordinate chart \((y,x)\) with \(N=\{x=0\}\), a density convention and a finite normal-order supported term in that chart,
-
-\[
- u=\sum_{|\alpha|\leq m}a_\alpha(y)\,\partial_x^\alpha\delta(x),
- \qquad m\leq8.
-\]
-
-This notation specifies a class of terms on which the following identity is evaluated. It does not prove that every displayed term is physically admissible or that these coefficients form a canonical global direct-sum description of \(A_B\).
-
-For a regular context \(K(y,x;b)\), with any external boundary probe already paired into \(b\),
-
-\[
- \boxed{\langle u,K(\cdot;b)\rangle
- =\sum_{|\alpha|\leq m}(-1)^{|\alpha|}
- \left\langle a_\alpha,
-       \partial_x^\alpha K(y,0;b)\right\rangle.}
-\]
-
-**Proof.** By the definition of a distributional derivative, moving \(\partial_x^\alpha\) from the distribution to the test contributes \((-1)^{|\alpha|}\). Pairing the remaining delta in the normal variable evaluates the differentiated test at \(x=0\); the tangential coefficient then acts on that restriction. Summing the finitely many terms proves the formula. QED.
-
-The formula is an exact transport-to-context-evaluation law under the regular-kernel assumption. It is not a derived physical refinement map, a law on \(f(gh)\), or a proof that normal jets decouple. Different external contexts can mix coefficient components through the family of differentiated kernels.
-
-The coordinate-independent content is that a finite normal-order supported distribution annihilates tests whose normal jets through order \(m\) vanish along \(N\). It therefore acts on the appropriate test-jet quotient. Writing individual coefficient functions requires chart/density choices; no canonical splitting is inferred.
-
-## 7. Exact residual freedom for a declared context family
-
-Let \(\mathcal K\) be any declared family of regular one-slot contexts and \(A_{\rm adm}^{(m)}\) the admissible supported variations in the finite-order class being tested. Define the linear map
-
-\[
- J_\mathcal K u=(\langle u,K\rangle)_{K\in\mathcal K}.
-\]
-
-The invisible variations are exactly
-
-\[
- \boxed{\mathcal N_\mathcal K
- =\ker J_\mathcal K
- =A_{\rm adm}^{(m)}\cap
-       \bigl(\operatorname{span}j_N^m\mathcal K\bigr)^\perp.}
-\]
-
-The last expression means the annihilator under the signed pairing of Theorem J. It is not a dimension estimate and requires no finite sampling or presumed completeness of physical states.
-
-If a source independently specifies the values \(b_K\) in equations \(\langle T,K\rangle=b_K\), and one solution \(T_0\) exists in the tested affine family, its exact solution set is \(T_0+\mathcal N_\mathcal K\). Thus uniqueness in this family requires \(\mathcal N_\mathcal K=0\), or a separately justified physical quotient identifying precisely the remaining invisible directions.
-
-**Separation alone is not selection.** Even an injective evaluation map only labels different extensions unless a source fixes target values or relations. Assigning those values from a desired extension would encode the original choice in the selector input.
-
-### Complete mathematical tests versus physical tests
-
-Arbitrary compactly supported smooth coefficient jets can be prescribed locally: multiply
-
-\[
- \sum_{|\alpha|\leq m}\frac{x^\alpha}{\alpha!}h_\alpha(y)
-\]
-
-by a normal cutoff equal to one near zero. Its normal jet is the chosen collection \(h_\alpha\). Taking these tests separately for each index proves that all compact smooth tests separate the displayed supported distributions. This is not a claim that the actual spin-network boundary state space induces all these group-variable tests. That image, including its normal derivatives at the collision, is a missing physical map.
-
-At the other extreme, if every context is locally independent of the normal coordinates, every positive-order normal derivative is invisible to that family. An order-one term acts on a constant-normal test as zero, while \(\delta'(x_1)\) acts on \(x_1\chi(x)\) as \(-1\). Hence a zeroth-order boundary restriction cannot be assumed to control the jet tower. When tangential coefficients vary freely in any admissible positive-order sector, this invisibility may be infinite-dimensional; this gate does not assert that the physical admissible sector has that size.
-
-### A controlled example of jet-order mixing
-
-For the local normal-coordinate diffeomorphism \(\Phi(t)=t+a t^2\), with pushforward convention \(\langle\Phi_*u,\varphi\rangle=\langle u,\varphi\circ\Phi\rangle\), the chain rule gives
-
-\[
- \Phi_*\delta''=\delta''-2a\delta'.
-\]
-
-Indeed the action on a test is \(\varphi''(0)+2a\varphi'(0)\). This is an exact local diagnostic, not a source-derived refinement. It prevents assuming that an unspecified transport must preserve each normal derivative order diagonally.
-
-## 8. Physical equivalence requires all allowed contexts
-
-Mathematical equality, equality under a chosen family of probes, and physical equivalence are different assertions. The actual physical context family has not been identified. Therefore \(\mathcal N_\mathcal K\) above is a conditional diagnostic and is not installed as the physical quotient of CDSR.
-
-Even after a family is proposed, nullity for one boundary test need not persist when the term is inserted into a larger diagram. To support a compositional equivalence, its null directions must remain null in every permitted one-slot context, including contexts obtained by inserting other admissible vertices, applying duality, and making allowed further gluings. For regular multilinear contractions, this all-context property is sufficient for replacing a null difference at any number of slots: telescope the difference of the two graph evaluations one slot at a time. Whether the physical source supplies such a closed family remains open.
-
-This addresses the scalar issue too. The direction \(F\delta_N\) is a nonzero mathematical distribution and can change regular-context evaluations. It cannot be dismissed as an overall normalization of the off-collision amplitude, which it does not change at all. Whether its coefficient is observable, redundant or fixed by a physical law still requires the actual source-defined contexts and quotient.
-
-## 9. Source result and missing arrows
-
-The four pinned sources locate the relevant objects but do not supply the missing supported-extension transport. Their equation anchors and qualifications are recorded in the source manifest rather than treated as a new source census. In particular, a source trace/gluing identity is not a homomorphism condition on an independent coefficient function on \(SU(2)^4\). [P1-P4, U080B, U080E]
-
-The minimum unresolved chain is
-
-\[
- T\ \xrightarrow{\ I_v\ }\ \text{physical local boundary functional}
- \ \xrightarrow{\ G_\Gamma\ }\ \text{causal composed amplitude}
- \ \xrightarrow{\ R\ }\ \text{source-fixed comparison or condition}.
-\]
-
-Here \(I_v\) must explain how the full local supported extension enters a physical vertex, including compatibility with the rest of the group-variable domain. \(G_\Gamma\) must have specified causal labels, measures, quotient normalization and a legitimate singular/infinite-dimensional composition domain. \(R\) must impose an extension-sensitive condition, not merely another evaluation order of the same graph. To infer physical uniqueness, the actual probe/jet image and the physical quotient must also be supplied.
-
-This does not establish that these data cannot be derived. It says exactly which objects are not established by the current chain and what structural coherence cannot do in their place. A missing item could eventually be derived from source assumptions, or introduced as an explicitly new independently motivated CDSR principle. A convention fixing notation, a structural unit or an evaluation order alone is insufficient.
-
-No physical cocycle module, groupoid, regularity class or coboundary quotient has emerged from this gate. Computing a convenient cohomology of \(SU(2)^4\) would therefore answer a different question. The physical cocycle/projective alternatives remain open, not proved trivial.
-
-## 10. Verdict and scope
-
-The mathematical result is `PASS_EXACT_SCOPED`: same-graph structural coherence is non-selective, and regular-context sensitivity is governed exactly by the test-jet pairing and its annihilator. These are new recorded results for CDSR, based on standard tensor/distribution reasoning; no worldwide mathematical novelty claim is made.
-
-The physical result is `BLOCKED_SOURCE_BRIDGE`: no actual source-derived full K5 supported-extension transport or selecting law was established. This result incorporates, rather than repeats as new science, the previously established source blockers and the new upstream causal-sum corollaries. [U080B, U080E, U081H, U081I, U081K, U081L]
-
-No universal impossibility of selection, no physical equivalence classification, no complete normal-jet parameterization, no unique K5 amplitude, no regulator prescription/independence, no causal multivertex closure, no CRQN v0.3, no RG closure and no new physics follow.
+T4/T5 have FACT_LEVEL CDSR_EXACT_THEOREM. Their physical premises remain conditional. The original aggregate is PASS mathematics / BLOCKED physical bridge, now with the mandatory disposition ITER077Q_PHYSICAL_APPLICATION_WITHDRAWN. Upstream R/S restore the correct physical target; they are not CDSR discoveries. No universal no-go, exact total dimension, regulator prescription, CRQN v0.3, RG closure or new physics follows.

@@ -1,132 +1,77 @@
-# CD003 structural gluing and extension selection
+# CD003 terminal result - corrected physical source scope
 
 Date: 2026-09-14.
+**Read first:** `results/CD003_SOURCE_LOCK_ERRATUM.md`, commit `05f678e1e8e087a1a85b3bbb75ac1a58b5317317`. The original result at `f49040aac1a7be0dcd9ccf30484620c5cc028003` is archived in results/archive. Its physical infinite-W application is withdrawn. The prospective mathematical gate, proofs and controls are unchanged.
 
-## Terminal decision
+## Terminal classification and disposition
 
-- Mathematical result: `PASS_EXACT_SCOPED`.
-- Physical source bridge: `BLOCKED_SOURCE_BRIDGE`.
-- Aggregate status: `PASS_MATHEMATICS_BLOCKED_PHYSICAL_BRIDGE`.
-- Classification: `CD003_STRUCTURAL_GLUING_COHERENCE_IS_SELECTOR_BLIND_PHYSICAL_EXTENSION_TRANSPORT_UNESTABLISHED_SCOPED`.
+`CD003_STRUCTURAL_GLUING_COHERENCE_IS_SELECTOR_BLIND_PHYSICAL_EXTENSION_TRANSPORT_UNESTABLISHED_SCOPED`
 
-No source-derived physical selector was obtained. The new result is a scoped mathematical exclusion of same-graph structural coherence as a standalone selector, together with an exact regular-context normal-jet sensitivity criterion. It is not a repetition of CD001 or a claim that every composition/refinement law fails.
+- Mathematical verdict: PASS_EXACT_SCOPED.
+- Physical bridge: BLOCKED_SOURCE_BRIDGE.
+- Aggregate: PASS_MATHEMATICS_BLOCKED_PHYSICAL_BRIDGE.
+- Mandatory current qualification: MATHEMATICS_VALID / ITER077Q_PHYSICAL_APPLICATION_WITHDRAWN / PHYSICAL_TRANSPORT_OPEN.
 
-## Prospective authority and artifacts
+No unique physical K5 extension or new physical selector was obtained.
 
-- Recovery baseline: `1f6a30f813ff712d2935c66b712d3399bf229a03`.
-- Preregistration: `prereg/CD003_STRUCTURAL_GLUING_VS_EXTENSION_SELECTION.md`, commit `c3f898a975b56f3f707c00d3e01cf5388934d9f7`.
-- Source equation/version record: `sources/CD003_SOURCE_MANIFEST.md`, commit `3023d95ebb97ef5360554979f1af8aed2c0a67c1`; companion `.json` supplies machine pins.
-- Derivation: `derivations/CD003_STRUCTURAL_COHERENCE_AND_JET_DUALITY.md`, commit `12d2c3afd9f426aebc994f6761def4fccff4c1d5`.
-- Executed code and raw control output: commit `e4034bffb90964232d68025468a8dbffc4dbc36d`.
-- Self-review: `results/CD003_ADVERSARIAL_REVIEW.md`; no independent external referee or second agent is claimed.
+## Critical source correction
 
-The controlling science is the analytic argument, not successful execution or keyword validation of source claims.
+Final upstream snapshot `920144abf49cf4a5a50a8ad016c37fd83fa400f7` restores an omitted node-wise right SU(2) gauge condition. Exact bi-SU(2) covariance of the Toller blocks and invariant boundary intertwiners imply a transitive compact action on N=SU(2)^4. The nonconstant Q^n multipliers are not invariant: Q(t)=12+8 cos(t) differs from20 at a gauge-equivalent identity configuration.
 
-## The exact new mathematical facts
+Thus historical Iter077Q is INVALID_SOURCE_LOCK as physical authority. The independent mathematical family is not a demonstrated subspace of corrected A_corr. CD001 remains a valid conditional infinite-dimensional theorem, but its blanket rejection of every finite scalar-linear K5 selector is no longer supported. CD002-A remains a character theorem, not the source derivation of shape selection.
 
-### T4 - structural reassociation is non-selective
+Upstream Iter081R/S demonstrate instead `J_inv subset A_corr`, `dim J_inv=28`, grades `(1,0,1,0,3,0,7,0,16)` for orders0..8. This is a scalar invariant normal-jet SUBSPACE/LOWER BOUND, not the exact full physical dimension. It includes a surviving order-zero scalar. Source covariance fixes scalar tangential dependence along N; invariant normal jets are still nontrivial. Exact source pins and scope are in the correction manifest.
 
-For fixed contractions of the same decorated graph,
+For m scalar complex-linear conditions on J_inv, only `m<28 => dim ker>=28-m>0` is guaranteed. At m>=28 injectivity on J_inv is algebraically possible, not physically established or sufficient for all sectors. No post-hoc28 conditions were added.
 
-`Z_Gamma(v_1,...,v_n) = C_Gamma(tensor_product_v v_v)`.
+## Surviving new CDSR mathematics
 
-Canonical reparenthesization and legal contraction-order identities hold for every generator assignment in the common well-defined domain D. Therefore, for an extension family E, structural coherence selects exactly `E intersect D`.
+T4: with fixed contractions of the same decorated graph, all canonical reassociation/legal contraction-order equalities hold for every assignment in their common domain D. Therefore their solution set on the corrected extension family is exactly `E_corr intersect D`. No dimensional premise is needed. If admissible jet variations are in D, structural identities do not eliminate them. The physical D is unknown and may itself be selective.
 
-If E is contained in D, no ambiguity direction is removed; in particular the proven W survives. This statement applies to finite tensor contractions and to the explicitly defined regular distributional context domain. It does NOT prove all physical K5 extensions lie in a physical gluing domain. A source-derived restriction of D can have genuine selection power.
+T5: for an admissible finite-normal-order local term, regular context evaluation is
 
-Unlike CD001 this is not a finite-linear-rank obstruction. An arbitrarily large or infinite family of nonlinear-looking graph identities may still be identically satisfied. Unlike Iter079C all pairings, measures/weights and normalization data remain fixed.
+`<sum a_alpha partial_x^alpha delta_N,K> = sum (-1)^|alpha| <a_alpha,partial_x^alpha K|N>`.
 
-### Exact countermodel with fixed gluing data
+For a declared regular context family the invisible space is its normal-test-jet annihilator intersected with the admissible variation sector. Source-fixed equations/values, not separation alone, are needed to turn this into selection. Physical test-jet reach and the full physical quotient remain undefined.
 
-With `B=diag(2,3)`, `X star Y=X B Y` and unit `B^{-1}`, take
+Both theorems have FACT_LEVEL CDSR_EXACT_THEOREM. They do not assert physical gluing or physical observability. No worldwide novelty claim is made; the contribution is the precise exclusion and diagnostic inside CDSR.
 
-`A_lambda = [[1,lambda],[0,1]]`.
+## Fixed-data counterexample and controls
 
-Both parenthesizations of its three-vertex chain equal
+With B=diag(2,3), X star Y=X B Y and unit B^{-1}, A_lambda=[[1,lambda],[0,1]] gives the identical reassociated three-vertex output `[[4,19 lambda],[0,9]]`. The fixed upper-right probe distinguishes lambda0/1 while structural identities hold. No pairing, weight or normalization changes. This is a mathematical tensor countermodel, not the actual K5 amplitude.
 
-`[[4,19 lambda],[0,9]]`.
+Twelve exact symbolic controls were executed twice locally with Python3.13.5 and SymPy1.14.0, with identical raw output. No GitHub Actions run or independent second agent/referee is claimed. The finite tests corroborate identities; they are not the proof of the general theorem or a source authority validator.
 
-The same output probe gives 0 at lambda=0 and 19 at lambda=1, while all structural associativity/unit identities remain true. This is a tensor-calculus countermodel, not a computed physical K5 amplitude.
+- Code commit: `e4034bffb90964232d68025468a8dbffc4dbc36d`.
+- Script `analysis/cd003_exact_controls.py`, SHA256 `08a1e9e09c8a00f97c59c1aec174967e33eb0471ad889b9553671774d0fb7d49`.
+- Output `results/CD003_EXACT_CONTROLS.json`, SHA256 `7296c0790b56dc2afad6054afd6d2ad0c3bcae5940fe0e07fe1e88bd63583cdf`.
+- Preregistration `c3f898a975b56f3f707c00d3e01cf5388934d9f7` predates derivation `12d2c3afd9f426aebc994f6761def4fccff4c1d5` and original terminal result.
 
-### T5 - regular contexts act through the normal test jets
+## Physical source and sector conclusions
 
-In a fixed local chart/density, for an admissible term represented as
+| Item | Current conclusion |
+|---|---|
+| source object | local causal Toller vertex plus parent gluing ingredients; complete causal supported-extension transport still not derived |
+| tangential scalar shape | constant along N by restored source gauge symmetry, not a new multiplicativity axiom |
+| overall scalar | nonzero supported direction survives; physical coefficient/quotient remains unfixed |
+| normal jets | upstream demonstrated scalar invariant subspace28 through order8; actual physical transport and coefficient constraints open |
+| other sectors | full boundary-covariant/representation-valued supported space not classified |
+| equivalence | node compact gauge action restored; complete compositional/observational equivalence not derived |
+| cocycles | no physical groupoid/module/action fixed, so no unrelated H^2 classification |
+| no-smuggling | BLOCKED_NO_PHYSICAL_SELECTOR_OBJECT; arbitrary finite target coefficients can smuggle a choice just as arbitrary functions can |
 
-`u = sum_{|alpha|<=m} a_alpha(y) partial_x^alpha delta(x)`, `m<=8`,
+The missing chain is `I_v: extension -> physical local boundary functional`, then legitimate causal `G_Gamma`, and a source-fixed extension-sensitive `R` or genuine restriction of the gluing domain. Same-graph reassociation cannot replace these objects. Associativity of an unknown multiplication, relations between different complexes, or analytic/spectral/domain conditions can be informative and are NOT excluded.
 
-the exact diagnostic identity is
+## Source records and updated dependencies
 
-`<u,K> = sum_{|alpha|<=m} (-1)^|alpha| <a_alpha, partial_x^alpha K(y,0)>`.
+Primary corpus remains BCG2601.23162v1, BCG2604.24945v1, Beltran2603.22661v2 and KKL0909.0939v5. The correction restores an existing source symmetry; it is not a new publication/version. Iter080B composition blocker is unaffected. Repaired Iter080E remains useful only for its narrow joint-prescription absence, not an exhaustive result on the corrected jet target. S5/WF/causal-sum nonselection is repaired by Iter081S using J_inv, not historical W. Iter080K remains INVALID_PROVENANCE. No Iter081F terminal atlas is imported.
 
-For a declared regular context family K, the residual invisible space is exactly
+## Next admissible question and ceilings
 
-`N_K = ker J_K = A_adm^(m) intersect (span j_N^m K)^perp`.
+Target: RIGHT_SU2_COVARIANT_INVARIANT_JET_SELECTOR_AND_TRANSPORT.
 
-If source-fixed values of these probes are imposed and a solution T0 exists, the solution family is `T0 + N_K`. Full smooth test jets separate the displayed supported distributions, but physical boundary contexts have not been shown to realize those jets. An injective probe map alone distinguishes extensions; it does not select one without source-fixed values or relations.
+Which source-derived coefficient relations or extension-sensitive composition/domain conditions constrain the corrected invariant normal jets, and what residual space remains in additional sectors and modulo a source-defined physical equivalence?
 
-Theorems T4/T5 have FACT_LEVEL `CDSR_EXACT_THEOREM`, with physical application conditional on the specified domain and source map. No physical law receives `SOURCE_DERIVED` status in this gate.
+A corrected pre-existing-candidate census can be a legitimate newly preregistered question because the old W-target predicates were invalid. Finite physically justified conditions are not dismissed in advance. No successor gate was run here.
 
-## Source and composition verdict
-
-The inspected versions are BCG 2601.23162v1, BCG 2604.24945v1, Beltran 2603.22661v2 and KKL 0909.0939v5. Equation-level anchors and signature/domain qualifications are recorded in the source manifest. No published-version delta or universal literature absence theorem is claimed.
-
-The still-missing physical chain is:
-
-`local extension T --I_v--> complete physical boundary functional --G_Gamma--> causal composition --R--> source-fixed extension-sensitive condition`.
-
-The map I_v, legitimate causal composition domain, internal measure/quotient normalization, actual normal-jet image and a non-structural comparison relation are not supplied as a complete supported-extension construction by the current authority. Existing upstream Iter080B and repaired Iter080E blockers remain controlling; this is not a new repeated source census.
-
-New upstream Critic corollaries Iter081H/I/K/L were read and pinned. Proper causal orientation sums retain the local obstruction and supported ambiguity in their stated minimal-spin scope. They are imported as upstream context, not newly executed CDSR results. Iter081F remains without a terminal atlas in the pinned snapshot; Iter080K remains provenance-invalid as a new-authority claim.
-
-## Sector ledger
-
-| Sector | Exact result | What is not established |
-|---|---|---|
-| TANGENTIAL_SHAPE | same-graph structural coherence does not remove W on a common regular domain | physical insertion domain and any stronger source-selected shape law |
-| OVERALL_SCALAR | F delta_N is a nonzero distribution, detectable by suitable mathematical contexts | physical observability, redundancy, or scalar normalization |
-| NORMAL_JETS | exact dual test-jet formula and annihilator; zeroth normal trace alone misses positive jets | actual physical jet transport, mixing matrix, kernel dimension or elimination |
-| OTHER_SUPPORTED_SECTORS | structural theorem is independent of coefficients wherever operations exist | exhaustive A_B classification or treatment of additional physical strata |
-| PHYSICAL_EQUIVALENCE | all-context nullity gives a conditional compositional criterion | actual source-defined probe class, its closure, and a physical quotient |
-| COCYCLE_PROJECTIVE_ESCAPE | no physical domain/module/action derived; no irrelevant H^2 computed | physical deformation classification |
-
-## No-smuggling audit
-
-The fixed pairing and probe in the matrix countermodel are mathematical controls. Smooth compact kernels are diagnostic contexts, not a physical regulator or a replacement for the causal measure. Their choice is not advertised as selecting an extension.
-
-A future positive selector must fix its physical contexts, comparison maps and target values independently. Setting the target values to evaluations of a preferred T would move extension ambiguity into selector input. The physical no-smuggling status here is `BLOCKED_NO_PHYSICAL_SELECTOR_OBJECT`, not PASS. No new physical principle was introduced.
-
-## Counterexamples and controls
-
-Twelve exact controls were actually executed locally with Python 3.13.5 / SymPy 1.14.0. They include symbolic three-/four-vertex reassociation, fixed unit, reversal, illegal swapping, distinct output at fixed pairing, a non-structural generator equation, normal orders 0/1/2/8, mixed derivatives, an invisible/visible first-jet pair, local jet-order mixing and the diagonal wavefront warning.
-
-`analysis/cd003_exact_controls.py` SHA256:
-`08a1e9e09c8a00f97c59c1aec174967e33eb0471ad889b9553671774d0fb7d49`.
-
-`results/CD003_EXACT_CONTROLS.json` SHA256:
-`7296c0790b56dc2afad6054afd6d2ad0c3bcae5940fe0e07fe1e88bd63583cdf`.
-
-Reproduction:
-
-```sh
-python -m pip install -r analysis/requirements-cd003.txt
-python analysis/cd003_exact_controls.py --output /tmp/cd003-controls.json
-```
-
-No GitHub Actions execution, full-amplitude computation or finite-sample proof of the general theorem is claimed. The recorded runtime is an execution record, not a package compatibility claim for every Python environment.
-
-## Scope boundaries that remain decisive
-
-Associativity of an unknown multiplication, a Pachner/refinement comparison, an idempotency equation for a generator, a source-fixed spectral condition or a closure/domain restriction may constrain the extension. These are NOT identical to structural reassociation and are NOT ruled out. Singular gluing requires independent distributional justification. The local normal-order expression is not a canonical complete physical decomposition. Mathematical distinguishability is not physical inequivalence.
-
-## New physics and claim ceiling
-
-New physical selection principle: NONE ESTABLISHED.
-New recorded CDSR mathematics: T4/T5 and the explicit fixed-map countermodel. These use standard tensor/distribution reasoning, with no worldwide novelty claim.
-
-All eight major false claim locks remain false: UNIQUE_K5_EXTENSION, PHYSICAL_SELECTOR_DERIVED, CRQN_V0_3_AUTHORIZED, REGULATOR_INDEPENDENCE, RG_CLOSURE, CAUSAL_MULTIVERTEX_CLOSURE, NEW_PHYSICS_FOUND, QUANTUM_GRAVITY_SOLVED.
-
-## Exact next admissible question
-
-Identify or derive an independently source-fixed, extension-sensitive relation OR a genuine gluing-domain restriction, and define its insertion map on supported K5 distributions. Then determine its actual normal test-jet image and residual kernel modulo a source-justified physical equivalence.
-
-Do not reopen same-graph reassociation, finite moments, finite orientation sums or the unchanged source census as possible cures. Do not manufacture the comparison kernel, its target values, or a physical quotient from the desired extension. A new source derivation or an explicitly new prospectively motivated principle is required for the next positive physical step; this result does not prove that the latter is unavoidable.
+All major unique-extension, physical-selector, CRQN v0.3, regulator-independence, causal-closure, RG, new-physics and complete-QG flags remain false. No physical infinite tangential subspace, exact total dimension28, sufficiency of28 conditions, or inevitability of a new physical axiom is claimed.
