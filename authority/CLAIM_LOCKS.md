@@ -1,6 +1,6 @@
-# Claim locks after CD003
+# Claim locks - corrected source scope
 
-False means not established/authorized, not a universal impossibility theorem.
+Authority: results/CD003_SOURCE_LOCK_ERRATUM.md at 05f678e1e8e087a1a85b3bbb75ac1a58b5317317; corrected CD003 result at fa66376ae481f07975f9b0732ee038af52e37148. False means not established, not universal impossibility.
 
 ```text
 UNIQUE_K5_EXTENSION = false
@@ -11,26 +11,24 @@ RG_CLOSURE = false
 CAUSAL_MULTIVERTEX_CLOSURE = false
 NEW_PHYSICS_FOUND = false
 QUANTUM_GRAVITY_SOLVED = false
+INFINITE_DIMENSIONAL_SOURCE_COMPATIBLE_W_ESTABLISHED = false
+CD001_UNIVERSAL_FINITE_SELECTOR_K5_NO_GO = false
+FULL_PHYSICAL_AMBIGUITY_DIMENSION_KNOWN = false
+TWENTY_EIGHT_CONDITIONS_PHYSICALLY_SUFFICIENT = false
 PHYSICAL_EQUIVALENCE_QUOTIENT_COMPLETE = false
 NORMAL_JET_SELECTOR_COMPLETE = false
 OVERALL_SUPPORTED_SCALAR_FIXED = false
 JOINT_K5_REGULATOR_DERIVED = false
 ITER081F_TERMINAL_RESULT_IMPORTED = false
 ITER080K_NEW_PRIMARY_AUTHORITY_VALID = false
-```
-
-Established scoped facts:
-
-```text
-INFINITE_DIMENSIONAL_AMBIGUITY_WITNESS = true
-FINITE_LINEAR_SELECTOR_IMPOSSIBILITY_SCOPED = true
-MULTIPLICATIVE_SELECTOR_POWER_CONDITIONAL_SCOPED = true
+RIGHT_SU2_SOURCE_COVARIANCE_REQUIRED = true
+SCALAR_INVARIANT_JET_SUBSPACE_DIM28_ESTABLISHED = true
+CD001_FORMAL_INFINITE_PREMISE_THEOREM_VALID = true
+CD002A_CONDITIONAL_CHARACTER_THEOREM_VALID = true
 STRUCTURAL_GLUING_NONSELECTION_COMMON_DOMAIN_SCOPED = true
 REGULAR_CONTEXT_NORMAL_JET_DUALITY_SCOPED = true
 CURRENT_CDSR_TERMINAL_ITERATION = CD003
-CURRENT_FRONTIER = SOURCE_FIXED_EXTENSION_SENSITIVE_RELATION_OR_GLUING_DOMAIN
+CURRENT_FRONTIER = RIGHT_SU2_COVARIANT_INVARIANT_JET_SELECTOR_AND_TRANSPORT
 ```
 
-T4/T5 authority is `results/CD003_STRUCTURAL_GLUING_RESULT.md`, commit `f49040aac1a7be0dcd9ccf30484620c5cc028003`. Their true flags are mathematical claims only. Physical gluing-domain membership, jet transport and probe equivalence are not inferred from them. The prior CD001/CD002-A results remain unchanged.
-
-Physical law status must be SOURCE_DERIVED or NEW_PHYSICAL_PRINCIPLE. Conditional controls do not authorize either implicitly. The CD003 physical no-smuggling status is BLOCKED_NO_PHYSICAL_SELECTOR_OBJECT. No claim can be promoted using a readiness score or a successful script.
+The28 flag refers to an upstream demonstrated scalar subspace, not total physical dimension. The source-compatible infinite-W flag is withdrawn; do not infer it from unchanged historical files. Restored compact covariance is existing source content, not a new physical selection principle. Formal mathematical identities and successful controls cannot flip physical flags.

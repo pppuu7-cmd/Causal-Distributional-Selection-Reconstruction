@@ -1,46 +1,42 @@
 {
   "repository": "pppuu7-cmd/Causal-Distributional-Selection-Reconstruction",
   "state_date": "2026-09-14",
-  "programme_status": "CD003_TERMINAL_MATHEMATICS_PHYSICAL_BRIDGE_BLOCKED",
-  "recovery_baseline_commit": "1f6a30f813ff712d2935c66b712d3399bf229a03",
+  "programme_status": "CD003_SOURCE_CORRECTED_MATHEMATICS_VALID_PHYSICAL_BRIDGE_BLOCKED",
   "current_terminal_iteration": "CD003",
   "current_terminal_status": "PASS_MATHEMATICS_BLOCKED_PHYSICAL_BRIDGE",
   "current_terminal_classification": "CD003_STRUCTURAL_GLUING_COHERENCE_IS_SELECTOR_BLIND_PHYSICAL_EXTENSION_TRANSPORT_UNESTABLISHED_SCOPED",
   "current_terminal_result": "results/CD003_STRUCTURAL_GLUING_RESULT.md",
-  "current_terminal_result_commit": "f49040aac1a7be0dcd9ccf30484620c5cc028003",
-  "current_frontier": "SOURCE_FIXED_EXTENSION_SENSITIVE_RELATION_OR_GLUING_DOMAIN",
-  "programme_question": "SOURCE_FAITHFUL_CAUSAL_COMPOSITION_TO_EXTENSION_COHERENCE_LAW",
-  "established_theorem_ids": [
-    "T1_UPSTREAM_ITER077Q_INFINITE_DIMENSIONAL_AMBIGUITY_WITNESS",
-    "T2_CD001_FINITE_LINEAR_SELECTOR_IMPOSSIBILITY",
-    "T3_CD002A_NORMALIZED_MULTIPLICATIVE_CHARACTER_TRIVIALITY_CONDITIONAL",
-    "T4_CD003_STRUCTURAL_GLUING_NONSELECTION_COMMON_DOMAIN",
-    "T5_CD003_REGULAR_CONTEXT_JET_DUALITY_AND_ANNIHILATOR"
-  ],
-  "open_blockers": [
-    "O1_PHYSICAL_COMPOSITION_LAW_NOT_DERIVED",
-    "O2_OVERALL_SUPPORTED_SCALAR_NOT_FIXED",
-    "O3_PHYSICAL_NORMAL_JET_TRANSPORT_AND_KERNEL_UNDETERMINED",
-    "O4_PHYSICAL_COCYCLE_MODULE_ACTION_AND_CLASSIFICATION_UNDEFINED",
-    "O5_PHYSICAL_EQUIVALENCE_QUOTIENT_INCOMPLETE",
-    "O6_SOURCE_FAITHFUL_CAUSAL_MULTIVERTEX_BRIDGE_INCOMPLETE"
-  ],
-  "exact_missing_objects": [
-    "I_v: local supported extension to complete physical boundary functional",
-    "G_Gamma: causal composition with legitimate common domain, measures and quotient",
-    "R: non-structural extension-sensitive source relation or source-defined domain restriction",
-    "physical context test-jet image and all-context equivalence"
-  ],
+  "current_terminal_result_commit": "fa66376ae481f07975f9b0732ee038af52e37148",
+  "original_terminal_result_commit": "f49040aac1a7be0dcd9ccf30484620c5cc028003",
+  "controlling_erratum": "results/CD003_SOURCE_LOCK_ERRATUM.md",
+  "controlling_erratum_commit": "05f678e1e8e087a1a85b3bbb75ac1a58b5317317",
+  "source_application_status": "ITER077Q_PHYSICAL_APPLICATION_WITHDRAWN",
+  "current_frontier": "RIGHT_SU2_COVARIANT_INVARIANT_JET_SELECTOR_AND_TRANSPORT",
+  "established_theorem_ids": ["CD001_FORMAL_INFINITE_PREMISE_ONLY", "CD002A_CONDITIONAL_CHARACTER_ONLY", "T4_CD003_COMMON_DOMAIN_STRUCTURAL_NONSELECTION", "T5_CD003_REGULAR_CONTEXT_JET_DUALITY", "UPSTREAM_ITER081R_JINV28", "UPSTREAM_ITER081S_REPAIRED_CONSEQUENCES"],
+  "corrected_ambiguity": {
+    "notation": "E_corr = Ext_Bcorr(t0) = T_* + A_corr in the established affine scope",
+    "demonstrated_subspace": "J_inv",
+    "scalar_subspace_dimension": 28,
+    "graded_dimensions_0_through_8": [1,0,1,0,3,0,7,0,16],
+    "normal_fiber": "spin1_SO3 tensor Std5_S5",
+    "scalar_orbit_shape_fixed_by_source_gauge": true,
+    "historical_W_source_compatible": false,
+    "full_physical_dimension_known": false,
+    "finite_linear_guaranteed_obstruction": "m<28 on J_inv; no universal finite-list exclusion"
+  },
+  "open_blockers": ["source-derived corrected coefficient relations", "I_v and complete causal G_Gamma domain", "overall supported scalar physical normalization or redundancy", "actual invariant-jet transport and additional sectors", "full physical equivalence", "physical cocycle domain/module/action"],
   "source_locks": {
-    "upstream_snapshot": "9b2f9e5f31e294470c630ebff196f67a2de5ad18",
-    "new_upstream_scoped_corollaries": ["Iter081H", "Iter081I", "Iter081K", "Iter081L"],
-    "primary_versions": ["2601.23162v1", "2604.24945v1", "2603.22661v2", "0909.0939v5"],
+    "previous_upstream_snapshot": "9b2f9e5f31e294470c630ebff196f67a2de5ad18",
+    "upstream_snapshot": "920144abf49cf4a5a50a8ad016c37fd83fa400f7",
+    "iter077q_physical_status": "INVALID_SOURCE_LOCK",
+    "right_SU2_covariance_required": true,
+    "corrected_jet_result": "5fe42e766aab2660b36c654502a029930db28890",
+    "corrected_consequences": "8c2fc23084e89c39f624853ac0d445e3103850d1",
     "iter080k_new_primary_authority_valid": false,
     "iter081f_terminal_atlas_imported": false,
-    "parent_causal_inheritance_established": false,
-    "physical_gluing_domain_established": false,
-    "all_mathematical_tests_are_physical_probes": false,
-    "physical_law_status": null
+    "primary_versions": ["2601.23162v1", "2604.24945v1", "2603.22661v2", "0909.0939v5"],
+    "physical_law_derived": false,
+    "upstream_invariant_count_rerun": false
   },
   "prohibited_claims": {
     "UNIQUE_K5_EXTENSION": false,
@@ -50,56 +46,36 @@
     "RG_CLOSURE": false,
     "CAUSAL_MULTIVERTEX_CLOSURE": false,
     "NEW_PHYSICS_FOUND": false,
-    "QUANTUM_GRAVITY_SOLVED": false
-  },
-  "established_scoped_claims": {
-    "INFINITE_DIMENSIONAL_AMBIGUITY_WITNESS": true,
-    "FINITE_LINEAR_SELECTOR_IMPOSSIBILITY_SCOPED": true,
-    "MULTIPLICATIVE_SELECTOR_POWER_CONDITIONAL_SCOPED": true,
-    "STRUCTURAL_GLUING_NONSELECTION_COMMON_DOMAIN_SCOPED": true,
-    "REGULAR_CONTEXT_NORMAL_JET_DUALITY_SCOPED": true
+    "QUANTUM_GRAVITY_SOLVED": false,
+    "INFINITE_DIMENSIONAL_SOURCE_COMPATIBLE_W_ESTABLISHED": false,
+    "FULL_PHYSICAL_AMBIGUITY_DIMENSION_KNOWN": false,
+    "TWENTY_EIGHT_CONDITIONS_PHYSICALLY_SUFFICIENT": false
   },
   "recommended_pro_target": {
-    "question": "Which independently source-fixed non-structural relation or genuine gluing-domain restriction acts on full supported K5 extension data, and what residual test-jet annihilator remains modulo a source-defined physical equivalence?",
-    "no_successor_preregistration_yet": true,
-    "do_not_repeat": ["finite scalar moment gates", "same-graph structural reassociation", "finite causal orientation sums as a cure", "unchanged primary source census"]
+    "question": "Which source-derived coefficient relations or extension-sensitive gluing/domain conditions constrain corrected invariant normal jets, and what residual freedom remains in additional sectors modulo a source-defined physical equivalence?",
+    "corrected_candidate_census_allowed_prospectively": true,
+    "finite_source_derived_equations_eligible": true,
+    "new_gate_executed_after_correction": false
   },
   "dependency_graph": [
-    {"from":"Iter077Q_W","to":"finite_linear_selector","status":"NO_UNIQUENESS_CD001"},
-    {"from":"normalized_multiplicativity","to":"f_equals_1","status":"CONDITIONAL_CD002A"},
-    {"from":"same_graph_structural_coherence","to":"E_intersect_D","status":"NO_ADDITIONAL_REDUCTION_CD003"},
-    {"from":"physical_I_v_G_Gamma_D","to":"extension_sensitive_R","status":"OPEN"},
-    {"from":"regular_context_family","to":"normal_jet_annihilator","status":"EXACT_CONDITIONAL_DIAGNOSTIC_CD003"},
-    {"from":"physical_R_and_context_image","to":"residual_scalar_jets_quotient","status":"OPEN"},
-    {"from":"all_mandatory_sectors_and_equivalence","to":"unique_physical_extension","status":"OPEN"},
-    {"from":"unique_physical_extension","to":"regulator_independence_and_reintegration","status":"OPEN"}
+    {"from":"node_SU2_covariance","to":"scalar_tangential_orbit_constancy","status":"UPSTREAM_SOURCE_DERIVED"},
+    {"from":"Iter077L_and_corrected_symmetries","to":"J_inv28","status":"UPSTREAM_ITER081R"},
+    {"from":"same_graph_structural_coherence","to":"E_corr_intersect_D","status":"CD003_EXACT_COMMON_DOMAIN"},
+    {"from":"regular_context_family","to":"test_jet_annihilator","status":"CD003_EXACT_DIAGNOSTIC"},
+    {"from":"physical_insertion_domain_and_coefficient_equations","to":"jet_kernel_and_full_physical_quotient","status":"OPEN"},
+    {"from":"all_sectors_and_equivalence","to":"unique_extension_and_downstream_reintegration","status":"OPEN"}
   ],
-  "readiness": {
-    "meaning": "historical preparation readiness, not scientific correctness",
-    "historical_score": 10,
-    "out_of": 10,
-    "historical_audit_commit": "1f6a30f813ff712d2935c66b712d3399bf229a03",
-    "current_run_rescored": false
-  },
+  "readiness": {"historical_score":10,"historical_audit_commit":"1f6a30f813ff712d2935c66b712d3399bf229a03","meaning":"preparation readiness only, not source correctness","current_run_rescored":false},
   "execution": {
-    "type": "local_container_exact_controls",
-    "count": 12,
-    "verdict": "PASS_EXACT_CONTROLS",
-    "code_commit": "e4034bffb90964232d68025468a8dbffc4dbc36d",
-    "script_sha256": "08a1e9e09c8a00f97c59c1aec174967e33eb0471ad889b9553671774d0fb7d49",
-    "output_sha256": "7296c0790b56dc2afad6054afd6d2ad0c3bcae5940fe0e07fe1e88bd63583cdf",
-    "github_actions_run": null,
-    "independent_external_review": false
+    "type":"local_container_exact_controls",
+    "count":12,
+    "verdict":"PASS_EXACT_CONTROLS",
+    "code_commit":"e4034bffb90964232d68025468a8dbffc4dbc36d",
+    "script_sha256":"08a1e9e09c8a00f97c59c1aec174967e33eb0471ad889b9553671774d0fb7d49",
+    "output_sha256":"7296c0790b56dc2afad6054afd6d2ad0c3bcae5940fe0e07fe1e88bd63583cdf",
+    "unchanged_after_source_correction":true,
+    "github_actions_run":null,
+    "independent_external_review":false
   },
-  "current_artifacts": [
-    "prereg/CD003_STRUCTURAL_GLUING_VS_EXTENSION_SELECTION.md",
-    "sources/CD003_SOURCE_MANIFEST.md",
-    "sources/CD003_SOURCE_MANIFEST.json",
-    "derivations/CD003_STRUCTURAL_COHERENCE_AND_JET_DUALITY.md",
-    "analysis/cd003_exact_controls.py",
-    "analysis/requirements-cd003.txt",
-    "results/CD003_EXACT_CONTROLS.json",
-    "results/CD003_ADVERSARIAL_REVIEW.md",
-    "results/CD003_STRUCTURAL_GLUING_RESULT.md"
-  ]
+  "current_artifacts": ["prereg/CD003_STRUCTURAL_GLUING_VS_EXTENSION_SELECTION.md", "results/CD003_SOURCE_LOCK_ERRATUM.md", "sources/CD003_SOURCE_CORRECTION_MANIFEST.json", "sources/CD003_SOURCE_MANIFEST.md", "derivations/CD003_STRUCTURAL_COHERENCE_AND_JET_DUALITY.md", "analysis/cd003_exact_controls.py", "analysis/requirements-cd003.txt", "results/CD003_EXACT_CONTROLS.json", "results/CD003_STRUCTURAL_GLUING_RESULT.md"]
 }

@@ -1,32 +1,21 @@
 {
-  "gate": "CD003_STRUCTURAL_GLUING_VS_EXTENSION_SELECTION",
-  "prereg_commit": "c3f898a975b56f3f707c00d3e01cf5388934d9f7",
-  "upstream_repository": "pppuu7-cmd/Mechanism-Synthesis-QG-Reconstruction",
-  "upstream_snapshot": "9b2f9e5f31e294470c630ebff196f67a2de5ad18",
-  "upstream_url_template": "https://github.com/pppuu7-cmd/Mechanism-Synthesis-QG-Reconstruction/blob/{commit}/{path}",
-  "primary_sources": [
-    {"id":"P1","authors":"Bianchi, Chen, Gamonal","title":"Causal spinfoam vertex for 4d Lorentzian quantum gravity","version":"2601.23162v1","version_date":"2026-01-30","url":"https://arxiv.org/html/2601.23162v1","anchors":["Eq. (3)","Eq. (4)","Section V(ii)","Section V(vi)"]},
-    {"id":"P2","authors":"Bianchi, Chen, Gamonal","title":"Toller matrices and the Feynman i epsilon in spinfoams","version":"2604.24945v1","version_date":"2026-04-27","url":"https://arxiv.org/html/2604.24945v1","anchors":["Eqs. (7)-(12)","Eq. (14)","Eq. (15)","Section III.1"]},
-    {"id":"P3","authors":"Carlos E. Beltran","title":"Causal Structure for Generalized Spinfoams","version":"2603.22661v2","version_date":"2026-08-03","url":"https://arxiv.org/html/2603.22661v2","anchors":["Eq. (15)","Eqs. (25)-(27)","Eq. (36)","Section 5.2","Section 6"]},
-    {"id":"P4","authors":"Kaminski, Kisielowski, Lewandowski","title":"Spin-Foams for All Loop Quantum Gravity","version":"0909.0939v5","version_date":"2011-09-23","url":"https://arxiv.org/html/0909.0939v5","anchors":["Section II","Eqs. (38)-(44)","Section IV: Euclidean specialization"]}
+  "gate":"CD003_STRUCTURAL_GLUING_VS_EXTENSION_SELECTION",
+  "prereg_commit":"c3f898a975b56f3f707c00d3e01cf5388934d9f7",
+  "initial_source_record_commit":"3023d95ebb97ef5360554979f1af8aed2c0a67c1",
+  "initial_machine_record_commit":"f49040aac1a7be0dcd9ccf30484620c5cc028003",
+  "status":"SOURCE_CORRECTED_AFTER_TERMINAL_MATHEMATICS",
+  "current_upstream_snapshot":"920144abf49cf4a5a50a8ad016c37fd83fa400f7",
+  "correction_records":"sources/CD003_SOURCE_CORRECTION_MANIFEST.json",
+  "source_comments":"sources/CD003_SOURCE_MANIFEST.md",
+  "primary_sources":[
+    {"id":"P1","version":"2601.23162v1","url":"https://arxiv.org/html/2601.23162v1","anchors":["Eq3","Eq4","SectionV"]},
+    {"id":"P2","version":"2604.24945v1","url":"https://arxiv.org/html/2604.24945v1","anchors":["Eq13 compact covariance","Eq14 nonrepresentation","Eq15 sum","SectionIII.1 one-wedge uniqueness"]},
+    {"id":"P3","version":"2603.22661v2","url":"https://arxiv.org/html/2603.22661v2","anchors":["Eq15","Eqs25-27","Eq36","Sections5.2,6"]},
+    {"id":"P4","version":"0909.0939v5","url":"https://arxiv.org/html/0909.0939v5","anchors":["SectionII compact group","Eqs38-44","SectionIV Euclidean"]}
   ],
-  "retrieval_qualification": "Versioned HTML and metadata inspected; no raw byte checksum or published-version delta claimed. None is new primary authority.",
-  "upstream": [
-    {"id":"U077L","path":"results/ITER077L_SM_TRANSVERSE_SCALING_DEGREE_EXTENSION_THEOREM_RESULT.md","commit":"9b2f9e5f31e294470c630ebff196f67a2de5ad18","pin_type":"snapshot_not_original_result_commit","blob_sha":"e48d8a3e1899c5e064aaf0da33c48c7466bccdc5","scope":"Local codim12/sd20 extension theorem; normal-order ceiling8, not all jets physically allowed."},
-    {"id":"U077Q","path":"results/ITER077Q_SM_INVARIANT_TANGENTIAL_AMBIGUITY_RESULT.md","commit":"5941b3a064d93f2898d9e9a48545826e950455f1","blob_sha":"26aa90965ccfe495f55df2f4c190f7bbe09093f4","scope":"Countable independent supported witness W, not all A_B."},
-    {"id":"U079C","path":"results/ITER079C_SM_MINIMAL_TWO_VERTEX_COMPOSITION_UNIQUENESS_RESULT.md","commit":"0a502c439e3e1069d19b66bb7a8bd65928f537bf","blob_sha":"197f4c7892e41b7c28a1ecfb0390fa39b013f67d","scope":"Historical variable-pairing/weight obstruction, not CD003 fixed-map theorem."},
-    {"id":"U080B","path":"results/ITER080B_SM_E3_E4_E6_JOINT_SOURCE_BRIDGE_RESULT.md","commit":"3a21afe528ca098fc7258388bc03ac125f26b5c8","blob_sha":null,"scope":"Causal E3/E4/E6 source bridge blocker in frozen corpus."},
-    {"id":"U080E","path":"results/ITER080E_SM_CONTROL_ONLY_SOURCE_PREDICATE_REPAIR_RESULT.md","commit":"bc5acbb8fd5b5ea93b267a382ef9a833ea2422c7","blob_sha":null,"scope":"Repaired frozen-corpus selector blocker, not universal absence."},
-    {"id":"U080J","path":"results/ITER080J_SM_MICROLOCAL_WF_ONLY_SELECTOR_POWER_RESULT.md","commit":"e9d1867fc8a1026ed678aac0e3c768c654c39487","blob_sha":null,"scope":"WF-only non-selection, not all microlocal restrictions."},
-    {"id":"U080K_REVIEW","path":"results/ITER080K_ADVERSARIAL_PROVENANCE_REVIEW.md","commit":"691436f7c8e14ee7efd77b1e85146136f73e8553","blob_sha":null,"scope":"INVALID_PROVENANCE for false new-source trigger."},
-    {"id":"U081H","path":"results/ITER081H_CRITIC_BELTRAN_CAUSAL_SUM_L1_COROLLARY.md","commit":"56a7d831da5b7703fe55bc4c91d949960b60a8bd","blob_sha":"d5c29586fa8dae93028547f18a9b15d6df20d370","role":"upstream_critic_exact_corollary","scope":"Eta-plus local non-L1 corollary, not full divergence."},
-    {"id":"U081I","path":"results/ITER081I_CRITIC_BELTRAN_CAUSAL_SUM_EXTENSION_AMBIGUITY_COROLLARY.md","commit":"411719e26129fc7ab2a4b9ad9ccf5750c5843917","blob_sha":"3e31db93204ed7982dfbcbf18b35217ec5537a86","role":"upstream_critic_exact_corollary","scope":"Persistence of W after eta-plus sum."},
-    {"id":"U081K","path":"results/ITER081K_CRITIC_BOTH_CAUSAL_SIGNATURE_SECTORS_L1_COROLLARY.md","commit":"2793da94390a226217360bf6fbeb97ff4d8e3bde","blob_sha":"2ee156aed61ef300e16519b7d4eccf661afbe20b","role":"upstream_critic_exact_corollary","scope":"Both proper causal signatures retain local leading singularity and ambiguity."},
-    {"id":"U081L","path":"results/ITER081L_CRITIC_NONCAUSAL_SECTORS_REQUIRED_FOR_EPRL_LEADING_POLE_CANCELLATION.md","commit":"b29aa4a6e49dff412b0eea43834ba72bd855c074","blob_sha":"058e53b6e680e002dfd728c53e6bb8972e0a56ec","role":"upstream_critic_exact_corollary","scope":"Unrestricted leading cancellation uses noncausal contributions; no physical requirement to include them."}
-  ],
-  "new_upstream_ids": ["U081H","U081I","U081K","U081L"],
-  "iter081f_terminal_atlas_imported": false,
-  "physical_transport_law_established": false,
-  "production_artifacts_rerun": false,
-  "interpretation_ceiling": "Exact versions and scoped imports only; no universal literature absence theorem."
+  "primary_version_delta_claimed":false,
+  "raw_source_checksum_claimed":false,
+  "historical_W_source_compatible":false,
+  "upstream_Jinv28_recomputed_here":false,
+  "physical_transport_derived":false
 }

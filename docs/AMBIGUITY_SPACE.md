@@ -1,120 +1,29 @@
-# Ambiguity Space — Neutral Notation
+# Corrected ambiguity space
 
-This document records only structure already supported by upstream authority. It is intentionally weaker than a decomposition theorem.
+Authority: results/CD003_SOURCE_LOCK_ERRATUM.md and upstream Iter081R/S, pinned in sources/CD003_SOURCE_CORRECTION_MANIFEST.json.
 
-## Base extension problem
+Use E_corr=Ext_{B_corr}(t0), with B_corr including node-wise right SU(2) covariance of the fully contracted causal vertex. In its established affine scope write E_corr=T_*+A_corr. No preferred reference, complete decomposition, or global all-collision extension is inferred.
 
-Let `t0` be the frozen source-ordered K5 distribution away from the common-collision set and `B` the frozen admissibility conditions. Define
+## Withdrawn inclusion
 
-```text
-Ext_B(t0) = {T in D'(X) : T|_(X\N)=t0 and B[T]=0}.
-```
+Historical W=span{Q^n F delta_N} is mathematically infinite-dimensional but NOT an established physical subspace of A_corr. Its nonconstant scalar multiplier violates a source gauge symmetry omitted in Iter077Q. Do not write W subset A_corr or infer a universal finite-selector no-go from it.
 
-If nonempty, choose one reference extension `T_*` and define the ambiguity vector space by differences of admissible extensions:
+## Safe corrected inclusion
 
-```text
-A_B = {T-T_* : T in Ext_B(t0)}.
-```
+`J_inv subset A_corr`, `dim J_inv=28`.
 
-Then, as affine notation,
+This is the upstream demonstrated scalar invariant normal-jet subspace in the frozen minimal-spin sector, with graded dimensions `(1,0,1,0,3,0,7,0,16)` for normal orders0..8. Its normal fiber is spin1_SO(3) tensor Std5_S5. Twenty-eight is a subspace dimension/lower bound, not the exact total physical dimension.
 
-```text
-Ext_B(t0)=T_*+A_B.
-```
+The compact node action is transitive on N=SU(2)^4. Invariant scalar tangential coefficients are constant along this orbit. Equivariant jet coefficients are constrained fiber data, not arbitrary smooth functions on N. Scalar order-zero c F delta_N remains nonzero; positive even invariant normal-symbol orders contribute the other demonstrated scalar directions.
 
-No preferred `T_*` is asserted by this notation.
+## Unclassified scope
 
-## Proven tangential sector
+Boundary-covariant coefficient maps, representation-valued jets, other source structures and compatibility across strata are not fully classified. There is no declared direct-sum split into tangential, normal and other spaces. Finite order8 does not by itself determine the full physical dimension; neither finite nor infinite total dimension is asserted.
 
-Upstream Iter077Q proves only an inclusion. Introduce `A_tan` as a label for the smooth tangential supported sector known to contain the Iter077Q witness. The safe statements are
+## Effect of CDSR results
 
-```text
-A_B ⊇ A_tan
-```
+CD001 requires an actual infinite-dimensional admissible subspace. Its theorem survives abstractly; this physical application does not. Iter081S gives the corrected m<28 rank obstruction on J_inv; m>=28 may be injective there but requires actual source authority/rank and full-sector reach.
 
-and
+CD002-A remains conditional mathematical power, not the reason source gauge removes scalar orbit dependence. CD003 T4 is dimension-independent and yields E_corr intersect D; the physical gluing domain D remains missing. T5 gives a regular-context jet annihilator after restricting to corrected admissible data.
 
-```text
-A_tan ⊇ W,
-W := span_C{Q(y)^n F(y) delta_N(x) : n>=0}.
-```
-
-`W` is countably infinite-dimensional because the displayed family is linearly independent.
-
-Do **not** infer any of the following without a new theorem:
-
-```text
-A_B = A_tan
-A_tan = W
-A_B = W ⊕ A_normal
-```
-
-or any other exhaustive/direct-sum decomposition.
-
-## Scalar coefficient versus tangential shape
-
-Two notions must be kept distinct:
-
-- **tangential shape freedom:** variation of the smooth function multiplying a supported distribution along `N`; Iter077Q proves an infinite-dimensional witness for this;
-- **overall supported scalar coefficient:** even if a conditional law reduces a multiplier shape to a constant function, a coefficient multiplying the supported term may remain unless a separate normalization/coherence rule fixes it.
-
-CD002-A acts only on a prospectively assumed normalized multiplicative tangential multiplier. It does not prove that the physical ambiguity is exhausted by such multipliers and it does not provide a physical scalar normalization law.
-
-## Normal-derivative / normal-jet sectors
-
-Upstream Iter077L establishes in the frozen scaling-degree scope:
-
-- `N=SU(2)^4`;
-- real codimension `12`;
-- transverse scaling degree `20`;
-- extension differences may involve normal derivatives through order `8`, with coefficient data along `N` subject to further conditions.
-
-It is therefore safe to say that the current extension problem includes a **normal-jet frontier through order 8**. It is not safe to declare a specific direct-sum basis or to assert that every formal normal derivative is independently physically admissible.
-
-## Potentially other supported sectors
-
-Current authority does not provide an exhaustive classification of all source-compatible supported differences. Therefore CDSR reserves the label
-
-```text
-A_other := potentially remaining supported sectors not classified by current theorems
-```
-
-only as prose shorthand. `A_other` is **not** a defined vector-space summand and must not appear in algebraic decompositions unless a later gate defines it.
-
-## What CD002-A actually controls
-
-Conditional hypothesis:
-
-```text
-f:SU(2)^4 -> C,
-f(gh)=f(g)f(h),
-f(e)=1.
-```
-
-Exact conditional conclusion:
-
-```text
-f=1.
-```
-
-Thus CD002-A demonstrates that such a functional law has enough mathematical power to eliminate nonconstant smooth tangential **shape** freedom in its domain.
-
-It does not establish:
-
-- that actual causal composition induces that law;
-- that all of `A_tan` is parameterized by one such `f`;
-- that the overall supported scalar is fixed;
-- that the normal-jet tower is fixed;
-- that two remaining extensions are physically inequivalent;
-- unique K5 extension.
-
-## Minimum burden for a future uniqueness claim
-
-A future uniqueness theorem must state explicitly:
-
-1. which sector(s) of `A_B` the selector acts on;
-2. which sectors are proved absent, quotient-null, or fixed;
-3. how the overall scalar is handled;
-4. how all allowed normal jets are handled;
-5. the physical equivalence relation used in “unique”;
-6. the source authority or explicit new-principle status of every selector datum.
+Physical uniqueness requires both actual selector equations and a defined physical quotient, with scalar, invariant jets and any additional sectors handled explicitly. No such full selection is established.

@@ -1,41 +1,35 @@
-# CD003 adversarial mathematical review
+# CD003 adversarial self-review - source-corrected
 
-Review type: same-session self-review, not a second independent agent, external referee, or independent production reproduction. The general proof is in `derivations/CD003_STRUCTURAL_COHERENCE_AND_JET_DUALITY.md`. The executable controls corroborate particular identities but are not a proof oracle.
+This is a same-session self-review, not independent peer review or a second agent. The initial review at f49040aac1a7be0dcd9ccf30484620c5cc028003 did not detect the omitted physical node gauge condition; the final upstream check did. The resulting mandatory correction is results/CD003_SOURCE_LOCK_ERRATUM.md at05f678e1e8e087a1a85b3bbb75ac1a58b5317317.
 
-| Attack | Resolution and retained limitation |
+## Decisive source attack
+
+Historical Iter077Q froze an incomplete source lock set. Exact compact node covariance is implied by Toller Eq13 plus invariant intertwiners. Nonconstant Q^n on the transitive gauge orbit violates it. This succeeds against the PHYSICAL W premise and every downstream claim requiring that premise. Mathematical independence, the formal CD001 theorem, the CD002-A character theorem and dimension-independent CD003 T4/T5 remain valid.
+
+Upstream Iter081R/S supplies corrected J_inv28, not a total dimension theorem. Its count was read/imported, not independently recomputed here. Conditional CD003 applications must now use corrected admissible sectors; no physical full-W corollary remains.
+
+## Mathematical attacks retained
+
+| Attack | Resolution / limit |
 |---|---|
-| Associativity can constrain an unknown multiplication tensor. | Correct. The two multiplication-tree wirings are different decorated graphs. Theorem S excludes this extra generator equation; it concerns canonical regrouping of the same graph only. |
-| A gluing-domain restriction might select extensions before reassociation. | Correct. The theorem leaves E intersect D, not all E unless E is actually in the common domain. Physical D is not established. This is an explicitly surviving route. |
-| Parent KKL trace/gluing rules could fix causal normalization. | A parent rule is not a demonstrated causal supported-extension insertion map. Cuts producing boundary normalization factors are not automatically fixed-map identities after arbitrary vertex replacement. No blanket non-selection claim is made about every KKL condition. |
-| Finite matrices are not K5 extensions with the same off-collision value. | Correct. The matrix calculation is a fixed-pairing countermodel to a logical implication about structural coherence, not a physical K5 counterexample. The regular distribution corollary applies to actual supported variations only on its explicitly defined mathematical domain. |
-| The counterexample might vary pairing, unit, weights or boundary probe. | It does not: B=diag(2,3), U=B^{-1} and the upper-right output probe remain fixed. Only the local generator varies. The distinction from Iter079C is therefore real. |
-| Reordering matrices might have illegally changed causal order. | The negative control detects XBY != YBX generically. Only legal contraction ordering, not a permutation of noncommuting local operations, is allowed. Transpose reversal is limited to the stated symmetric pairing. |
-| Distributional Fubini or delta multiplication may be invalid. | The constructive domain uses external tensor products in independent variables and smooth compact test kernels. Singular diagonal pullbacks and noncompact infinite operations are not assumed. No delta squared is evaluated. |
-| Failure of a wavefront sufficient criterion proves nonexistence. | Rejected. Only lack of authorization by that criterion is asserted. A renormalized product would need separate data and proof. |
-| A finite suite cannot prove an infinite-dimensional conclusion. | Correct. Theorem S is an identity for arbitrary generators, and Theorem J follows from the definition of derivatives. The twelve controls do not extrapolate rank or sample-based conclusions. |
-| The local jet expression is an exhaustive physical decomposition. | Rejected. It is a coordinate/density-fixed class of supported terms. The order-8 ceiling does not establish physical admissibility or independence of every coefficient. |
-| All mathematical tests are available as physical boundary states. | Not assumed. The test-jet image of actual source-defined contexts is missing. The construction of separating smooth tests establishes mathematical distinctness only. |
-| An injective probe map selects an extension. | False without independently specified equations or target values. Injectivity distinguishes choices; encoding a desired extension in the target values is selector-input ambiguity. |
-| A boundary-null term can always be quotiented physically. | Not shown. Nullity must persist in all permitted composed contexts. The conditional annihilator is not installed as CDSR's physical quotient. |
-| The scalar F delta_N is merely the overall normalization of t0. | No such identity is proved. It vanishes off N and can alter regular-context evaluations. Physical observability/redundancy still requires an actual source map. |
-| The conditional jet pushforward is an actual refinement law. | Rejected. Phi(t)=t+a t^2 is a chart counterexample to assumed diagonal transport only. Its formula is not imported into causal dynamics. |
-| A convenient SU(2)^4 cohomology decides the physical problem. | No physical groupoid/module/action/equivalence was derived, so no H^2 classification is performed. |
-| The source blocker is a universal no-go or proves new physics necessary. | Rejected. It is bounded by the pinned corpus and defined objects. New source derivations and extension-sensitive domain/comparison conditions remain possible. |
-| Theorem S is standard structural mathematics, not a new law of nature. | Correct. Its contribution to CDSR is excluding a specific mistaken inference from structural coherence to selection. No worldwide novelty or new-physics claim is made. |
+| associativity can constrain an unknown multiplication | correct; different wiring graphs excluded from structural theorem |
+| domain restrictions may select before reassociation | correct; T4 leaves E_corr intersect D, physical D unknown |
+| countermodel secretly changes pairing/weights | no: B=diag(2,3), unit/probe fixed, only A_lambda changes |
+| finite matrices are actual K5 amplitudes | not claimed; logical countermodel only |
+| illegal swapping of noncommuting vertices | negative test detects it; only legal contraction order is used |
+| singular distribution products are undefined | only external products with regular test kernels are constructed; no delta squared |
+| wavefront criterion failure proves all prescriptions impossible | rejected: sufficient criterion only |
+| finite tests prove a general theorem | rejected: general proofs are symbolic/analytic, tests corroborative |
+| arbitrary coordinate jets are all physical | rejected: only corrected covariant/invariant sectors; d1=0 in scalar count |
+| nonlinear chart pushforward is physical refinement | rejected: diagnostic only; may not preserve physical invariant sector |
+| separating tests are physical states or selectors | rejected: actual source test-jet image and independent targets are missing |
+| scalar direction is harmless normalization | unproved; mathematical detectability does not establish physical observability |
+| a single boundary-null test defines physical equivalence | insufficient; all allowed contexts/closure required |
+| convenient SU2 cohomology settles physical law | domain/module/action not derived, so not calculated |
+| source blocker means new physical axiom is unavoidable | not proved; missing source consequences and new principles remain distinct possibilities |
 
-## Reproduction record
+## Execution and present disposition
 
-The script was executed locally in the research container, with Python 3.13.5 and SymPy 1.14.0. All 12 exact controls passed. No GitHub Actions run is claimed.
+Twelve exact controls ran locally with Python3.13.5/SymPy1.14.0 and were repeated with identical output. Script SHA25608a1e9e09c8a00f97c59c1aec174967e33eb0471ad889b9553671774d0fb7d49; raw output SHA2567296c0790b56dc2afad6054afd6d2ad0c3bcae5940fe0e07fe1e88bd63583cdf. No GitHub Actions or external independent review claimed.
 
-- Script: `analysis/cd003_exact_controls.py`
-- Script SHA256: `08a1e9e09c8a00f97c59c1aec174967e33eb0471ad889b9553671774d0fb7d49`
-- Output: `results/CD003_EXACT_CONTROLS.json`
-- Output SHA256: `7296c0790b56dc2afad6054afd6d2ad0c3bcae5940fe0e07fe1e88bd63583cdf`
-
-Scientific interpretation is not inferred from successful execution. The proof and the domain restrictions remain controlling.
-
-## Review decision
-
-`SCOPED_MATHEMATICAL_ARGUMENT_ACCEPTED_IN_SELF_REVIEW`.
-
-Physical source derivation and a full physical quotient remain unestablished. External independent review has not been performed. No result is promoted to physical uniqueness.
+Those tests do not validate physical source completeness and did not test the omitted node gauge condition. Their success cannot preserve the invalid W claim. Current disposition: mathematics accepted in this scoped self-review, physical W application withdrawn, corrected coefficient selector and physical transport unestablished. This is one qualified result, not competing authoritative verdicts.

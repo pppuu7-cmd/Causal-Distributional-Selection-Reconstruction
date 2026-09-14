@@ -1,121 +1,15 @@
 {
-  "snapshot_date": "2026-09-14",
-  "upstream_repository": "pppuu7-cmd/Mechanism-Synthesis-QG-Reconstruction",
-  "imports": [
-    {
-      "id": "U077L",
-      "path": "results/ITER077L_SM_TRANSVERSE_SCALING_DEGREE_EXTENSION_THEOREM_RESULT.md",
-      "prereg_commit": "565a36453cf781b1af366da6960ab7f55e6605f1",
-      "derivation_commit": "1a6cb5331098287823e55c7db5452a976b8501a5",
-      "classification": "ITER077L_SM_TRANSVERSE_SD20_CODIM12_EXTENSION_EXISTS_BUT_SCALING_ALONE_NONUNIQUE_ORDER8_LOCAL_FREEDOM_THEOREM_SCOPED",
-      "imported_statement": "N=SU(2)^4, codimension 12, transverse scaling degree 20; same-scaling-degree local extensions exist but are nonunique; normal derivatives through order 8 may occur with tangential coefficient data subject to further conditions.",
-      "not_imported": ["every order-8 term is physical", "unique extension", "regulator independence"]
-    },
-    {
-      "id": "U077Q",
-      "path": "results/ITER077Q_SM_INVARIANT_TANGENTIAL_AMBIGUITY_RESULT.md",
-      "result_commit": "5941b3a064d93f2898d9e9a48545826e950455f1",
-      "result_blob_sha": "26aa90965ccfe495f55df2f4c190f7bbe09093f4",
-      "artifact_sha256": "58e3cb389a985838942a4d0181e6e680cdd75480cfc24e0ec7bb07d73b199a96",
-      "classification": "ITER077Q_SM_SOURCE_COMPATIBLE_K5_EXTENSION_AMBIGUITY_CONTAINS_INFINITE_DIMENSIONAL_TANGENTIAL_SUBSPACE_EXACT_THEOREM_SCOPED",
-      "imported_statement": "The source-compatible supported K5 ambiguity contains the linearly independent family {Q^n F delta_N:n>=0}, hence at least a countably infinite-dimensional smooth tangential subspace.",
-      "not_imported": ["complete characterization of A_B", "A_B=A_tan", "no future selector can work"]
-    },
-    {
-      "id": "U079C",
-      "path": "results/ITER079C_SM_MINIMAL_TWO_VERTEX_COMPOSITION_UNIQUENESS_RESULT.md",
-      "result_commit": "0a502c439e3e1069d19b66bb7a8bd65928f537bf",
-      "result_blob_sha": "197f4c7892e41b7c28a1ecfb0390fa39b013f67d",
-      "artifact_sha256": "124dffa53f2a6c6d7f285f0276a54d4e3fee48dca307c353c36dc9f4c8d947ff",
-      "classification": "ITER079C_SM_MINIMAL_TWO_VERTEX_CAUSAL_FUNCTIONAL_NOT_UNIQUELY_FIXED_BY_LOCAL_VERTEX_DATA_AND_COMBINATORIAL_SKELETON_E3_E4_BRIDGE_REQUIRED_EXACT_SCOPED",
-      "imported_statement": "Bare minimal two-vertex gluing plus local vertex data leaves pairing-normalization and internal-weight nonuniqueness.",
-      "not_imported": ["causal multivertex impossibility", "physical composition law"]
-    },
-    {
-      "id": "U080B",
-      "path": "results/ITER080B_SM_E3_E4_E6_JOINT_SOURCE_BRIDGE_RESULT.md",
-      "result_commit": "3a21afe528ca098fc7258388bc03ac125f26b5c8",
-      "source_matrix_commit": "65483fb99c913e6b99e0e1b9c17bafdd45b69b62",
-      "artifact_sha256": "73cf815a59649f0e5b8ec8b972dc0583fe0d4a869e94da13f9e3686c60bd601b",
-      "classification": "ITER080B_SM_PARENT_E3_E4_E6_STRUCTURES_EXIST_LOCAL_CAUSAL_VERTICES_EXIST_BUT_COMPLETE_MULTIVERTEX_INHERITANCE_BRIDGE_NOT_SOURCE_EXPLICIT_BLOCKED_EXACT_SCOPED",
-      "verdict": "BLOCKED_SOURCE_BRIDGE",
-      "imported_statement": "Parent E3/E4/E6 structures and causal local/generalized vertices exist separately, but the complete physical causal many-vertex inheritance bridge is not source-explicit in the frozen corpus.",
-      "not_imported": ["unchanged parent E3/E4/E6 is the physical causal prescription", "causal multivertex no-go"]
-    },
-    {
-      "id": "U080E",
-      "path": "results/ITER080E_SM_CONTROL_ONLY_SOURCE_PREDICATE_REPAIR_RESULT.md",
-      "source_snapshot_path": "sources/ITER080E_SM_JOINT_K5_SELECTOR_SOURCE_SNAPSHOT.md",
-      "source_snapshot_commit": "d51f7cc0f6970670cef1e73223b30cb70b00b8c0",
-      "result_commit": "bc5acbb8fd5b5ea93b267a382ef9a833ea2422c7",
-      "artifact_sha256": "11f3af328c3686c17769c36e69164a9098f5d10e6cbdd7806f0c58a72ca327e7",
-      "classification": "ITER080E_SM_PRIMARY_CAUSAL_TOLLER_CORPUS_HAS_NO_JOINT_K5_FUNCTION_SPACE_EXTENSION_SELECTOR_SOURCE_BLOCKED_EXACT_AUDIT_SCOPED",
-      "verdict": "BLOCKED_OBJECT_DEFINITION",
-      "imported_statement": "The complete frozen in-repo BCG/Beltran corpus has no explicit P1-P5-complete correlated joint-K5 selector on the full Iter077Q witness space.",
-      "not_imported": ["no mathematical selector can exist", "new model law"]
-    },
-    {
-      "id": "U080J",
-      "path": "results/ITER080J_SM_MICROLOCAL_WF_ONLY_SELECTOR_POWER_RESULT.md",
-      "result_commit": "e9d1867fc8a1026ed678aac0e3c768c654c39487",
-      "confirmation_commit": "3e7430110d7c297b097555510a91ca1722ad90cf",
-      "artifact_sha256": "4bff0b6f691de010838e969fa67850a8cbafeff078d728f8cb0dfcc31a04561b",
-      "classification": "ITER080J_SM_WAVEFRONT_CONORMAL_ADMISSIBILITY_ALONE_CANNOT_SELECT_ITER077Q_INFINITE_SMOOTH_TANGENTIAL_AMBIGUITY_EXACT_THEOREM_SCOPED",
-      "imported_statement": "Ordinary support plus conormal/WF admissibility alone preserves an infinite-dimensional Iter077Q witness subspace and cannot select uniquely.",
-      "not_imported": ["all microlocal selectors fail"]
-    },
-    {
-      "id": "U080K_HISTORY",
-      "review_path": "results/ITER080K_ADVERSARIAL_PROVENANCE_REVIEW.md",
-      "review_commit": "691436f7c8e14ee7efd77b1e85146136f73e8553",
-      "verdict": "INVALID_PROVENANCE",
-      "imported_statement": "Only corroborative one-wedge source observations survive; Iter080K is not an authoritative new-primary-authority gate.",
-      "not_imported": ["NEW_PRIMARY_AUTHORITY premise", "original Iter080K promotion route"]
-    },
-    {
-      "id": "U081B",
-      "path": "results/ITER081B_SM_HAN_TOLLER_FACE_FUNCTIONAL_TRANSPORT_RESULT.md",
-      "result_commit": "3a81ff645ab7c6fdfb5178dbf705ba0642d902bb",
-      "classification": "ITER081B_SM_DIRECT_HAN_D_TO_SINGLE_TOLLER_BRANCH_FACE_STACK_INHERITANCE_NOT_SOURCE_PROVEN_BLOCKED_SCOPED",
-      "verdict": "BLOCKED_SOURCE_BRIDGE",
-      "imported_statement": "D=T+ + T- gives algebraic expansion but does not source-authorize direct inheritance of Han's standard branch/stack conclusions to one selected Toller branch.",
-      "not_imported": ["no causal Toller stack can exist"]
-    },
-    {
-      "id": "U081E",
-      "path": "results/ITER081E_SM_ACTUAL_TOLLER_HAN_BOUND_REPRODUCTION_RESULT.md",
-      "result_commit": "e5eb0cbd49328e4e3ffcc604428af9b36c6295a2",
-      "confirmation_commit": "379b5979ef0e38973af3196b678dc6d8ab7b35f6",
-      "artifact_sha256": "f2a4c52535799fad2aa7ad94b7bb2eeedde1933dde62cb66281dcff7493b4a82",
-      "classification": "ITER081E_SM_ACTUAL_TOLLER_ONE_WEDGE_AND_NATURAL_TWO_WEDGE_HAN_BOUNDS_COUNTEREXAMPLES_REPRODUCED_EXACT_SCOPED",
-      "imported_statement": "The frozen actual selected Toller objects violate the unchanged Han-type bound on the exact minimal-spin pure-boost control.",
-      "not_imported": ["all causal face functionals diverge", "joint-K5 selector"]
-    },
-    {
-      "id": "U081F",
-      "prereg_commit": "01b4ad5369798a4548576bb282afdd89375e4a59",
-      "status": "PROSPECTIVE_ONLY_NO_TERMINAL_RESULT",
-      "imported_statement": "A future upstream gate is frozen to test all 15 nonempty unit-weight two-wedge branch subsets on the minimal pure-boost control.",
-      "not_imported": ["any Iter081F scientific outcome"]
-    }
-  ],
-  "source_records": [
-    {
-      "source": "Bianchi-Chen-Gamonal arXiv:2601.23162",
-      "authority_route": ["U080E", "U080B"],
-      "scope": "one-wedge Toller definition and formal source-ordered causal single-vertex expression; not a correlated joint-K5 extension selector"
-    },
-    {
-      "source": "Bianchi-Chen-Gamonal arXiv:2604.24945",
-      "authority_route": ["U080E"],
-      "durable_upstream_blobs": ["2f9312b5e596dffddd348fe57c58af59e4e51671", "7fc5482bff78ea97e7a64681413257b6c8d7d359"],
-      "scope": "one-wedge Toller projector/matrix analytic identities; not a joint-K5 collision-extension theorem"
-    },
-    {
-      "source": "Beltran arXiv:2603.22661v2",
-      "authority_route": ["U080E", "U080B"],
-      "durable_upstream_blob": "2c3c5744494faef8cf070bc49e031fb446ce1180",
-      "scope": "arbitrary-2-complex causal orientation/generalized causal vertex; not complete state-sum inheritance or extension transport"
-    }
-  ]
+  "status":"SOURCE_CORRECTED",
+  "upstream_repository":"pppuu7-cmd/Mechanism-Synthesis-QG-Reconstruction",
+  "snapshot":"920144abf49cf4a5a50a8ad016c37fd83fa400f7",
+  "current_exact_records":"sources/CD003_SOURCE_CORRECTION_MANIFEST.json",
+  "current_imports_and_ceilings":"authority/UPSTREAM_IMPORT_MANIFEST.md",
+  "initial_exact_records_archive":"authority/archive/UPSTREAM_IMPORT_MANIFEST_PRE_CORRECTION.json",
+  "controlling_erratum":"results/CD003_SOURCE_LOCK_ERRATUM.md",
+  "historical_physical_W_status":"INVALID_SOURCE_LOCK",
+  "demonstrated_scalar_subspace_dimension":28,
+  "full_physical_dimension_known":false,
+  "iter080k_new_authority_status":"INVALID_PROVENANCE",
+  "iter081f_terminal_atlas_imported":false,
+  "upstream_runs_reexecuted_here":false
 }

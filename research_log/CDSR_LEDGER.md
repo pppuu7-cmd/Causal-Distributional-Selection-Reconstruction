@@ -51,3 +51,19 @@ This ledger is append-only scientific history. It summarizes authoritative local
 - Interpretation ceiling: no universal composition no-go, no proof of physical domain membership, no actual causal transport/physical quotient, no full jet classification, no physical selector or new physics.
 - Dependency effect: excludes structural reassociation as a standalone cure even with fixed pairing/weights; identifies I_v, G_Gamma, D, non-structural R and actual physical test-jet image as missing.
 - Exact next admissible question: `SOURCE_FIXED_EXTENSION_SENSITIVE_RELATION_OR_GLUING_DOMAIN`, followed by its residual jet kernel and a source-defined physical equivalence. No successor hypothesis was preregistered in this run.
+
+## Mandatory post-CD003 source-lock correction
+
+- Date: 2026-09-14. This is dependency reconciliation, not a second substantive gate.
+- Final upstream snapshot: `920144abf49cf4a5a50a8ad016c37fd83fa400f7`.
+- Source correction: Iter077Q re-review `c0ae0ef208a3eccef4ece7960cdf5337e7d5fa2e`, INVALID_SOURCE_LOCK.
+- Corrected target: Iter081R `5fe42e766aab2660b36c654502a029930db28890` and Iter081S `8c2fc23084e89c39f624853ac0d445e3103850d1`.
+- CDSR controlling erratum: `05f678e1e8e087a1a85b3bbb75ac1a58b5317317`, results/CD003_SOURCE_LOCK_ERRATUM.md.
+- Corrected current result/derivation: `fa66376ae481f07975f9b0732ee038af52e37148`; exact originals archived and preserved in Git history.
+- Withdrawn: physical admissibility of infinite tangential W and CD001's universal finite-list physical K5 corollary. Formal CD001/CD002-A mathematics remains valid.
+- Restored source fact: exact node-wise right SU2 covariance makes scalar tangential coefficients constant along N. This is existing source content, not a new principle.
+- Imported replacement: scalar invariant J_inv subspace of dimension28, grades (1,0,1,0,3,0,7,0,16) through order8; not exact total physical dimension. Only m<28 finite-linear insufficiency is guaranteed on this subspace.
+- CD003 T4/T5 and12 exact controls are unchanged and dimension-independent. Correct application is to E_corr intersect D and corrected admissible jets; no physical W claim survives.
+- Physical source bridge, full quotient, extra sectors and actual coefficient selector remain OPEN/BLOCKED as scoped. No unique-extension/new-physics promotion.
+- Next admissible target: RIGHT_SU2_COVARIANT_INVARIANT_JET_SELECTOR_AND_TRANSPORT. A newly preregistered corrected candidate/source census and finite source-derived equations are eligible; the old blanket exclusion is withdrawn.
+- Historical readiness10/10 was organizational preparation, not verification of the withdrawn source premise. No current score is claimed.

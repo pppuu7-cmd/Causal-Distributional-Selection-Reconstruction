@@ -1,51 +1,17 @@
-# Physical Equivalence Frontier
+# Physical equivalence after restoring the source gauge action
 
-## Question that must be answered before a physical uniqueness claim
+The full physical equivalence of extensions is still UNDEFINED enough for a uniqueness claim. However one previously omitted source action is now established: independent node-wise right SU(2) transformations after invariant boundary contraction. On N this action is transitive and removes arbitrary scalar tangential dependence. See results/CD003_SOURCE_LOCK_ERRATUM.md and the exact upstream source-lock review.
 
-For
+| Candidate | Current status | Remaining task |
+|---|---|---|
+| compact node gauge action on N | DEFINED in the corrected source scope | enforce covariance on all supported coefficients and normal jets; do not treat Q^n as invariant |
+| full gauge equivalence of extensions | REQUIRES_NEW_GATE beyond known action | specify all allowed transformations and residual physical coefficients after quotient |
+| source-null / boundary-null terms | UNDEFINED as a complete physical quotient | derive actual complete context family and show nullity |
+| observational nullity | UNDEFINED | specify physically admissible probes and their separation/closure |
+| redefinition / coboundary / scheme equivalence | REQUIRES_NEW_GATE | derive admissible redefinitions and prove preservation of physical data, not just mathematical isomorphism |
 
-```text
-T1, T2 in Ext_B(t0),
-```
+CD003's regular-context annihilator is a conditional diagnostic, not the physical quotient. Its mathematical tests need not be available as physical boundary states. Nullity must persist under all allowed further compositions; a single or handpicked finite set of equal outputs is insufficient.
 
-when should CDSR regard `T1` and `T2` as the same physical equivalence class?
+The corrected scalar invariant jet subspace28 is already gauge/S5 compatible in its upstream scope. It cannot be discarded merely by calling it gauge freedom again. Whether further physical equivalences or source conditions remove its directions remains open. Do not infer that28 independent mathematical equations suffice physically or that an injective probe map without source-fixed targets selects anything.
 
-CDSR currently has **no complete answer**. This document prevents mathematical uniqueness in a chosen representation from being silently promoted to physical uniqueness.
-
-## Status vocabulary
-
-- `DEFINED`: a precise equivalence relation relevant to the extension problem has already been established by authority.
-- `UNDEFINED`: the candidate notion is only a label; no usable equivalence relation is currently defined.
-- `REQUIRES_NEW_GATE`: enough structure exists to formulate a future question, but using it to quotient `Ext_B(t0)` requires a prospective derivation/test.
-
-## Candidate equivalence notions
-
-| Candidate | Status | What is established | What remains required |
-|---|---|---|---|
-| gauge-equivalent extensions | `REQUIRES_NEW_GATE` | common-left gauge covariance/fixing structures exist in upstream source scope | define the action on the full supported extension data and prove which extension differences are pure gauge after the relevant quotient/fixing |
-| source-null differences | `UNDEFINED` | source ordering and admissibility conditions `B` are part of the extension problem | define a source-null subspace/ideal and prove nullity for all source observables relevant to the amplitude |
-| boundary-null differences | `UNDEFINED` | upstream Iter077Q uses true boundary functionals and proves nonzero witnesses exist | define the complete admissible boundary probe class and prove which supported differences vanish against all such probes |
-| observationally null for all admissible physical probes | `UNDEFINED` | no complete physical probe set is defined in CDSR | prospectively define the probe algebra/class and prove universal nullity, not nullity on a finite convenience sample |
-| exact reparameterization/redefinition equivalence | `REQUIRES_NEW_GATE` | no specific redefinition group is imported | define allowed field/source/amplitude redefinitions and prove they preserve every physical structure used by the selector |
-
-## Negative rules
-
-The following are not enough to establish physical equivalence:
-
-- two extensions agree away from `N` — that is already true by construction of the extension problem;
-- a difference vanishes on one or finitely many boundary states;
-- a difference can be absorbed by an arbitrarily chosen counterterm function;
-- two choices are related by a redefinition whose admissibility has not been source-derived;
-- a numerical observable happens to agree on a finite test set.
-
-## Uniqueness lock
-
-Until a quotient sufficient for the intended physical claim is defined, CDSR may state only mathematical results inside a frozen representation/sector. It may not set
-
-```text
-UNIQUE_K5_EXTENSION = true
-```
-
-or say that `Ext_B(t0)` has been reduced to one physical equivalence class.
-
-A future gate may discover that no nontrivial quotient is needed, or that a nontrivial quotient removes residual ambiguity. Both outcomes are open.
+No unique physical equivalence class is established. The restored node gauge constraint is existing source content, not a new selector principle.

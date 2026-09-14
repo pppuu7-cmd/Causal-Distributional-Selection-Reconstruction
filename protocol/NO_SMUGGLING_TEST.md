@@ -1,52 +1,26 @@
-# No-Smuggling Test
+# Operational no-smuggling audit - corrected target
 
-**Purpose:** operational audit for any candidate selector `P`. This protocol is a diagnostic checklist, not a general theorem that two formulations are equivalent.
+A selector may not hide the extension choice in its inputs. This is an operational audit, not an unproved general theorem of equivalence. The corrected physical target includes demonstrated J_inv28 and unclassified additional sectors, NOT the invalid infinite tangential W. Finite source-derived conditions are eligible; arbitrary finite coefficient targets can still encode a preferred answer.
 
-A candidate physical selector must be audited **before** its success/failure outcome is used to tune its free data.
+For each proposed physical P, record answers and exact source authority before solving:
 
-## Mandatory questions
+1. What new mathematical data D_P are introduced?
+2. Which are fully source-derived, and which are an explicit new physical principle?
+3. Is an arbitrary function introduced?
+4. Is an arbitrary kernel/operator introduced?
+5. Is a measure or internal weight chosen?
+6. Is a normalization map or scalar target chosen?
+7. Is a subtraction map/scheme chosen?
+8. Is a contour or correlated boundary-value path chosen?
+9. Is a boundary functional or physical probe class chosen?
+10. Is a transport/refinement map or a gluing-domain restriction chosen?
+11. Can any of these choices encode admissible directions in corrected A_corr, including J_inv coefficients?
+12. Does changing them while preserving actual source constraints change the selected extension?
+13. How many independent scalar/fiber/functional inputs remain, with what justified identifications?
+14. Has extension ambiguity merely become selector-input ambiguity?
 
-1. **What new mathematical data does `P` introduce?** List every function, kernel, measure, normalization, contour, map, boundary object, transport rule, reference scale, subtraction term, and auxiliary choice.
-2. **Are those data fully source-derived?** For each datum record exact authority. If not, classify it explicitly as `NEW_PHYSICAL_PRINCIPLE` or reject physical promotion.
-3. **Does `P` contain an arbitrary function?** If yes, identify its domain, codomain, regularity and independent degrees of freedom.
-4. **Does `P` contain an arbitrary kernel?** If yes, determine whether the kernel can encode extension coefficients or correlations that are otherwise free.
-5. **Does `P` introduce a measure?** If yes, identify whether its density/normalization/scheme is fixed independently of the desired extension.
-6. **Does `P` introduce a normalization map?** If yes, determine whether changing it changes the selected extension.
-7. **Does `P` introduce a subtraction map or finite-part rule?** If yes, establish whether it is source-derived rather than a renamed extension choice.
-8. **Does `P` introduce a contour or boundary-value prescription?** If yes, prove that the relevant *joint K5* contour/order-of-limits object is defined; one-wedge authority is not enough.
-9. **Does `P` introduce a boundary functional or probe family?** If yes, establish completeness/relevance independently; a handpicked finite probe set cannot silently encode the answer.
-10. **Does `P` introduce a transport map?** If yes, pin its domain/codomain, composition law, gauge/orientation behavior and action on supported terms.
-11. **Can the selector data encode arbitrary directions in `A_B`?** Test this on the proven Iter077Q witness `W=span{Q^n F delta_N}` and, where defined, on the normal-jet frontier.
-12. **If selector data vary, does the selected extension vary?** Map selector-input variation to output variation. If the output tracks unconstrained input, the ambiguity may only have moved.
-13. **How many independent degrees of freedom are in the selector input?** Distinguish finite scalar parameters from function/kernel/jet-valued data; do not call an infinite object “one condition” merely because it has one name.
-14. **Has the transformation `extension ambiguity -> selector ambiguity` merely occurred?** Give an explicit argument either way. A positive answer blocks explanatory promotion until the selector data themselves are independently fixed.
+Possible audit outcomes: SOURCE_INPUTS_FIXED_WITHIN_SCOPE; EXPLICIT_NEW_PRINCIPLE_REQUIRES_TEST; SMUGGLED_CHOICE; BLOCKED_INPUT_AUTHORITY. An unspecified selector is never marked passed. CD003 currently has BLOCKED_NO_PHYSICAL_SELECTOR_OBJECT; its fixed mathematical kernels and matrix examples are controls, not physical selector proposals.
 
-## Required audit output
+If28 values are selected by evaluating a desired T and then imposed as conditions, mathematical uniqueness would not establish explanatory physical selection. Even source-justified full rank on J_inv does not settle extra sectors or physical equivalence. Conversely, do not reject independently fixed finite equations solely because CD001 formerly had an invalid physical infinite-dimensional premise.
 
-For each candidate selector record:
-
-```text
-SELECTOR_ID:
-FACT_LEVEL:
-SOURCE_STATUS: SOURCE_DERIVED | NEW_PHYSICAL_PRINCIPLE | CONDITIONAL_SELECTOR_POWER_ONLY
-NEW_DATA:
-FREE_DATA_DIMENSION_OR_STRUCTURE:
-CAN_ENCODE_W_DIRECTIONS: YES | NO | OPEN
-OUTPUT_VARIES_WITH_SELECTOR_DATA: YES | NO | OPEN
-TANGENTIAL_SHAPE_EFFECT:
-SCALAR_EFFECT:
-NORMAL_JET_EFFECT:
-PHYSICAL_EQUIVALENCE_USED:
-NO_SMUGGLING_STATUS: PASS | FAIL | BLOCKED | OPEN
-EVIDENCE:
-```
-
-## Interpretation
-
-`NO_SMUGGLING_STATUS=PASS` means only that the audited rule has not hidden the tested extension choice in unauthorized free selector data. It does **not** prove existence, correctness, physical truth, uniqueness, regulator independence, or phenomenological validity.
-
-`FAIL` means the rule's free inputs can reproduce the ambiguity it claims to remove without independent authority. `BLOCKED` means the audit cannot yet be completed because the selector object/domain is not defined. `OPEN` is used before a candidate is frozen.
-
-## Anti-post-hoc rule
-
-Do not first inspect which function/kernel/measure/normalization gives a finite or aesthetically preferred amplitude and then declare that datum part of the selector. The selector's data and motivation must be prospectively frozen or independently source-derived before outcome inspection.
+A comparison between genuinely different complexes, an equation for an unknown multiplication, or a source-fixed domain condition is not the same as structural reassociation. State which class is actually invoked and test its residual kernel. Mathematical coboundary equivalence is not automatically physical equivalence.

@@ -1,39 +1,30 @@
-# Pro frontier after CD003
+# Pro frontier after CD003 and the source-lock correction
 
-Current terminal result: `results/CD003_STRUCTURAL_GLUING_RESULT.md` at `f49040aac1a7be0dcd9ccf30484620c5cc028003`.
-Programme frontier: `SOURCE_FAITHFUL_CAUSAL_COMPOSITION_TO_EXTENSION_COHERENCE_LAW`.
-Operational target: `SOURCE_FIXED_EXTENSION_SENSITIVE_RELATION_OR_GLUING_DOMAIN`.
+Current target: `RIGHT_SU2_COVARIANT_INVARIANT_JET_SELECTOR_AND_TRANSPORT`.
+Read results/CD003_SOURCE_LOCK_ERRATUM.md first, then CURRENT_FRONT, the corrected CD003 result and derivation, and sources/CD003_SOURCE_CORRECTION_MANIFEST.json.
 
-## Central programme question
+## Exact next admissible question
 
-Does the actual source-faithful causal many-vertex/refinement structure induce a functional coherence law on supported K5 extension data strong enough to select one physical equivalence class without arbitrary selector data?
+Which independently source-derived coefficient relations or extension-sensitive causal gluing/domain conditions act on the corrected right-SU(2)-covariant invariant K5 normal jets, and what residual freedom remains in the full supported extension space modulo a source-defined physical equivalence?
 
-## Exact successor question
+## Correct starting object
 
-Which independently source-fixed, non-structural relation or genuine gluing-domain restriction acts on the full supported K5 extension data, and what residual normal-test-jet annihilator remains modulo a source-defined physical equivalence?
+E_corr=Ext_{B_corr}(t0) includes node-wise compact covariance. Historical W=span{Q^n F delta_N} is NOT a physical subspace. Upstream Iter081R/S demonstrate J_inv of dimension28 with grades (1,0,1,0,3,0,7,0,16) through order8; total physical dimension remains unknown. Scalar tangential orbit dependence is gauge-fixed; scalar coefficient and higher invariant jets remain.
 
-First require the map I_v from the local extension to the physical boundary functional, and the legitimate causal composition domain of G_Gamma. Then identify a source-fixed comparison R, context equations/values, or an actual restriction on that domain. Determine which normal jets of the physical contexts are realized. Do not choose the kernel or its targets from a desired extension.
+## Three admissible routes, ordering not prescribed
 
-## What CD003 closed
+1. A prospectively corrected source/candidate-axiom census against J_inv and additional representation-valued sectors. Old full-W predicates cannot be reused. Finite source-derived equations are eligible; m>=28 has no dimension-only obstruction on J_inv, but actual rank, physical motivation and reach beyond J_inv must be shown.
+2. Define I_v and legitimate causal G_Gamma on the corrected supported distributions, then derive a genuinely extension-sensitive relation R or domain restriction. Determine its actual context test-jet image and kernel. Same-graph structural reassociation alone is already excluded by CD003.
+3. A genuinely joint source-authorized boundary-value/analytic prescription, with its domain, branch, growth, covariance and extension theorem fixed before testing. One-wedge uniqueness is not enough.
 
-Same-graph structural reassociation is non-selective on its common domain. More diagrams or deeper repeated contractions do not change this. The fixed-pairing countermodel already settles that logical route; it is not to be repeated.
+No successor substantive hypothesis has been chosen or solved by this handoff. A new physical axiom is not proved necessary; a missing consequence of existing authority remains possible. If a new principle is introduced, label it explicitly and motivate it before observing preferred coefficients.
 
-The regular-context jet formula and annihilator criterion are available as mathematical tools. They do not identify actual physical contexts or their quotient. Full smooth tests separate distributions, but are not automatically physical boundary states.
+## Available results
 
-## Routes still open
+CD003 T4: structural identities yield E_corr intersect D, not a smaller subset; physical D may itself constrain choices. T5: regular contexts see normal test jets, and invisible variations are their annihilator. Restrict these tools to corrected source-admissible sectors. Do not count chart delta-prime controls as physical invariant order-one modes: upstream d1=0.
 
-A source-derived equality between different complexes, an equation for an unknown multiplication, a spectral/analytic restriction, or a nontrivial domain/closure condition can be extension-sensitive. CD003 does not exclude these. Source-defined joint analyticity or refinement comparison remain alternatives; their domains and data must be frozen before outcomes.
+## Do not assume
 
-Do not compute physical cocycles until the actual group/groupoid/category, coefficient module, action, regularity and physical equivalence are sourced. Do not assume normal jets decouple; the regular-context formula shows where their mixing or invisibility must be tested.
+Do not assume infinite physical tangential freedom, exact full dimension28, sufficiency of28 conditions, physical multiplicativity, complete physical equivalence, scalar redundancy, diagonal jet transport, or a physical cohomology module. Do not treat an injective test map without source-fixed values/relations as a selector. Twenty-eight freely fitted target coefficients can smuggle the same choice as an arbitrary function.
 
-## No-repeat and authority rules
-
-CD001, CD002-A, CD003 and the finite causal-sum obstructions are closed in their scopes. The old frozen-corpus source blocker is not a new gate. A new source derivation must identify an exact additional argument/object, or a material version change; publication metadata is not a version-delta proof. Any new physical postulate must be explicitly NEW_PHYSICAL_PRINCIPLE and independently motivated before testing.
-
-A nonzero test-jet annihilator is a mathematically exact residual for a DECLARED context family. It is not automatically a physical quotient. Probe separation without source-fixed equations is not a selector.
-
-## Entry files
-
-Read CURRENT_FRONT, the CD003 result, derivation, source manifest and self-review; then THEOREM_AND_OBSTRUCTION_REGISTRY, SELECTOR_POWER_MATRIX, NO_SMUGGLING_TEST, PHYSICAL_EQUIVALENCE and state.json. The historical upstream import manifest remains a baseline; its current supplement is sources/CD003_SOURCE_MANIFEST.md.
-
-Select one prospective successor only after identifying the actual new information. Physical I_v, G_Gamma, R and the quotient remain open. All major physical claim locks remain false. No mandatory ordering of transport, equivalence, domain and jet investigations is imposed.
+Original CD001/CD002-A proofs remain mathematically valid but their old K5 motivation is qualified by the source correction. All major physical claim locks remain false. The upstream R/S count is an imported scoped result, not a new CDSR computation.

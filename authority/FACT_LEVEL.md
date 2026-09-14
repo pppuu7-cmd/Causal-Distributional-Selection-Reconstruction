@@ -1,30 +1,23 @@
-# FACT_LEVEL ledger after CD003
+# Current FACT_LEVEL ledger
 
-Each claim has exactly one level. Levels describe authority and scope, not confidence percentages. Pins are in the original upstream import manifest and the current sources/CD003_SOURCE_MANIFEST.md supplement.
+Four exclusive levels remain: UPSTREAM_ESTABLISHED, CDSR_EXACT_THEOREM, CONDITIONAL_SELECTOR_POWER, OPEN_PHYSICAL_BRIDGE. Withdrawal is a provenance disposition, not a fifth physical authority level.
 
-| ID | Statement | FACT_LEVEL | Authority |
-|---|---|---|---|
-| F01 | The source-ordered local off-collision K5 expression defines the frozen extension problem in its local scope. | UPSTREAM_ESTABLISHED | Iter077I/L/Q chain |
-| F02 | N=SU(2)^4, codim12, local sd20, normal-order ceiling8; not all formal jets physically admissible. | UPSTREAM_ESTABLISHED | Iter077L |
-| F03 | W=span_C{Q^n F delta_N} is a countably infinite-dimensional source-compatible witness, not all A_B. | UPSTREAM_ESTABLISHED | Iter077Q |
-| F04 | Bare gluing plus local data leaves pairing/weight normalization freedom. | UPSTREAM_ESTABLISHED | Iter079C |
-| F05 | The frozen BCG/Beltran source corpus has no explicit complete correlated joint-K5 selector. | UPSTREAM_ESTABLISHED | repaired Iter080E, scoped census only |
-| F06 | Ordinary WF/conormal admissibility alone preserves W. | UPSTREAM_ESTABLISHED | Iter080J |
-| F07 | Complete causal E3/E4/E6 inheritance is not source-explicit in the frozen corpus. | UPSTREAM_ESTABLISHED | Iter080B |
-| F08 | The frozen selected-Toller minimal controls fail unchanged Han bounds. | UPSTREAM_ESTABLISHED | Iter081E |
-| F09 | No terminal Iter081F atlas is imported at the pinned upstream snapshot. | UPSTREAM_ESTABLISHED | snapshot 9b2f9e5f31e294470c630ebff196f67a2de5ad18 |
-| F10 | Proper causal sums retain the local minimal-sector obstruction and supported ambiguity. | UPSTREAM_ESTABLISHED | Critic corollaries Iter081H/I/K/L, not a full divergence theorem |
-| T01 | Fixed finite affine-linear scalar conditions cannot select a singleton in the nonempty infinite-ambiguity affine family. | CDSR_EXACT_THEOREM | CD001 |
-| T02 | Its K5 corollary excludes finite moment/projection lists as standalone complete selectors. | CDSR_EXACT_THEOREM | CD001 |
-| C01 | Smooth normalized multiplicativity on SU(2)^4 forces f=1. | CONDITIONAL_SELECTOR_POWER | CD002-A |
-| C02 | That functional law has strong shape-selection power if its hypothesis holds. | CONDITIONAL_SELECTOR_POWER | CD002-A; no physical antecedent established |
-| T03 | Fixed-map same-graph structural coherence selects E intersect D and no smaller subset. | CDSR_EXACT_THEOREM | CD003 T4; physical D remains undefined |
-| T04 | Regular contexts act through signed normal test jets, with invisible space equal to their annihilator. | CDSR_EXACT_THEOREM | CD003 T5; not a physical context/quotient derivation |
-| O01 | Physical composition implies the CD002-A multiplicative law. | OPEN_PHYSICAL_BRIDGE | NOT established |
-| O02 | A physical alternative coherence law uniquely selects full supported data. | OPEN_PHYSICAL_BRIDGE | NOT established |
-| O03 | The physical supported scalar is fixed or redundant. | OPEN_PHYSICAL_BRIDGE | NOT established |
-| O04 | The full physical normal-jet freedom is fixed or quotient-null. | OPEN_PHYSICAL_BRIDGE | NOT established |
-| O05 | A sufficient physical equivalence relation has been derived. | OPEN_PHYSICAL_BRIDGE | NOT established |
-| O06 | Complete causal multivertex composition and its extension insertion are defined. | OPEN_PHYSICAL_BRIDGE | NOT established |
+| Claim | FACT_LEVEL | Current authority and qualification |
+|---|---|---|
+| restored compact node covariance and transitivity along N | UPSTREAM_ESTABLISHED | Iter077Q source-lock re-review; nonconstant Q^n is not invariant |
+| local N=SU2^4, codim12, sd20, normal-order ceiling8 | UPSTREAM_ESTABLISHED | Iter077L unchanged; not all formal jets physically admitted |
+| scalar invariant J_inv subspace has dimension28 | UPSTREAM_ESTABLISHED | Iter081R; lower bound on complete ambiguity, not exact total |
+| corrected m<28 bound; S5/WF/causal-sum qualitative nonselection | UPSTREAM_ESTABLISHED | Iter081S; old infinite-W justifications withdrawn |
+| causal E3/E4/E6 bridge incomplete | UPSTREAM_ESTABLISHED | Iter080B, narrow frozen-source obstruction |
+| historical Q^n family is mathematically independent | UPSTREAM_ESTABLISHED | old construction retained only as mathematics; physical qualifier INVALID_SOURCE_LOCK |
+| finite affine-linear list cannot select in a nonempty infinite-ambiguity affine space | CDSR_EXACT_THEOREM | CD001 formal theorem; universal K5 physical corollary not established |
+| normalized smooth multiplicativity on SU2^4 implies f=1 | CONDITIONAL_SELECTOR_POWER | CD002-A; not a physical source law |
+| same-graph structural identities impose no restriction beyond domain D | CDSR_EXACT_THEOREM | CD003 T4; dimension-independent |
+| regular-context test-jet formula and annihilator | CDSR_EXACT_THEOREM | CD003 T5; actual physical test image and target values not derived |
+| physical invariant-jet coefficient selector exists/unique | OPEN_PHYSICAL_BRIDGE | not established |
+| scalar redundancy or normalization selected | OPEN_PHYSICAL_BRIDGE | not established |
+| complete invariant/representation-valued jets fixed | OPEN_PHYSICAL_BRIDGE | not established |
+| full physical equivalence determined | OPEN_PHYSICAL_BRIDGE | node gauge is known, full quotient still open |
+| physical cocycle module and deformation class | OPEN_PHYSICAL_BRIDGE | not defined |
 
-The source-obstruction statements F05/F07 and the unproved positive closure statements O02/O06 are separate claims. No single claim is assigned two levels. A mathematical test kernel is not promoted to physical authority; any physical law still requires SOURCE_DERIVED or explicit NEW_PHYSICAL_PRINCIPLE status.
+The prior false physical claim W subset A_corr is expressly withdrawn in results/CD003_SOURCE_LOCK_ERRATUM.md. It is not silently relabeled as an established mathematical surrogate for the physical problem. Source-derived compact covariance does not make the remaining28 directions vanish. All new physical law claims require SOURCE_DERIVED or explicit NEW_PHYSICAL_PRINCIPLE status and a no-smuggling audit.

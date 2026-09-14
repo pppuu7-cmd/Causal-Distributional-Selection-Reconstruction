@@ -1,46 +1,42 @@
-# CURRENT FRONT - CDSR
+# CURRENT FRONT - source-corrected CDSR
 
-State date: 2026-09-14.
-Authoritative CDSR terminal front: **CD003**.
-Result commit: `f49040aac1a7be0dcd9ccf30484620c5cc028003`.
-Status: `PASS_MATHEMATICS_BLOCKED_PHYSICAL_BRIDGE`.
+Date: 2026-09-14. Terminal gate: CD003.
+Current result: results/CD003_STRUCTURAL_GLUING_RESULT.md, corrected at `fa66376ae481f07975f9b0732ee038af52e37148`.
+Controlling erratum: results/CD003_SOURCE_LOCK_ERRATUM.md, `05f678e1e8e087a1a85b3bbb75ac1a58b5317317`.
 Classification: `CD003_STRUCTURAL_GLUING_COHERENCE_IS_SELECTOR_BLIND_PHYSICAL_EXTENSION_TRANSPORT_UNESTABLISHED_SCOPED`.
+Status: PASS_MATHEMATICS_BLOCKED_PHYSICAL_BRIDGE, qualified by ITER077Q_PHYSICAL_APPLICATION_WITHDRAWN.
 
-Start with `results/CD003_STRUCTURAL_GLUING_RESULT.md`, then the proof in `derivations/CD003_STRUCTURAL_COHERENCE_AND_JET_DUALITY.md` and `sources/CD003_SOURCE_MANIFEST.md`. The prior preparation snapshot at `1f6a30f813ff712d2935c66b712d3399bf229a03` is historical, not the current scientific front.
+## Stop using the historical infinite physical W
 
-## Established baseline retained
+Final upstream authority at `920144abf49cf4a5a50a8ad016c37fd83fa400f7` invalidates Iter077Q's source-compatible qualifier. Independent node-wise right SU(2) covariance of the fully contracted Toller vertex was omitted. Its action is transitive on N=SU(2)^4; nonconstant scalar Q^n multipliers fail this source symmetry. Their mathematical independence is not physical admissibility.
 
-On the established local common-collision/minimal-spin domain, use the frozen affine notation `Ext_B(t0)=T_*+A_B`. No global all-strata extension theorem is assumed. Iter077Q gives only `W=span_C{Q^n F delta_N:n>=0} subset A_tan subset A_B`, with W countably infinite-dimensional. Iter077L gives N=SU(2)^4, codimension12, transverse scaling degree20 and normal-order ceiling8, not physical admissibility of every formal jet.
+Use E_corr=Ext_{B_corr}(t0) with the restored covariance. Upstream Iter081R/S establish J_inv subset A_corr with dim J_inv=28, grades0..8 `(1,0,1,0,3,0,7,0,16)`, normal fiber `spin1_SO(3) tensor Std5_S5`. This is a demonstrated scalar invariant normal-jet subspace/lower bound, not exact total physical dimension. Constant supported ambiguity and invariant normal jets survive; arbitrary scalar tangential functions do not.
 
-CD001: a nonempty affine extension family with infinite-dimensional ambiguity cannot be selected uniquely by a fixed finite scalar affine-linear list. CD002-A: normalized multiplicativity for smooth f on SU(2)^4 implies f=1, conditionally; its physical hypothesis was not derived. Their original preregistrations and results are unchanged.
+Exact correction sources: sources/CD003_SOURCE_CORRECTION_MANIFEST.json. The initial sources/CD003_SOURCE_MANIFEST and original upstream import ledger are historical snapshots where explicitly labeled; the correction overrides their W claims.
 
-## CD003 additions
+## Surviving CDSR results
 
-T4: legal reassociation of the same decorated graph with fixed contraction maps is an identity for every local assignment in the common well-defined domain D. The structural solution set is E intersect D. If E lies in D, structural coherence removes no W directions. Physical D is unknown and may itself impose nontrivial constraints.
+CD001's finite-linear theorem under an infinite-dimensional premise is mathematically valid. Its universal finite-list K5 physical corollary is NOT established after correction. Iter081S gives only m<28 insufficiency on J_inv; m>=28 injectivity is possible on that subspace but neither sourced nor sufficient for all sectors.
 
-T5: regular contexts evaluate a local supported finite-normal-order term through the normal derivatives of the test kernel. For a declared context family, the residual space is its test-jet annihilator. Separating probes distinguish choices but do not select one unless values or relations are independently source-fixed.
+CD002-A remains the conditional smooth-character theorem f(gh)=f(g)f(h), f(e)=1 implies f=1. No physical law follows. The scalar orbit-shape restriction is now explained by existing source gauge symmetry, not a new selector postulate.
 
-A fixed-pairing exact countermodel gives boundary outputs 0 and 19 with all structural associativity/unit identities preserved. Twelve exact symbolic controls passed locally. This is not a physical K5 amplitude computation, GitHub Actions result, or independent external review.
+CD003 T4 is dimension-independent: structural reassociation of the same decorated graph with fixed maps selects E_corr intersect D. The physical gluing domain D remains unknown and could impose substantive conditions. T5 gives exact regular-context normal-jet pairing and the annihilator of a declared test-jet image. Actual physical context reach, target equations and equivalence are missing.
 
-## Updated upstream context
+The fixed-B countermodel and12 exact local controls are unchanged; no physical K5 amplitude or independent external review was performed.
 
-Snapshot `9b2f9e5f31e294470c630ebff196f67a2de5ad18` includes Critic corollaries Iter081H/I/K/L: proper causal orientation sums retain the local obstruction/ambiguity in their stated scope. They do not supply an extension transport law. Their exact paths/commits/blobs are in the CD003 manifest.
+## Physical frontier
 
-Iter080B and repaired Iter080E source blockers remain controlling. Iter080K remains INVALID_PROVENANCE as a new-authority route. Iter081F has no terminal atlas in the pinned snapshot. Do not repeat finite moments, structural reassociation or finite causal sums as a cure.
+`RIGHT_SU2_COVARIANT_INVARIANT_JET_SELECTOR_AND_TRANSPORT`.
 
-## Physical bridge still missing
+Missing chain: `T --I_v--> complete local physical boundary functional --G_Gamma--> legitimate causal composition --R--> source-fixed extension-sensitive coefficient relation`, or a genuine source-derived restriction on its domain.
 
-`T --I_v--> complete local physical boundary functional --G_Gamma--> causal composed object --R--> source-fixed extension-sensitive condition`.
+Open: invariant-jet coefficient conditions; additional boundary-covariant/representation-valued sectors; causal E3/E4/E6; actual jet transport; scalar normalization/redundancy; full physical equivalence; physical cocycle domain/module/action. Node gauge covariance is restored, not the whole physical quotient solved.
 
-Open separately: I_v and compatible global completion; legitimate causal gluing domain; measures and quotient normalization; a non-structural relation or domain restriction; actual physical context normal-jet image; physical equivalence; overall scalar; normal jets; other supported sectors; physical cocycle/module/action.
+## Corrected successor discipline
 
-Same-graph structural coherence is not associativity of an unknown multiplication and does not exclude genuine refinement/Pachner equations, spectral/analytic conditions or composition-domain restrictions.
+Finite, independently justified conditions are eligible; do not repeat the obsolete assertion that every finite list fails. A new preregistered candidate-corpus audit against J_inv is legitimate because old full-W predicates were invalid. Do not invent28 fitted conditions or assume full dimension28. Pure same-graph reassociation is already excluded; cross-complex, unknown-multiplication, spectral and gluing-domain conditions remain open.
 
-## Next front
-
-Programme question: `SOURCE_FAITHFUL_CAUSAL_COMPOSITION_TO_EXTENSION_COHERENCE_LAW`.
-Operational target: `SOURCE_FIXED_EXTENSION_SENSITIVE_RELATION_OR_GLUING_DOMAIN`.
-Read `recovery/PRO_FRONTIER.md`. No new substantive successor gate is preregistered by this handoff.
+Iter080B is unaffected. Narrow repaired Iter080E source observations remain qualified. S5/WF/causal-sum nonselection now uses Iter081S and >=28 jets, not W. Iter080K remains INVALID_PROVENANCE; no Iter081F terminal atlas is imported. No upstream invariant count was rerun by CDSR.
 
 ## Claim locks
 
@@ -52,5 +48,7 @@ RG_CLOSURE = false
 CAUSAL_MULTIVERTEX_CLOSURE = false
 NEW_PHYSICS_FOUND = false
 QUANTUM_GRAVITY_SOLVED = false
+INFINITE_DIMENSIONAL_SOURCE_COMPATIBLE_W_ESTABLISHED = false
+FULL_PHYSICAL_AMBIGUITY_DIMENSION_KNOWN = false
 
-T4/T5 are CDSR_EXACT_THEOREM with stated mathematical domains. No new physical selection law is SOURCE_DERIVED. The physical no-smuggling audit remains BLOCKED_NO_PHYSICAL_SELECTOR_OBJECT. Do not identify mathematical test separation with physical observability.
+Read the erratum before any historical result. Original preregistrations and CD001/CD002-A results are preserved as history, not secretly rewritten. The historical10/10 preparation score was not a verification of its scientific source premises and is not rescored here.
