@@ -4,7 +4,7 @@ Controlling erratum: results/CD003_SOURCE_LOCK_ERRATUM.md. Original theorem hist
 
 | ID | FACT_LEVEL | Statement / current scope |
 |---|---|---|
-| T1-historical | CDSR_EXACT_THEOREM | Mathematical independence of artificial Q^n F delta_N; NO physical admissibility imported. Historical Iter077Q source-compatible qualifier INVALID_SOURCE_LOCK. |
+| T1-historical | UPSTREAM_ESTABLISHED | Mathematical independence of artificial Q^n F delta_N; NO physical admissibility imported. Historical Iter077Q source-compatible qualifier INVALID_SOURCE_LOCK. |
 | T2 | CDSR_EXACT_THEOREM | CD001 finite-list nonuniqueness under an infinite-dimensional premise. Formal theorem valid; universal finite-list K5 application NOT established. |
 | T3 | CONDITIONAL_SELECTOR_POWER | CD002-A normalized smooth character on SU(2)^4 is1. No physical multiplicativity derived. |
 | T4 | CDSR_EXACT_THEOREM | CD003 same-graph structural reassociation selects exactly E_corr intersect common domain D. Actual causal D unknown; no infinite-dimensional premise. |
@@ -14,7 +14,7 @@ Controlling erratum: results/CD003_SOURCE_LOCK_ERRATUM.md. Original theorem hist
 | U-CONSEQUENCES | UPSTREAM_ESTABLISHED | Iter081S repairs S5/WF/causal-sum nonselection and gives m<28 linear insufficiency on J_inv. At m>=28 no dimension-only obstruction on that subspace. |
 | U-BRIDGE | UPSTREAM_ESTABLISHED | Iter080B causal E3/E4/E6 source blocker unaffected; narrow repaired080E source-prescription absence qualified, not a corrected full-jet candidate census. |
 
-T1-historical records only a mathematical construction already used in CDSR, not a new proof or new physical fact. Exact upstream pins and bytes are in the correction manifest. CD003 T4/T5 result is fa66376ae481f07975f9b0732ee038af52e37148, qualifying original f49040aac1a7be0dcd9ccf30484620c5cc028003.
+T1-historical records only an upstream mathematical construction already used in CDSR, not a new CDSR proof or new physical fact. Exact upstream pins and bytes are in the correction manifest. CD003 T4/T5 result is fa66376ae481f07975f9b0732ee038af52e37148, qualifying original f49040aac1a7be0dcd9ccf30484620c5cc028003.
 
 ## Open blockers
 
