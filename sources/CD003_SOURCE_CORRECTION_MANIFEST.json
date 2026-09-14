@@ -1,0 +1,23 @@
+{
+  "kind": "mandatory_post_gate_source_dependency_correction",
+  "new_gate": false,
+  "upstream_repository": "pppuu7-cmd/Mechanism-Synthesis-QG-Reconstruction",
+  "previous_snapshot": "9b2f9e5f31e294470c630ebff196f67a2de5ad18",
+  "current_snapshot": "920144abf49cf4a5a50a8ad016c37fd83fa400f7",
+  "url_template": "https://github.com/pppuu7-cmd/Mechanism-Synthesis-QG-Reconstruction/blob/{commit}/{path}",
+  "records": [
+    {"id":"ITER077Q_REVIEW","path":"results/ITER077Q_ADVERSARIAL_RIGHT_SU2_SOURCE_LOCK_REVIEW.md","commit":"c0ae0ef208a3eccef4ece7960cdf5337e7d5fa2e","blob":"9c682046d7e2e386c0e29c0d5c822d66f3f91b23","verdict":"INVALID_SOURCE_LOCK"},
+    {"id":"ITER081R","path":"results/ITER081R_SM_RIGHT_SU2_S5_INVARIANT_JET_CLASSIFICATION_RESULT.md","commit":"5fe42e766aab2660b36c654502a029930db28890","blob":"bdc216e18ba5b4e61834383adab28036ea69c175","verdict":"PASS_EXACT_SCOPED"},
+    {"id":"ITER081S","path":"results/ITER081S_CRITIC_REPAIRED_SELECTOR_CONSEQUENCES.md","commit":"8c2fc23084e89c39f624853ac0d445e3103850d1","blob":"0ece8b5d52c3140936806f6493ae10062b3b133b","verdict":"EXACT_REPAIRED_COROLLARIES"}
+  ],
+  "required_source_lock": "independent node-wise right SU(2) covariance after invariant boundary contraction",
+  "historical_W_source_compatible": false,
+  "scalar_invariant_jet_subspace_dimension": 28,
+  "graded_dimensions_k0_through_k8": [1,0,1,0,3,0,7,0,16],
+  "exact_total_physical_dimension_known": false,
+  "finite_linear_guaranteed_obstruction": "m<28 only, on demonstrated J_inv",
+  "cd003_mathematical_theorems_and_controls_changed": false,
+  "physical_transport_derived": false,
+  "upstream_run_reexecuted_here": false,
+  "primary_source_versions_changed": false
+}
